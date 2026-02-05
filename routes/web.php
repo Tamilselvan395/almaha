@@ -23,3 +23,4 @@ Route::get('/blogs', [PageController::class, 'blog'])->name('blog');
 Route::get('/blog/{blog:slug}', [PageController::class, 'blog_detail'])->name('blog.detail');
 
 
+//Testing
