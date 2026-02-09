@@ -43,6 +43,8 @@
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
 
+
+    {{-- null value issue resolved --}}
     {!! $meta_details->all_page_scheme ??'' !!}
 
     @yield('schema')
