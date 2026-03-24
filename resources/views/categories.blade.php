@@ -39,7 +39,7 @@
                                     <div class="col-lg-6">
                                         {{-- <div class="shop-card-items overlay-card"
                                             onclick="window.location='{{ route('tiles', ['categories' => $category->slug]) }}'"> --}}
-                                        <a href="{{ $category->pdf_image }}" target="_blank">
+                                        <a href="{{ Storage::url($category->pdf_image)}}" target="_blank">
                                             <div class="shop-card-items overlay-card">
 
                                                 <div class="thumb">

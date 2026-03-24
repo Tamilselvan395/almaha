@@ -162,8 +162,11 @@
                                                 </a>
                                                 <ul class="submenu">
                                                     @foreach ($categorys as $category)
-                                                        <li><a
+                                                        {{-- <li><a
                                                                 href="{{ route('tiles', ['categories' => $category->slug]) }}">{{ $category->name }}</a>
+                                                        </li> --}}
+                                                        <li><a
+                                                                href="{{ Storage::url($category->pdf_image)}}" target="_blank">{{ $category->name }}</a>
                                                         </li>
                                                     @endforeach
                                                 </ul>
