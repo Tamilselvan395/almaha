@@ -1,0 +1,28 @@
+<?php
+$projects = [
+    ['title' => 'Alpine',      'image' => 'https://www.newker.com/en/wp-content/uploads/sites/2/2024/12/Alpine-2-en-VHDz7qUIqefRpI9o.jpg'],
+    ['title' => 'Artic',       'image' => 'https://www.newker.com/en/wp-content/uploads/sites/2/2025/04/Artic-0-en-24C3SdDDgaxqNjY0.jpg'],
+    ['title' => 'Battuto',     'image' => 'https://www.newker.com/en/wp-content/uploads/sites/2/2024/11/BATTUTO_2_G-en-FWL9Rkd5XdwawRDi.jpg'],
+    // ['title' => 'Bergen',      'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Camper',      'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'City',        'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Contact',     'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Cosmo',       'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Dorian',      'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Dover',       'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Duality',     'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Earth',       'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Estoril',     'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Etra',        'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Expressions','image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Forest',      'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Grace',       'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Icon',        'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Industrial',  'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Inspire',     'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Lakestone',   'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Land',        'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Lava',        'image' => 'assets/images/project/projectThumb4_1.jpg'],
+    // ['title' => 'Loira',       'image' => 'assets/images/project/projectThumb4_1.jpg'],
+];
+?>
