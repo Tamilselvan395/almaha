@@ -36,6 +36,11 @@ class CategoryForm
                     ->disk('public')
                     ->directory('Category'),
 
+                FileUpload::make('pdf_image')
+                    ->acceptedFileTypes(['application/pdf'])
+                    ->disk('public')
+                    ->directory('Category'),
+
                 Textarea::make('description')
                     ->columnSpanFull(),
                 TextInput::make('meta_title'),

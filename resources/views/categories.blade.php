@@ -35,27 +35,29 @@
                         <div class="shop-cards-wrapper style3">
                             <div class="row gy-30 gx-30">
 
-                                @foreach($categories as $category)
+                                @foreach ($categories as $category)
                                     <div class="col-lg-6">
-                                        <div class="shop-card-items overlay-card"
-                                            onclick="window.location='{{ route('tiles', ['categories' => $category->slug]) }}'">
+                                        {{-- <div class="shop-card-items overlay-card"
+                                            onclick="window.location='{{ route('tiles', ['categories' => $category->slug]) }}'"> --}}
+                                        <a href="{{ $category->pdf_image }}" target="_blank">
+                                            <div class="shop-card-items overlay-card">
 
-                                            <div class="thumb">
-                                                <img class="w-100"
-                                                    src="{{ Storage::url($category->image) }}"
-                                                    alt="{{ $category->name }}">
+                                                <div class="thumb">
+                                                    <img class="w-100" src="{{ Storage::url($category->image) }}"
+                                                        alt="{{ $category->name }}">
+                                                </div>
+
+                                                <div class="content">
+                                                    <h3>{{ $category->name }}</h3>
+                                                    <p>{{ Str::limit($category->description, 100) }}</p>
+                                                </div>
+
                                             </div>
-
-                                            <div class="content">
-                                                <h3>{{ $category->name }}</h3>
-                                                <p>{{ Str::limit($category->description, 100) }}</p>
-                                            </div>
-
-                                        </div>
+                                        </a>
                                     </div>
                                 @endforeach
 
-                                @if($categories->isEmpty())
+                                @if ($categories->isEmpty())
                                     <p>No categories found.</p>
                                 @endif
 
