@@ -21,9 +21,19 @@ class AppServiceProvider extends ServiceProvider
      */
     public function boot(): void
     {
-        view()->share([
-            'meta_details' => MetaDetailTable::where('status', true)->first(),
-            'categorys' => Category::get(),
-        ]);
+        if (app()->runningInConsole() && !app()->runningUnitTests()) {
+            return;
+        }
+
+        view()->composer('*', function ($view) {
+            $view->with([
+                'meta_details' => \Illuminate\Support\Facades\Schema::hasTable('meta_detail_tables') 
+                    ? MetaDetailTable::where('status', true)->first() 
+                    : null,
+                'categorys' => \Illuminate\Support\Facades\Schema::hasTable('categories') 
+                    ? Category::get() 
+                    : collect(),
+            ]);
+        });
     }
 }

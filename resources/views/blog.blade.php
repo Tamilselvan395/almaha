@@ -31,7 +31,7 @@
     <div class="blog-grid-section section-padding fix">
         <div class="container">
             <div class="row gy-4">
-                @foreach ($blogs as $blog)
+                @forelse ($blogs as $blog)
                     <div class="col-xl-4 col-lg-4 col-md-6">
                         <a href="{{ route('blog.detail',$blog->slug) }}">
                             <div class="blog-card-items style1 img-custom-anim-left wow fadeInUp" data-wow-delay=".2s">
@@ -40,8 +40,8 @@
                                     <img src="{{ Storage::url($blog->image) }}" alt="img">
                                 </div>
                                 <div class="blog-meta">
-                                    <div class="day">{{ $blog->created_at->format('d') }}</div>
-                                    <div class="month text-uppercase">{{ $blog->created_at->format('M') }}</div>
+                                    <div class="day">{{ $blog->created_at ? $blog->created_at->format('d') : '09' }}</div>
+                                    <div class="month text-uppercase">{{ $blog->created_at ? $blog->created_at->format('M') : 'SEP' }}</div>
                                 </div>
                                 <div class="blog-content">
                                     <h3><a href="{{ route('blog.detail',$blog->slug) }}">{{ $blog->title }}</a></h3>
@@ -80,7 +80,12 @@
                             </div>
                         </a>
                     </div>
-                @endforeach
+                @empty
+                    <div class="col-12 text-center py-5">
+                        <h3 class="text-muted">No blogs found</h3>
+                        <p class="text-muted">We will be publishing new articles soon. Stay tuned!</p>
+                    </div>
+                @endforelse
             </div>
         </div>
     </div>

@@ -12,14 +12,21 @@ class Blog extends Model
     protected static function booted()
     {
         static::saved(function ($blog) {
-
-            if ($blog->wasChanged('slug') || $blog->wasRecentlyCreated) {
-                Artisan::call('sitemap:generate');
+            try {
+                if ($blog->wasChanged('slug') || $blog->wasRecentlyCreated) {
+                    Artisan::call('sitemap:generate');
+                }
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on blog save: ' . $e->getMessage());
             }
         });
 
         static::deleted(function () {
-            Artisan::call('sitemap:generate');
+            try {
+                Artisan::call('sitemap:generate');
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on blog delete: ' . $e->getMessage());
+            }
         });
     }
 }

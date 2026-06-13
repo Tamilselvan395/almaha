@@ -30,14 +30,21 @@ class Category extends Model
     protected static function booted()
     {
         static::saved(function ($category) {
-
-            if ($category->wasChanged('slug') || $category->wasRecentlyCreated) {
-                Artisan::call('sitemap:generate');
+            try {
+                if ($category->wasChanged('slug') || $category->wasRecentlyCreated) {
+                    Artisan::call('sitemap:generate');
+                }
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on category save: ' . $e->getMessage());
             }
         });
 
         static::deleted(function () {
-            Artisan::call('sitemap:generate');
+            try {
+                Artisan::call('sitemap:generate');
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on category delete: ' . $e->getMessage());
+            }
         });
     }
 }
