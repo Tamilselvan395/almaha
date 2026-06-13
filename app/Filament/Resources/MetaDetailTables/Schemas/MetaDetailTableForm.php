@@ -32,7 +32,7 @@ class MetaDetailTableForm
                 Textarea::make('all_page_scheme')
                     ->columnSpanFull(),
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
             ]);
     }
 }

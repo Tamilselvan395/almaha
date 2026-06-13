@@ -51,7 +51,7 @@ class SizeForm
                     ->dehydrated(),
 
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
 
                 TextInput::make('orderby')
                     ->required()

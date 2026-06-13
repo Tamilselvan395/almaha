@@ -91,7 +91,7 @@ class ProductForm
                 Textarea::make('meta_description'),
 
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
 
                 TextInput::make('orderby')
                     ->required()

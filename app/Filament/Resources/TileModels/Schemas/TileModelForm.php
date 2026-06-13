@@ -49,7 +49,7 @@ class TileModelForm
                     ->directory('Tiles_model'),
 
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
 
                 TextInput::make('orderby')
                     ->required()
