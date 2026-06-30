@@ -8,7 +8,7 @@
 
 @section('content')
 
-<!-- Breadcumb Section  S T A R T -->
+    <!-- Breadcumb Section  S T A R T -->
     <div class="breadcumb-section">
         <div class="breadcumb-wrapper">
             <div class="container">
@@ -37,9 +37,9 @@
                         <div class="col-xl-6">
                             <div class="about-thumb img-custom-anim-left wow fadeInUp" data-wow-delay=".3s">
                                 <!-- <div class="thumbShape1"><img src="assets/images/shape/aboutThumbshape2_1.png"
-                                        alt="thumbshape"></div>
-                                <div class="thumbShape2"><img src="assets/images/shape/aboutThumbshape2_2.png"
-                                        alt="thumbshape"></div> -->
+                                                                            alt="thumbshape"></div>
+                                                                    <div class="thumbShape2"><img src="assets/images/shape/aboutThumbshape2_2.png"
+                                                                            alt="thumbshape"></div> -->
                                 <img class="thumb1" src="assets/images/hero/about-2.png" alt="thumb">
                                 <!-- <img class="thumb2" src="assets/images/hero/why-choose-almaha-dubai.jpg" alt="thumb"> -->
                             </div>
@@ -47,40 +47,30 @@
                         <div class="col-xl-6">
                             <div class="about-content">
                                 <div class="section-title text-start  mt-70">
-                                    <div class="subtitle text-start wow fadeInUp" data-wow-delay=".5s"> <img
-                                            class="me-1" src="assets/images/shape/titleShape1_1.png" alt="icon"> ABOUT
+                                    <div class="subtitle text-start wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
+                                            src="assets/images/shape/titleShape1_1.png" alt="icon"> ABOUT
                                         US </div>
-                                    <h2 class=" text-start mt-15 wow fadeInUp" data-wow-delay=".3s">Trusted Tile & Surface Solutions in Dubai</h2>
-                                    <p class="desc wow fadeInUp" data-wow-delay=".5s"> Almaha is a reliable supplier of premium tiles, stone, and surface materials, serving residential, commercial, and project-based requirements across Dubai and the UAE. With a strong focus on quality, durability, and modern design, we support builders, contractors, and interior professionals with dependable products and consistent service.</p>
+                                    <h2 class=" text-start mt-15 wow fadeInUp" data-wow-delay=".3s">About Al Maha Building
+                                        Materials</h2>
+                                    <p class="desc wow fadeInUp" data-wow-delay=".5s">Established in 2009, Al Maha Building
+                                        Materials is a trusted building material supplier in Dubai, providing premium tiles,
+                                        sanitary ware, and surface solutions at competitive prices. Based in Al Qusais
+                                        Industrial Area 3, we supply porcelain tiles, swimming pool tiles, cladding tiles,
+                                        and outdoor tiles for residential and commercial projects across the UAE. </p>
                                 </div>
-                                <h3>We deliver high-quality tiles and surface solutions tailored to modern construction needs.</h3>
+                                <h3 class="mb-0">Four Key Facts Section</h3>
                                 <div class="row exp-area">
-                                    <div class="col-xl-12">
-                                        <div class="progress-wrap style2 wow fadeInUp" data-wow-delay=".2s">
-                                            <div class="progress-meta img-custom-anim-left wow fadeInUp"
-                                                data-wow-delay=".3s">
-                                                <div class="title">Tile Supply & Flooring Solutions</div>
-                                                <div class="percentage">85%</div>
-                                            </div>
-                                            <div class="progress-container">
-                                                <div class="progress-bar" style="width: 85%;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="col-xl-12">
-                                        <div class="progress-wrap style2 wow fadeInUp" data-wow-delay=".2s">
-                                            <div class="progress-meta img-custom-anim-left wow fadeInUp"
-                                                data-wow-delay=".5s">
-                                                <div class="title">Custom Projects & Design Support</div>
-                                                <div class="percentage">90%</div>
-                                            </div>
-                                            <div class="progress-container">
-                                                <div class="progress-bar" style="width: 90%;">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <ul>
+                                        <li class="mb-3"><i class="fas fa-building text-theme-color me-3"></i>Direct Dubai
+                                            Tiles Importer Since 2009</li>
+                                        <li class="mb-3"><i class="fas fa-award text-theme-color me-3"></i>15 Years as a
+                                            Trusted Building Materials Company in Dubai</li>
+                                        <li class="mb-3"><i
+                                                class="fas fa-map-marker-alt text-theme-color me-3"></i>Showroom in Al
+                                            Qusais, Dubai</li>
+                                        <li class="mb-3"><i class="fas fa-truck text-theme-color me-3"></i>UAE-Wide Supply
+                                            & Delivery</li>
+                                    </ul>
                                 </div>
                             </div>
                         </div>
@@ -95,12 +85,27 @@
         <div class="container">
             <div class="history-wrapper style1">
                 <div class="row gy-5 gx-60">
-                    
+
                     <div class="col-xl-6 order-2 order-md-1">
-                        <div class="history-content">
-                            <h2>ESTABLISHED WITH A VISION OF EXCELLENCE</h2>
-                            <p class="text">Almaha was established with a clear vision to deliver premium tiles, sanitary ware, and surface solutions to the growing construction and interior market in Dubai and the UAE. From the beginning, our focus has been on quality, reliability, and customer trust. Since our launch, we have steadily built strong relationships with contractors, designers, and developers by supplying dependable products and professional support for residential and commercial projects.</p>
+                        <div class="history-content mb-3">
+                            <h2>Our Story</h2>
+                            <p class="text">Founded in 2009, Al Maha Building Materials has become a trusted building
+                                material supplier in Dubai, offering porcelain tiles, swimming pool tiles, cladding tiles,
+                                outdoor tiles, sanitary ware, marble, granite, roofing materials, and tile adhesives across
+                                the UAE. Operating from our Al Qusais showroom, we source directly from leading
+                                international manufacturers to deliver premium building materials in Dubai at competitive
+                                prices. With over 15 years of experience, we continue to support residential, commercial,
+                                and large-scale projects with reliable supply, expert guidance, and quality you can trust.
+                            </p>
+                            <p>Explore our full product range or visit our Al Qusais showroom to see our collections in
+                                person.</p>
+
                         </div>
+                        <a href="{{ route('categories') }}"> <span class="theme-btn me-3"> View Products
+                            </span> </a>
+                        <a href="{{ route('contact') }}"> <span
+                                class="theme-btn bg-transparent border border-black text-black"> Visit Our Showroom
+                            </span> </a>
                     </div>
                     <div class="col-xl-6 order-1 order-md-2">
                         <div class="history-thumb">
@@ -152,8 +157,12 @@
                         <div class="values-box style1 wow fadeInUp" data-wow-delay=".3s">
                             <img src="assets/images/icon/ourmission.png" alt="">
                             <div class="content">
-                                <h3>OUR MISSION</h3>
-                                <p>To deliver high-quality tiles, sanitary ware, and surface solutions while providing reliable service and technical support that build long-term trust with our customers across Dubai and the UAE.</p>
+                                <h3>Our Mission</h3>
+                                <p>Our mission is to provide premium tiles, sanitary ware, marble, granite, and building
+                                    material solutions that help contractors, developers, architects, and homeowners
+                                    complete their projects with confidence. Through direct sourcing, reliable supply,
+                                    competitive pricing, and expert support, we are committed to delivering quality products
+                                    and dependable service for projects across Dubai and the UAE.</p>
                             </div>
                         </div>
                     </div>
@@ -161,8 +170,12 @@
                         <div class="values-box style1 wow fadeInUp" data-wow-delay=".5s">
                             <img src="assets/images/icon/our-vission.png" alt="">
                             <div class="content">
-                                <h3>OUR VISION</h3>
-                                <p>To become one of the leading and most preferred suppliers of porcelain tiles, sanitary ware, marbles, and surface materials in the UAE by consistently delivering quality products, dependable service, and customer-focused solutions.</p>
+                                <h3>Our Vision</h3>
+                                <p>Our vision is to be one of the UAE's most trusted building materials partners, recognised
+                                    for quality, reliability, and long-term customer relationships. We aim to continuously
+                                    expand our product range, strengthen our supply network, and support the evolving needs
+                                    of the construction and interior design industry with innovative materials and
+                                    exceptional service.</p>
                             </div>
                         </div>
                     </div>
@@ -204,31 +217,28 @@
                 <div class="slider-area testimonialSliderOne fix ">
                     <div class="swiper gt-slider" id="testimonialSliderOne"
                         data-slider-options='{"loop": true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1,"centeredSlides":true},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
-                        
+
                         <div class="swiper-wrapper">
                             <?php foreach ($testimonials as $t): ?>
-                                <div class="swiper-slide">
-                                    <div class="testimonial-card-items style1 wow fadeInUp"
-                                        data-wow-delay=".5s"
-                                        data-bg-src="assets/images/bg/testimonialBg1_1.png">
+                            <div class="swiper-slide">
+                                <div class="testimonial-card-items style1 wow fadeInUp" data-wow-delay=".5s"
+                                    data-bg-src="assets/images/bg/testimonialBg1_1.png">
 
-                                        <div class="body">
-                                            <p>
-                                                <?= strlen($t['text']) > 120 
-                                                    ? rtrim(substr($t['text'], 0, 120)) . '...' 
-                                                    : $t['text']; ?>
-                                            </p>
-                                        </div>
-
-                                        <div class="profile-meta mt-3">
-                                            <div class="content">
-                                                <h6><?= $t['name']; ?></h6>
-                                                <p><?= $t['role']; ?></p>
-                                            </div>
-                                        </div>
-
+                                    <div class="body">
+                                        <p>
+                                            <?= strlen($t['text']) > 120 ? rtrim(substr($t['text'], 0, 120)) . '...' : $t['text'] ?>
+                                        </p>
                                     </div>
+
+                                    <div class="profile-meta mt-3">
+                                        <div class="content">
+                                            <h6><?= $t['name'] ?></h6>
+                                            <p><?= $t['role'] ?></p>
+                                        </div>
+                                    </div>
+
                                 </div>
+                            </div>
                             <?php endforeach; ?>
 
                         </div>
@@ -249,8 +259,12 @@
                     <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
                             src="assets/images/shape/titleShape1_1.png" alt="icon"> OUR TEAM <img class="ms-1"
                             src="assets/images/shape/titleShape1_2.png" alt="icon"> </div>
-                    <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s"> Meet the Members of Our Best Team
+                    <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Meet the Members of Our Team - Meet
+                        the Team Behind Our Success
                     </h2>
+                    <p>Our experienced team helps you choose the right porcelain tiles, outdoor tiles, pool tiles, and
+                        sanitary ware while ensuring reliable building material supply and on-time delivery across the UAE.
+                    </p>
                 </div>
 
                 <div class="slider-area">
@@ -274,9 +288,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -297,9 +313,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -320,9 +338,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -343,9 +363,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -366,9 +388,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -389,9 +413,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -412,9 +438,11 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
@@ -435,15 +463,144 @@
                                         </ul>
                                         <span class="plus-btn"><i class="fas fa-share-alt"></i></span>
                                     </div>
-                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png" alt="shape">
+                                    <div class="shape1"><img src="assets/images/shape/teamCardShape2_1.png"
+                                            alt="shape">
                                     </div>
-                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png" alt="shape">
+                                    <div class="shape2"><img src="assets/images/shape/teamCardShape2_2.png"
+                                            alt="shape">
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog-section fix mb-5">
+        <div class="container">
+            <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            When was Al Maha Building Materials established?
+                        </button>
+                    </h2>
+                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Al Maha Building Materials was established in 2009 and has been supplying premium tiles,
+                            sanitary ware, and building materials in Dubai to residential, commercial, and construction
+                            projects across the UAE for over 15 years.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            Where is Al Maha located?
+                        </button>
+                    </h2>
+                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our showroom is open for tile fixing contractors, developers, architects, and homeowners to view our full range of porcelain tiles, swimming pool tiles, outdoor tiles, marble and granite, and sanitary ware in person
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            What products does Al Maha supply?
+                        </button>
+                    </h2>
+                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Al Maha is a comprehensive building materials company in Dubai supplying premium porcelain tiles, luxury tiles, swimming pool tiles, anti-slip pool tiles, coping tiles, cladding tiles, outdoor porcelain floor tiles, outdoor tiles for gardens, marble, granite, natural stone, and sanitary ware for projects of all scales across the UAE.
+
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
+                            Is Al Maha a direct tiles importer in Dubai?
+                        </button>
+                    </h2>
+                    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes. Al Maha is a direct tiles importer in Dubai, sourcing porcelain tiles, marble, granite, natural stone, and sanitary ware directly from international manufacturers across Europe and Asia. This allows us to offer premium quality at competitive porcelain tile prices in Dubai with no middleman markup.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
+                            Does Al Maha supply building materials outside Dubai?
+                        </button>
+                    </h2>
+                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes. As a leading building materials supplier in Dubai, we supply and deliver tiles, sanitary ware, and building supplies to project sites across all seven Emirates — including Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
+                            Does Al Maha provide tile fixing services in Dubai?
+                        </button>
+                    </h2>
+                    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                           Yes. In addition to supplying premium tiles and building materials, Al Maha provides professional tile fixing services in Dubai through our experienced tile fixing contractors and tiles work contractors for residential, commercial, and industrial projects across the UAE.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
+                            Do you supply marble and granite in Dubai?
+                        </button>
+                    </h2>
+                    <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes. Al Maha are trusted marble suppliers in Dubai and granite suppliers in Dubai, offering a curated range of natural stone for flooring, walls, countertops, and exterior applications. As direct importers, we offer competitive pricing across our full marble and granite range.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
+                            What outdoor tiles do you supply in Dubai?
+                        </button>
+                    </h2>
+                    <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Al Maha supplies a full range of outdoor tiles in Dubai including outdoor porcelain floor tiles, outdoor tiles for gardens, terraces, pool surrounds, and landscaped areas. Our outdoor porcelain tiles are available in anti-slip finishes and a wide range of sizes and formats suitable for the UAE climate.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
+                            Are you sanitary ware suppliers in Dubai? 
+                        </button>
+                    </h2>
+                    <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                        <div class="accordion-body">
+                            Yes. Al Maha is a trusted sanitary ware supplier in Dubai, offering a comprehensive range of sanitary ware solutions for residential, commercial, and hospitality projects across the UAE. As direct importers, we provide quality sanitary ware at competitive prices with reliable UAE-wide supply.
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

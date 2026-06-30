@@ -172,3 +172,63 @@
         }
     }
 }
+
+.strength-card {
+    background: $theme-color-2;
+    padding: 40px 30px;
+    border-top: 4px solid $theme-color;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+
+    &:hover {
+        transform: translateY(-8px);
+        box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+        background: $white;
+    }
+
+    .icon-wrapper {
+        width: 56px;
+        height: 56px;
+        border-radius: 50%;
+        background: rgba(43, 30, 22, 0.06);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 20px;
+        color: $theme-color;
+        transition: all 0.3s ease;
+
+        svg {
+            stroke: currentColor;
+        }
+    }
+
+    &:hover .icon-wrapper {
+        background: $theme-color;
+        color: $white;
+    }
+
+    .title {
+        color: $title-color;
+        font-family: $body-font;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 26px;
+        margin-bottom: 15px;
+        text-transform: capitalize;
+    }
+
+    .desc {
+        color: $text-color;
+        font-family: $body-font;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 26px;
+        margin: 0;
+    }
+}

@@ -7523,6 +7523,56 @@ input.main-search-input::placeholder {
 .wcu-wrapper.style1 .wcu-content .fancy-box {
   padding-top: 30px;
 }
+.strength-card {
+  background: var(--theme2);
+  padding: 40px 30px;
+  border-top: 4px solid var(--theme);
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  text-align: left;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.02);
+}
+.strength-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.06);
+  background: #ffffff;
+}
+.strength-card .icon-wrapper {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  background: rgba(43, 30, 22, 0.06);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+  color: var(--theme);
+  transition: all 0.3s ease;
+}
+.strength-card:hover .icon-wrapper {
+  background: var(--theme);
+  color: #ffffff;
+}
+.strength-card .title {
+  color: var(--title);
+  font-family: "Plus Jakarta Sans", system-ui;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 26px;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+.strength-card .desc {
+  color: var(--text);
+  font-family: "Plus Jakarta Sans", system-ui;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 26px;
+  margin: 0;
+}
 .wcu-wrapper.style3 {
   position: relative;
 }
@@ -8758,6 +8808,14 @@ input.main-search-input::placeholder {
 }
 .offer-card.style1:hover .content .arrow-link svg path, .offer-card.style1.active .content .arrow-link svg path {
   fill: var(--theme);
+}
+
+.offerSliderOne .swiper-slide {
+  height: auto !important;
+  display: flex !important;
+}
+.offerSliderOne .swiper-slide .offer-card.style1 {
+  width: 100% !important;
 }
 
 .offerSliderOne .swiper-slide.swiper-slide-next .offer-card.style1:before {
@@ -13326,6 +13384,12 @@ table.woocommerce-product-attributes {
     background: linear-gradient(45deg, #702d3a, #b85e70);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+.accordion-button:not(.collapsed) {
+    color: white;
+    background-color: var(--theme);
+    box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
 }
 
 .popup-message {

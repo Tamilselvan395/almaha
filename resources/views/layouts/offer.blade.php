@@ -1,57 +1,57 @@
 @php
     $offers = [
         [
-            'title' => 'Premium Tile Supply',
-            'slug' => 'premium-tile-supply',
+            'title' => 'Tile Fixing & Cladding Services',
+            'slug' => 'tile-fixing-and-cladding-services',
             'icon' => 'assets/images/icon/1.png',
             'bg' => 'assets/images/offer/offerCardBg1_2.jpg',
             'desc' =>
-                'High-quality porcelain, ceramic, and specialty tiles designed for durability, style, and long-term performance.',
-            'points' => ['Wide range of tile collections', 'Suitable for residential & commercial'],
+                'Al Maha is a trusted tile fixing company in Dubai, providing interior and exterior tile installation for villas, apartments, offices, and commercial spaces. Our experienced tile fixing contractors deliver precise cladding tile installation and long-lasting results.',
+            'points' => ['Skilled tile work contractors in Dubai', 'Interior and exterior tile and cladding applications','Residential, commercial, and industrial projects'],
         ],
         [
-            'title' => 'Cladding & Fixing Services',
-            'slug' => 'cladding-fixing-services',
+            'title' => 'Interior & Exterior Tile Solutions',
+            'slug' => 'interior-and-exterior-tile-solutions',
             'icon' => 'assets/images/icon/2.png',
             'bg' => 'assets/images/offer/offerCardBg1_2.jpg',
             'desc' =>
-                'Professional cladding and tile fixing services ensuring precision, safety, and a flawless architectural finish.',
-            'points' => ['Expert installation team', 'Interior & exterior applications'],
-        ],
-        [
-            'title' => 'Interior & Exterior Solutions',
-            'slug' => 'interior-exterior-solutions',
-            'icon' => 'assets/images/icon/3.png',
-            'bg' => 'assets/images/offer/offerCardBg1_3.jpg',
-            'desc' =>
-                'Complete flooring and wall solutions for homes, offices, retail spaces, and industrial projects.',
-            'points' => ['Floor & wall tile solutions', 'Modern and durable finishes'],
+                'We supply premium floor and wall tiles, including porcelain flooring, outdoor tiles, and swimming pool tiles for residential and commercial spaces.',
+            'points' => ['Porcelain tile flooring for indoor and outdoor use', 'Outdoor tiles for garden and landscaped areas in Dubai','Modern, classic, and large-format tile options'],
         ],
         [
             'title' => 'Surface Materials & Adhesives',
+            'slug' => 'surface-materials-and-adhesives',
+            'icon' => 'assets/images/icon/3.png',
+            'bg' => 'assets/images/offer/offerCardBg1_3.jpg',
+            'desc' =>
+                'We supply high-performance tile adhesives, grouts, fillers, and surface preparation materials for durable, long-lasting tile installations in Dubai. ',
+            'points' => ['High bonding strength for all tile types', 'Suitable for wet areas, heavy traffic, and outdoor use','Part of our complete building supplies range'],
+        ],
+        [
+            'title' => 'Project Consultation',
             'slug' => 'surface-materials-adhesives',
             'icon' => 'assets/images/icon/4.png',
             'bg' => 'assets/images/offer/offerCardBg1_4.jpg',
             'desc' =>
-                'Reliable tile adhesives, solid surface fillers, and sheets for strong bonding and seamless installations.',
-            'points' => ['High bonding strength', 'Long-lasting performance'],
+                'Our team helps contractors, architects, and homeowners choose the right guidance on selecting the right products to suit your project scope and budget. ',
+            'points' => ['Expert material recommendations', 'Quantity planning and cost estimation','Guidance on porcelain tile prices in Dubai'],
         ],
         [
-            'title' => 'Project Consultation',
+            'title' => 'Reliable Supply & Delivery',
             'slug' => 'project-consultation',
             'icon' => 'assets/images/icon/5.png',
             'bg' => 'assets/images/offer/offerCardBg1_5.jpg',
             'desc' =>
-                'Technical guidance and material consultation to help choose the right solutions for every project.',
-            'points' => ['Expert product guidance', 'Cost-effective solutions'],
+                'As a trusted building material supplier in Dubai, we maintain strong inventory and deliver premium surface solutions across all seven Emirates.',
+            'points' => ['On-time material supply across the UAE', 'UAE-wide delivery support','Consistent availability across all product lines'],
         ],
         [
-            'title' => 'Reliable Supply & Delivery',
+            'title' => 'Premium Tile Supply',
             'slug' => 'supply-delivery',
             'icon' => 'assets/images/icon/6.png',
             'bg' => 'assets/images/offer/offerCardBg1_6.jpg',
-            'desc' => 'Efficient supply and timely delivery of materials across Dubai and the UAE.',
-            'points' => ['On-time material supply', 'UAE-wide delivery support'],
+            'desc' => 'We supply premium porcelain tiles, pool tiles, cladding materials, coping tiles, and surface solutions in a wide range of sizes, finishes, colours, and styles for residential and commercial projects.',
+            'points' => ['Wide range of sizes, finishes, and collections, including luxury tiles', 'Pool tiles for residential and commercial swimming pools','Suitable for residential and large-scale commercial projects'],
         ],
     ];
 
@@ -63,12 +63,13 @@
         <div class="container">
             <div class="section-title text-center mb-50 mxw-660 mx-auto">
                 <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
-                        src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon"> OUR EXPERTISE <img class="ms-1"
-                        src="{{ asset('assets/images/shape/titleShape1_2.png') }}" alt="icon"> </div>
+                        src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon"> OUR EXPERTISE <img
+                        class="ms-1" src="{{ asset('assets/images/shape/titleShape1_2.png') }}" alt="icon"> </div>
                 <h2 class=" text-center mt-15 wow fadeInUp" data-wow-delay=".3s">What We Offer</h2>
-                <p class=" text-center mt-15 wow fadeInUp" data-wow-delay=".3s">We provide a complete range of tile,
-                    surface, and material solutions tailored to residential, commercial, and industrial project needs
-                    across Dubai and the UAE.</p>
+                <p class=" text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Six ways we make your project easier,
+                    from material selection to final installation. As a trusted tile supplier and sanitary ware supplier
+                    in Dubai, we provide premium porcelain tiles, outdoor tiles, swimming pool tiles, cladding
+                    materials, surface solutions, and expert tile fixing services across the UAE.</p>
             </div>
             <div class="slider-area offerSliderOne">
                 <div class="swiper gt-slider" id="offerSliderOne"
@@ -77,9 +78,9 @@
 
                     <div class="swiper-wrapper">
                         @foreach ($offers as $offer)
-                            <div class="swiper-slide h-100">
-                                <div class="offer-card style1 h-100 d-flex flex-column">
-                                    <div class="content d-flex flex-column h-100">
+                            <div class="swiper-slide h-100 d-flex">
+                                <div class="offer-card style1 w-100 d-flex flex-column">
+                                    <div class="content d-flex flex-column flex-grow-1">
                                         <div class="icon mb-3">
                                             <img src="{{ $offer['icon'] }}" alt="">
                                         </div>
@@ -92,7 +93,8 @@
 
                                         <ul class="checklist style1 mt-auto">
                                             <?php foreach ($offer['points'] as $point): ?>
-                                            <li><img src="{{ asset('assets/images/icon/check.svg') }}" alt=""><?= $point ?>
+                                            <li><img src="{{ asset('assets/images/icon/check.svg') }}"
+                                                    alt=""><?= $point ?>
                                             </li>
                                             <?php endforeach; ?>
                                         </ul>
