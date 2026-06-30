@@ -187,14 +187,14 @@
 
     <section class="offer-section">
         <div class="offer-container-wrapper style1 section-padding fix">
-            <div class="shape"><img src="https://almaha.test/assets/images/shape/offerShape1_1.png" alt="shape">
+            <div class="shape"><img src="{{ asset('assets/images/shape/offerShape1_1.png') }}" alt="shape">
             </div>
             <div class="container">
                 <div class="section-title text-center mb-50 mxw-660 mx-auto">
                     <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"
                         style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;"> <img class="me-1"
-                            src="https://almaha.test/assets/images/shape/titleShape1_1.png" alt="icon"> OUR FEATURES
-                        <img class="ms-1" src="https://almaha.test/assets/images/shape/titleShape1_2.png"
+                            src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon"> OUR FEATURES
+                        <img class="ms-1" src="{{ asset('assets/images/shape/titleShape1_2.png') }}"
                             alt="icon">
                     </div>
                     <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s"
