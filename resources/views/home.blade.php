@@ -309,14 +309,14 @@
     <section class="project-section section-padding fix" data-bg-src="assets/images/bg/projectBg1_1.jpg">
         <div class="project-container-wrapper style1">
             <div class="container">
-                <div class="row d-flex align-items-center  mb-50">
-                    <div class="col-xl-6">
-                        <div class="section-title text-start">
-                            <div class="subtitle text-start wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
+                <div class="row mb-50">
+                    <div class="col-xl-12">
+                        <div class="section-title text-center mb-50 mxw-660 mx-auto">
+                            <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
                                     src="assets/images/shape/titleShape1_1.png" alt="icon"> OUR PROJECT </div>
-                            <h2 class=" text-start mt-15 wow fadeInUp" data-wow-delay=".3s">Discover our gallery of
+                            <h2 class=" text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Discover our gallery of
                                 recent works</h2>
-                            <p class=" text-start mt-15 wow fadeInUp" data-wow-delay=".4s">Browse our completed projects
+                            <p class=" text-center mt-15 wow fadeInUp" data-wow-delay=".4s">Browse our completed projects
                                 across Dubai and the UAE, featuring premium porcelain tiles,
                                 cladding tiles, pool tiles, and outdoor tiles for residential and commercial spaces. Every
                                 project reflects expert installation, quality craftsmanship, and on-time delivery</p>
