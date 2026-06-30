@@ -59,14 +59,21 @@ class Product extends Model
     protected static function booted()
     {
         static::saved(function ($product) {
-
-            if ($product->wasChanged('slug') || $product->wasRecentlyCreated) {
-                Artisan::call('sitemap:generate');
+            try {
+                if ($product->wasChanged('slug') || $product->wasRecentlyCreated) {
+                    Artisan::call('sitemap:generate');
+                }
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on product save: ' . $e->getMessage());
             }
         });
 
         static::deleted(function () {
-            Artisan::call('sitemap:generate');
+            try {
+                Artisan::call('sitemap:generate');
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on product delete: ' . $e->getMessage());
+            }
         });
     }
 }

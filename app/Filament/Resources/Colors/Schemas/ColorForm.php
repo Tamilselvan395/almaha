@@ -33,7 +33,7 @@ class ColorForm
                     ->image(),
 
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
 
                 TextInput::make('orderby')
                     ->required()

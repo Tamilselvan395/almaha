@@ -37,14 +37,21 @@ class TileModel extends Model
     protected static function booted()
     {
         static::saved(function ($tilemodel) {
-
-            if ($tilemodel->wasChanged('slug') || $tilemodel->wasRecentlyCreated) {
-                Artisan::call('sitemap:generate');
+            try {
+                if ($tilemodel->wasChanged('slug') || $tilemodel->wasRecentlyCreated) {
+                    Artisan::call('sitemap:generate');
+                }
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on tilemodel save: ' . $e->getMessage());
             }
         });
 
         static::deleted(function () {
-            Artisan::call('sitemap:generate');
+            try {
+                Artisan::call('sitemap:generate');
+            } catch (\Exception $e) {
+                \Log::error('Sitemap generation failed on tilemodel delete: ' . $e->getMessage());
+            }
         });
     }
 }

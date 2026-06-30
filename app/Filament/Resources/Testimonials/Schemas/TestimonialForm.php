@@ -23,7 +23,7 @@ class TestimonialForm
                 TextInput::make('bg')
                     ->default(null),
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
             ]);
     }
 }

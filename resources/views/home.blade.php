@@ -283,12 +283,12 @@
                                         </div>
 
                                         <h3>
-                                            <a href="{{ url('/category/' . $category->slug) }}">
+                                            <a href="{{ Storage::url($category->pdf_image) }}" target="_blank">
                                                 {{ $category->name }}
                                             </a>
                                         </h3>
 
-                                        <a href="{{ url('/category/' . $category->slug) }}" class="theme-btn mt-3">
+                                        <a href="{{ Storage::url($category->pdf_image) }}" target="_blank" class="theme-btn mt-3">
                                             Know More <i class="fal fa-arrow-right"></i>
                                         </a>
                                     </div>

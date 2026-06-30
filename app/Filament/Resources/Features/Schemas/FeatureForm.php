@@ -28,7 +28,7 @@ class FeatureForm
                     ->disabled()
                     ->dehydrated(),
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
             ]);
     }
 }

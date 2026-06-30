@@ -55,7 +55,7 @@ class BlogForm
                     ->required()
                     ->columnSpanFull(),
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
             ]);
     }
 }

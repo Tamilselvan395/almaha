@@ -48,7 +48,7 @@ class CategoryForm
                     ->columnSpanFull(),
 
                 Toggle::make('status')
-                    ->required(),
+                    ->default(true),
 
                 TextInput::make('orderby')
                     ->required()
