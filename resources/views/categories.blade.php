@@ -117,7 +117,7 @@
                                         <img src="{{ asset('assets/images/team/porcelain.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Porcelain Tiles</a></h3>
+                                        <h3><a href="{{ route('porcelain') }}">Porcelain Tiles</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha is a trusted porcelain tiles supplier in Dubai, offering premium porcelain floor tiles, wall tiles, outdoor porcelain tiles, and large-format slabs for residential and commercial projects. Available in a wide range of sizes and finishes, our porcelain tiles combine durability, style, and lasting performance.',
@@ -126,7 +126,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('porcelain') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -140,7 +140,7 @@
                                         <img src="{{ asset('assets/images/team/swimming.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Swimming Pool Tiles</a></h3>
+                                        <h3><a href="{{ route('swimming-pool-tiles') }}">Swimming Pool Tiles</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha is a trusted swimming pool tiles supplier in Dubai, offering premium pool tiles, anti-slip pool tiles, coping tiles, mosaic pool tiles, and porcelain pool tiles for residential and commercial projects. Our swimming pool tiles are sourced from leading global manufacturers for long-lasting performance in UAE conditions.',
@@ -149,7 +149,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('swimming-pool-tiles') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -163,7 +163,7 @@
                                         <img src="{{ asset('assets/images/team/cladding.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Cladding Tiles with Fixing</a></h3>
+                                        <h3><a href="{{ route('cladding-tiles-fixing') }}">Cladding Tiles with Fixing</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha supplies premium cladding tiles in Dubai for interior and exterior walls, with a wide range of finishes for residential and commercial projects. As a trusted tile fixing company in Dubai, we provide complete cladding tile supply and professional installation across the UAE.',
@@ -172,7 +172,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('cladding-tiles-fixing') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -186,7 +186,7 @@
                                         <img src="{{ asset('assets/images/team/sanitary.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Sanitary Ware</a></h3>
+                                        <h3><a href="{{ route('sanitary-ware') }}">Sanitary Ware</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha is a trusted sanitary ware supplier in Dubai, offering premium basins, toilets, bathtubs, showers, and bathroom accessories for residential, commercial, and hospitality projects. Our sanitary ware combines quality, durability, and modern design, sourced from leading international manufacturers.',
@@ -195,7 +195,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('sanitary-ware') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -209,7 +209,7 @@
                                         <img src="{{ asset('assets/images/team/roofing.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Roofing Materials in Dubai</a></h3>
+                                        <h3><a href="{{ route('roofing-materials-dubai') }}">Roofing Materials in Dubai</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha supplies durable roofing materials in Dubai for residential and commercial projects, engineered for weather resistance, UV stability, and long-term performance. We offer reliable stock, competitive pricing, and UAE-wide delivery to contractors and developers across all seven Emirates.',
@@ -218,7 +218,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('roofing-materials-dubai') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -232,7 +232,7 @@
                                         <img src="{{ asset('assets/images/team/marble.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Marble and Granite</a></h3>
+                                        <h3><a href="{{ route('marble-granite') }}">Marble and Granite</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha is a trusted marble and granite supplier in Dubai, offering premium marble and granite for flooring, wall cladding, countertops, staircases, and exterior applications. Sourced from leading international manufacturers, our products deliver quality, competitive pricing, and reliable supply for projects across the UAE.',
@@ -241,7 +241,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('marble-granite') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -255,7 +255,7 @@
                                         <img src="{{ asset('assets/images/team/solid.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Solid Surface Filler and Sheets</a></h3>
+                                        <h3><a href="{{ route('solid-surface-filler-sheets') }}">Solid Surface Filler and Sheets</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha supplies premium solid surface sheets and fillers in Dubai for countertops, vanity tops, wall panels, and custom interior applications. Our solid surface solutions offer seamless finishes, durability, and easy maintenance for residential, commercial, and hospitality projects across the UAE.',
@@ -264,7 +264,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('solid-surface-filler-sheets') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>
@@ -278,7 +278,7 @@
                                         <img src="{{ asset('assets/images/team/interior.png') }}" alt="thumb">
                                     </div>
                                     <div class="team-content">
-                                        <h3><a href="team-details.html">Interior Tiles Glue</a></h3>
+                                        <h3><a href="{{ route('interior-tiles-glue') }}">Interior Tiles Glue</a></h3>
                                         <p style="text-align:justify;">
                                             {{ Str::limit(
                                                 'Al Maha supplies high-performance tile adhesives and interior tiles glue in Dubai for porcelain tiles, marble, granite, and ceramic tile installations. Our professional-grade tile adhesives deliver strong bonding and long-lasting performance for residential and commercial projects across the UAE.',
@@ -287,7 +287,7 @@
                                         </p>
                                     </div>
                                     <div class="text-center">
-                                        <a href="https://almaha.test/contact-us"> <span class="theme-btn mt-3 w-100">View <i
+                                        <a href="{{ route('interior-tiles-glue') }}"> <span class="theme-btn mt-3 w-100">View <i
                                                     class="fas fa-arrow-right"></i>
                                             </span> </a>
                                     </div>

@@ -45,7 +45,7 @@
 
 
                                                 <div class="btn-wrapper style2" data-ani="slideinup" data-ani-delay="1s">
-                                                    <a href="contact.php" class="theme-btn style3">
+                                                    <a href="{{ route('contact') }}" class="theme-btn style3">
                                                         EXPLORE US
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="41"
                                                             height="26" viewBox="0 0 41 26" fill="none">
@@ -63,10 +63,10 @@
                                                 <img src="assets/images/hero/slider-1.png" alt="thumb">
 
                                                 <!-- <div class="video-wrap ripple-effect rounded-0">
-                                                                                                                                                                        <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
-                                                                                                                                                                            class="play-btn popup-video"><img class="playerImg"
-                                                                                                                                                                                src="assets/images/icon/playerIcon1_2.svg" alt="icon"></a>
-                                                                                                                                                                    </div> -->
+                                                                                                                                                                            <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
+                                                                                                                                                                                class="play-btn popup-video"><img class="playerImg"
+                                                                                                                                                                                    src="assets/images/icon/playerIcon1_2.svg" alt="icon"></a>
+                                                                                                                                                                        </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -99,7 +99,7 @@
 
 
                                                 <div class="btn-wrapper style2" data-ani="slideinup" data-ani-delay="1s">
-                                                    <a href="contact.php" class="theme-btn style3">
+                                                    <a href="{{ route('contact') }}" class="theme-btn style3">
                                                         VIEW COLLECTIONS
                                                         <svg xmlns="http://www.w3.org/2000/svg" width="41"
                                                             height="26" viewBox="0 0 41 26" fill="none">
@@ -117,10 +117,10 @@
                                                 <img src="assets/images/hero/slider-2.png" alt="thumb">
 
                                                 <!-- <div class="video-wrap ripple-effect rounded-0">
-                                                                                                                                                                        <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
-                                                                                                                                                                            class="play-btn popup-video"><img class="playerImg"
-                                                                                                                                                                                src="assets/images/icon/playerIcon1_2.svg" alt="icon"></a>
-                                                                                                                                                                    </div> -->
+                                                                                                                                                                            <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
+                                                                                                                                                                                class="play-btn popup-video"><img class="playerImg"
+                                                                                                                                                                                    src="assets/images/icon/playerIcon1_2.svg" alt="icon"></a>
+                                                                                                                                                                        </div> -->
                                             </div>
                                         </div>
                                     </div>
@@ -158,10 +158,10 @@
                                 <img class="thumb2 img-custom-anim-top wow fadeInUp" data-wow-delay=".7s"
                                     src="assets/images/hero/about-1.png" alt="thumb">
                                 <!-- <div class="video-wrap ripple-effect rounded-0">
-                                                                                                                                                        <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
-                                                                                                                                                            class="play-btn popup-video"><img class="playerImg"
-                                                                                                                                                                src="assets/images/icon/playerIcon1_1.svg" alt="icon"></a>
-                                                                                                                                                    </div> -->
+                                                                                                                                                            <a href="https://www.youtube.com/watch?v=f2Gzr8sAGB8"
+                                                                                                                                                                class="play-btn popup-video"><img class="playerImg"
+                                                                                                                                                                    src="assets/images/icon/playerIcon1_1.svg" alt="icon"></a>
+                                                                                                                                                        </div> -->
                             </div>
                         </div>
                         <div class="col-xl-6">
@@ -223,17 +223,17 @@
                                 </div>
 
                                 <!-- <div class="btn-wrapper style2 wow fadeInUp" data-wow-delay=".5s">
-                                                                                                                                                        <a href="about.html" class="theme-btn style3">
-                                                                                                                                                            EXPLORE MORE
-                                                                                                                                                            <svg xmlns="http://www.w3.org/2000/svg" width="41" height="26"
-                                                                                                                                                                viewBox="0 0 41 26" fill="none">
-                                                                                                                                                                <rect width="1" height="26" fill="#2B1E16"></rect>
-                                                                                                                                                                <path
-                                                                                                                                                                    d="M40.7071 13.7071C41.0976 13.3166 41.0976 12.6834 40.7071 12.2929L34.3431 5.92893C33.9526 5.53841 33.3195 5.53841 32.9289 5.92893C32.5384 6.31946 32.5384 6.95262 32.9289 7.34315L38.5858 13L32.9289 18.6569C32.5384 19.0474 32.5384 19.6805 32.9289 20.0711C33.3195 20.4616 33.9526 20.4616 34.3431 20.0711L40.7071 13.7071ZM15 14H40V12H15V14Z"
-                                                                                                                                                                    fill="#2B1E16"></path>
-                                                                                                                                                            </svg>
-                                                                                                                                                        </a>
-                                                                                                                                                    </div> -->
+                                                                                                                                                            <a href="about.html" class="theme-btn style3">
+                                                                                                                                                                EXPLORE MORE
+                                                                                                                                                                <svg xmlns="http://www.w3.org/2000/svg" width="41" height="26"
+                                                                                                                                                                    viewBox="0 0 41 26" fill="none">
+                                                                                                                                                                    <rect width="1" height="26" fill="#2B1E16"></rect>
+                                                                                                                                                                    <path
+                                                                                                                                                                        d="M40.7071 13.7071C41.0976 13.3166 41.0976 12.6834 40.7071 12.2929L34.3431 5.92893C33.9526 5.53841 33.3195 5.53841 32.9289 5.92893C32.5384 6.31946 32.5384 6.95262 32.9289 7.34315L38.5858 13L32.9289 18.6569C32.5384 19.0474 32.5384 19.6805 32.9289 20.0711C33.3195 20.4616 33.9526 20.4616 34.3431 20.0711L40.7071 13.7071ZM15 14H40V12H15V14Z"
+                                                                                                                                                                        fill="#2B1E16"></path>
+                                                                                                                                                                </svg>
+                                                                                                                                                            </a>
+                                                                                                                                                        </div> -->
                             </div>
                         </div>
                     </div>
@@ -274,7 +274,7 @@
 
                         <div class="swiper-wrapper">
 
-                            @foreach ($categories as $category)
+                            {{-- @foreach ($categories as $category)
                                 <div class="swiper-slide">
                                     <div class="service-card style1 img-custom-anim-left wow fadeInUp">
                                         <div class="thumb">
@@ -294,7 +294,168 @@
                                         </a>
                                     </div>
                                 </div>
-                            @endforeach
+                            @endforeach --}}
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/porcelain.png') }}"
+                                            alt="Porcelain Tiles">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('porcelain') }}" target="_blank">
+                                            Porcelain Tiles
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('porcelain') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/swimming.png') }}"
+                                            alt="Swimming Pool Tiles">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('swimming-pool-tiles') }}" target="_blank">
+                                            Swimming Pool Tiles
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('swimming-pool-tiles') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/cladding.png') }}"
+                                            alt="Cladding Tiles">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('cladding-tiles-fixing') }}" target="_blank">
+                                            Cladding Tiles
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('cladding-tiles-fixing') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/sanitary.png') }}"
+                                            alt="Sanitary Ware">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('sanitary-ware') }}" target="_blank">
+                                            Sanitary Ware
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('sanitary-ware') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/roofing.png') }}"
+                                            alt="Roofing Sheets">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('roofing-materials-dubai') }}" target="_blank">
+                                            Roofing Sheets
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('roofing-materials-dubai') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/marble.png') }}"
+                                            alt="Marble & Granite">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('marble-granite') }}" target="_blank">
+                                            Marble & Granite
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('marble-granite') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/solid.png') }}"
+                                            alt="Solid Surface Sheets">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('solid-surface-filler-sheets') }}" target="_blank">
+                                            Solid Surface Sheets
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('solid-surface-filler-sheets') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="service-card style1 img-custom-anim-left text-center wow fadeInUp">
+                                    <div class="thumb">
+                                        <img src="{{ asset('assets/images/team/interior.png') }}"
+                                            alt="Tile Adhesive">
+                                    </div>
+
+                                    <h3 class="text-center">
+                                        <a href="{{ route('interior-tiles-glue') }}" target="_blank">
+                                            Tile Adhesive
+                                        </a>
+                                    </h3>
+
+                                    <a href="{{ route('interior-tiles-glue') }}" target="_blank"
+                                        class="theme-btn mt-3">
+                                        Know More <i class="fal fa-arrow-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+
 
                         </div>
                     </div>
@@ -650,7 +811,8 @@
                                         <div class="month">SEP</div>
                                     </div>
                                     <div class="blog-content">
-                                        <h3><a href="{{ route('blog.detail', $blog->slug) }}">{{ $blog->title }}</a></h3>
+                                        <h3><a href="{{ route('blog.detail', $blog->slug) }}">{{ $blog->title }}</a>
+                                        </h3>
                                         <ul>
                                             <li>
                                                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -832,77 +994,99 @@
     <section class="faq-section section-padding bg-white mb-5">
         <div class="container">
             <div class="section-title text-center mb-50 mxw-660 mx-auto">
-                <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> 
-                    <img class="me-1" src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon"> 
-                    FAQ 
-                    <img class="ms-1" src="{{ asset('assets/images/shape/titleShape1_2.png') }}" alt="icon"> 
+                <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s">
+                    <img class="me-1" src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon">
+                    FAQ
+                    <img class="ms-1" src="{{ asset('assets/images/shape/titleShape1_2.png') }}" alt="icon">
                 </div>
                 <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Frequently Asked Questions</h2>
-                <p class="text-center wow fadeInUp" data-wow-delay=".5s">Get answers to the most common questions about our products, services, and showroom in Dubai.</p>
+                <p class="text-center wow fadeInUp" data-wow-delay=".5s">Get answers to the most common questions about
+                    our products, services, and showroom in Dubai.</p>
             </div>
-            
+
             <div class="row">
                 <div class="col-lg-10 mx-auto">
                     <div class="accordion" id="homeFaqAccordion">
-                        
+
                         <!-- Q1 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".2s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".2s">
                             <h2 class="accordion-header" id="faqHeadingOne">
-                                <button class="accordion-button font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne" style="font-weight: 600;">
+                                <button class="accordion-button font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true"
+                                    aria-controls="faqCollapseOne" style="font-weight: 600;">
                                     Why choose Al Maha as your tile supplier?
                                 </button>
                             </h2>
-                            <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="faqHeadingOne" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    Al Maha Building Materials is a trusted tile supplier in Dubai with over 15 years of industry
+                                    Al Maha Building Materials is a trusted tile supplier in Dubai with over 15 years of
+                                    industry
                                     experience. As one of the most established Dubai tiles companies and a leading building
-                                    materials supplier, we supply premium porcelain tiles, swimming pool tiles, outdoor tiles,
+                                    materials supplier, we supply premium porcelain tiles, swimming pool tiles, outdoor
+                                    tiles,
                                     sanitary ware, marble, granite, and surface solutions for residential, commercial, and
                                     construction projects across the UAE.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q2 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".3s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".3s">
                             <h2 class="accordion-header" id="faqHeadingTwo">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false"
+                                    aria-controls="faqCollapseTwo" style="font-weight: 600;">
                                     What types of tiles do you supply in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo"
+                                data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    We supply a wide range of tiles, including porcelain tiles, swimming pool tiles, outdoor tiles,
-                                    cladding tiles, coping tiles, and decorative wall tiles suitable for residential, commercial,
+                                    We supply a wide range of tiles, including porcelain tiles, swimming pool tiles, outdoor
+                                    tiles,
+                                    cladding tiles, coping tiles, and decorative wall tiles suitable for residential,
+                                    commercial,
                                     and hospitality projects across the UAE.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q3 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".4s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".4s">
                             <h2 class="accordion-header" id="faqHeadingThree">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false"
+                                    aria-controls="faqCollapseThree" style="font-weight: 600;">
                                     Do you provide porcelain tiles in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseThree" class="accordion-collapse collapse"
+                                aria-labelledby="faqHeadingThree" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
                                     Yes. We offer premium porcelain tiles or flooring, walls, outdoor areas, and commercial
-                                    developments. Our collection is available in various sizes, finishes, colours, and designs to
+                                    developments. Our collection is available in various sizes, finishes, colours, and
+                                    designs to
                                     suit every project requirement.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q4 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".5s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".5s">
                             <h2 class="accordion-header" id="faqHeadingFour">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false"
+                                    aria-controls="faqCollapseFour" style="font-weight: 600;">
                                     Do you offer swimming pool tiles in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseFour" class="accordion-collapse collapse"
+                                aria-labelledby="faqHeadingFour" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
                                     Yes. Al Maha is a trusted swimming pool tiles company and swimming pool tiles supplier,
                                     supplying high-quality pool tiles including anti-slip pool tiles designed for safety,
@@ -910,72 +1094,96 @@
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q5 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".6s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".6s">
                             <h2 class="accordion-header" id="faqHeadingFive">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false"
+                                    aria-controls="faqCollapseFive" style="font-weight: 600;">
                                     Do you supply sanitary ware in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseFive" class="accordion-collapse collapse"
+                                aria-labelledby="faqHeadingFive" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    Yes. As a trusted sanitary ware and sanitary supplier in Dubai, we offer quality sanitary ware
-                                    solutions for homes, offices, hotels, retail spaces, and large-scale construction projects
+                                    Yes. As a trusted sanitary ware and sanitary supplier in Dubai, we offer quality
+                                    sanitary ware
+                                    solutions for homes, offices, hotels, retail spaces, and large-scale construction
+                                    projects
                                     across the UAE.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q6 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".7s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".7s">
                             <h2 class="accordion-header" id="faqHeadingSix">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false"
+                                    aria-controls="faqCollapseSix" style="font-weight: 600;">
                                     Do you provide tile fixing services in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix"
+                                data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    Yes. We offer professional tile fixing services in Dubai for residential, commercial, and
-                                    industrial projects. Our experienced tile fixing contractors ensure accurate installation, clean
+                                    Yes. We offer professional tile fixing services in Dubai for residential, commercial,
+                                    and
+                                    industrial projects. Our experienced tile fixing contractors ensure accurate
+                                    installation, clean
                                     finishes, and durable results.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q7 -->
-                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".8s">
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white"
+                            data-wow-delay=".8s">
                             <h2 class="accordion-header" id="faqHeadingSeven">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseSeven" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false"
+                                    aria-controls="faqCollapseSeven" style="font-weight: 600;">
                                     Do you supply building materials across the UAE?
                                 </button>
                             </h2>
-                            <div id="faqCollapseSeven" class="accordion-collapse collapse" aria-labelledby="faqHeadingSeven" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseSeven" class="accordion-collapse collapse"
+                                aria-labelledby="faqHeadingSeven" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    Yes. As a leading building materials supplier and one of the most reliable building materials
-                                    suppliers in Dubai, we provide reliable supply and delivery of porcelain tiles, outdoor tiles,
-                                    pool tiles, marble, granite, and sanitary ware across Dubai, Abu Dhabi, Sharjah, Ajman, Ras Al
+                                    Yes. As a leading building materials supplier and one of the most reliable building
+                                    materials
+                                    suppliers in Dubai, we provide reliable supply and delivery of porcelain tiles, outdoor
+                                    tiles,
+                                    pool tiles, marble, granite, and sanitary ware across Dubai, Abu Dhabi, Sharjah, Ajman,
+                                    Ras Al
                                     Khaimah, Fujairah, and other regions of the UAE.
                                 </div>
                             </div>
                         </div>
-                        
+
                         <!-- Q8 -->
                         <div class="accordion-item border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".9s">
                             <h2 class="accordion-header" id="faqHeadingEight">
-                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEight" aria-expanded="false" aria-controls="faqCollapseEight" style="font-weight: 600;">
+                                <button class="accordion-button collapsed font-weight-bold" type="button"
+                                    data-bs-toggle="collapse" data-bs-target="#faqCollapseEight" aria-expanded="false"
+                                    aria-controls="faqCollapseEight" style="font-weight: 600;">
                                     Where is Al Maha located in Dubai?
                                 </button>
                             </h2>
-                            <div id="faqCollapseEight" class="accordion-collapse collapse" aria-labelledby="faqHeadingEight" data-bs-parent="#homeFaqAccordion">
+                            <div id="faqCollapseEight" class="accordion-collapse collapse"
+                                aria-labelledby="faqHeadingEight" data-bs-parent="#homeFaqAccordion">
                                 <div class="accordion-body text-muted bg-white text-justify">
-                                    Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our showroom is
-                                    open for contractors, developers, and homeowners to view our full range of tiles, sanitary ware,
+                                    Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our
+                                    showroom is
+                                    open for contractors, developers, and homeowners to view our full range of tiles,
+                                    sanitary ware,
                                     marble, granite, and surface solutions in person.
                                 </div>
                             </div>
                         </div>
-                        
+
                     </div>
                 </div>
             </div>
