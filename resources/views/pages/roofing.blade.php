@@ -30,10 +30,10 @@
     <!-- Intro Section Start -->
     <section class="about-section section-padding bg-white">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6">
-                    <div class="about-thumb wow fadeInUp" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/roofing.jpg') }}" alt="Roofing Sheets Dubai" class="img-fluid rounded shadow w-100">
+                    <div class="about-thumb sticky-image wow fadeInUp" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/r-1.png') }}" alt="Roofing Sheets Dubai" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -231,10 +231,10 @@
     <!-- Specifications Section Start -->
     <section class="specs-section section-padding bg-theme2">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="specs-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/solid-surface.jpg') }}" alt="Roofing Sheet Specifications" class="img-fluid rounded shadow w-100">
+                    <div class="specs-thumb wow sticky-image fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/r-2.png') }}" alt="Roofing Sheet Specifications" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
@@ -417,10 +417,10 @@
     <!-- Premium Section Start -->
     <section class="outdoor-section section-padding bg-theme2">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6">
-                    <div class="outdoor-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/roofing.jpg') }}" alt="Premium Roofing Sheets Dubai" class="img-fluid rounded shadow w-100">
+                    <div class="outdoor-thumb sticky-image wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/r-3.png') }}" alt="Premium Roofing Sheets Dubai" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -468,10 +468,10 @@
     <!-- Why Choose Section Start -->
     <section class="why-choose-section section-padding bg-white">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="why-choose-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/tile-adhesive.jpg') }}" alt="Why Choose Al Maha Roofing Sheets Supplier" class="img-fluid rounded shadow w-100">
+                    <div class="why-choose-thumb sticky-image wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/r-4.png') }}" alt="Why Choose Al Maha Roofing Sheets Supplier" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">

@@ -33,7 +33,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6">
                     <div class="about-thumb wow fadeInUp" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/swimming-pool-tiles.jpg') }}" alt="Swimming Pool Tiles Dubai" class="img-fluid rounded shadow w-100">
+                        <img src="{{ asset('assets/images/products/sm-1.png') }}" alt="Swimming Pool Tiles Dubai" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -161,7 +161,7 @@
             <div class="row align-items-center">
                 <div class="col-lg-6 order-lg-2">
                     <div class="specs-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/tile-adhesive.jpg') }}" alt="Swimming Pool Tile Specifications" class="img-fluid rounded shadow w-100">
+                        <img src="{{ asset('assets/images/products/sm-2.png') }}" alt="Swimming Pool Tile Specifications" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
@@ -340,10 +340,10 @@
     <!-- Anti-Slip and Coping Section Start -->
     <section class="outdoor-section section-padding bg-white">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6">
-                    <div class="outdoor-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/cladding-tiles.jpg') }}" alt="Anti-slip and Coping Tiles Dubai" class="img-fluid rounded shadow w-100">
+                    <div class="outdoor-thumb sticky-image wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/sm-3.png') }}" alt="Anti-slip and Coping Tiles Dubai" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6">
@@ -384,10 +384,10 @@
     <!-- Why Choose Section Start -->
     <section class="why-choose-section section-padding bg-theme2">
         <div class="container">
-            <div class="row align-items-center">
+            <div class="row">
                 <div class="col-lg-6 order-lg-2">
-                    <div class="why-choose-thumb wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
-                        <img src="{{ asset('assets/images/products/marbles-granite.jpg') }}" alt="Why Choose Al Maha Pool Tiles Supplier" class="img-fluid rounded shadow w-100">
+                    <div class="why-choose-thumb sticky-image wow fadeInUp mb-4 mb-lg-0" data-wow-delay=".3s">
+                        <img src="{{ asset('assets/images/products/sm-4.png') }}" alt="Why Choose Al Maha Pool Tiles Supplier" class="img-fluid rounded shadow w-100">
                     </div>
                 </div>
                 <div class="col-lg-6 order-lg-1">
