@@ -18,7 +18,7 @@
                         <div class="breadcumb-content">
                             <h1 class="breadcumb-title">{{ $tiles->name }}</h1>
                             <ul class="breadcumb-menu">
-                                <li><a href="index.php">Home</a></li>
+                                <li><a href="{{ route('home') }}">Home</a></li>
                                 <li class="text-white"><i class="fa-solid fa-chevrons-right"></i></li>
                                 <li class="active">{{ $tiles->name }}</li>
                             </ul>
