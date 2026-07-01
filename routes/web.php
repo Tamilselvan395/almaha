@@ -23,4 +23,24 @@ Route::get('/blogs', [PageController::class, 'blog'])->name('blog');
 Route::get('/blog/{blog:slug}', [PageController::class, 'blog_detail'])->name('blog.detail');
 
 
+
+
+
+Route::get('/porcelain', [PageController::class, 'porcelain'])->name('porcelain');
+
+Route::get('/swimming-pool-tiles', [PageController::class, 'swimmingPoolTiles'])->name('swimming-pool-tiles');
+
+Route::get('/cladding-tiles-fixing', [PageController::class, 'claddingTilesFixing'])->name('cladding-tiles-fixing');
+
+Route::get('/sanitary-ware', [PageController::class, 'sanitaryWare'])->name('sanitary-ware');
+
+Route::get('/roofing-materials-dubai', [PageController::class, 'roofingMaterialsDubai'])->name('roofing-materials-dubai');
+
+Route::get('/marble-granite', [PageController::class, 'marbleGranite'])->name('marble-granite');
+
+Route::get('/solid-surface-filler-sheets', [PageController::class, 'solidSurfaceFillerSheets'])->name('solid-surface-filler-sheets');
+
+Route::get('/interior-tiles-glue', [PageController::class, 'interiorTilesGlue'])->name('interior-tiles-glue');
+
+
 //Testing

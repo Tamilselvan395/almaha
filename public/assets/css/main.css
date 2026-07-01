@@ -7554,7 +7554,7 @@ input.main-search-input::placeholder {
 }
 .strength-card:hover .icon-wrapper {
   background: var(--theme);
-  color: #ffffff;
+  color: #ffffff !important;
 }
 .strength-card .title {
   color: var(--title);

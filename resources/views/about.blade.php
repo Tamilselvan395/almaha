@@ -622,152 +622,176 @@
         </div>
     </section>
 
-    <section class="blog-section fix mb-5 mt-5">
+    <!-- FAQ Section Start -->
+    <section class="faq-section section-padding bg-white mb-5 mt-5">
         <div class="container">
-            <div class="accordion" id="accordionExample">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                            When was Al Maha Building Materials established?
-                        </button>
-                    </h2>
-                    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Al Maha Building Materials was established in 2009 and has been supplying premium tiles,
-                            sanitary ware, and building materials in Dubai to residential, commercial, and construction
-                            projects across the UAE for over 15 years.
-                        </div>
-                    </div>
+            <div class="section-title text-center mb-50 mxw-660 mx-auto">
+                <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> 
+                    <img class="me-1" src="{{ asset('assets/images/shape/titleShape1_1.png') }}" alt="icon"> 
+                    FAQ 
+                    <img class="ms-1" src="{{ asset('assets/images/shape/titleShape1_2.png') }}" alt="icon"> 
                 </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                            Where is Al Maha located?
-                        </button>
-                    </h2>
-                    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our showroom is
-                            open for tile fixing contractors, developers, architects, and homeowners to view our full range
-                            of porcelain tiles, swimming pool tiles, outdoor tiles, marble and granite, and sanitary ware in
-                            person
+                <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Frequently Asked Questions</h2>
+                <p class="text-center wow fadeInUp" data-wow-delay=".5s">Get answers to the most common questions about Al Maha, our products, services, and showroom in Dubai.</p>
+            </div>
+            
+            <div class="row">
+                <div class="col-lg-10 mx-auto">
+                    <div class="accordion" id="aboutFaqAccordion">
+                        
+                        <!-- Q1 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".2s">
+                            <h2 class="accordion-header" id="faqHeadingOne">
+                                <button class="accordion-button font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseOne" aria-expanded="true" aria-controls="faqCollapseOne" style="font-weight: 600;">
+                                    When was Al Maha Building Materials established?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseOne" class="accordion-collapse collapse show" aria-labelledby="faqHeadingOne" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Al Maha Building Materials was established in 2009 and has been supplying premium tiles,
+                                    sanitary ware, and building materials in Dubai to residential, commercial, and construction
+                                    projects across the UAE for over 15 years.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                            What products does Al Maha supply?
-                        </button>
-                    </h2>
-                    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Al Maha is a comprehensive building materials company in Dubai supplying premium porcelain
-                            tiles, luxury tiles, swimming pool tiles, anti-slip pool tiles, coping tiles, cladding tiles,
-                            outdoor porcelain floor tiles, outdoor tiles for gardens, marble, granite, natural stone, and
-                            sanitary ware for projects of all scales across the UAE.
-
+                        
+                        <!-- Q2 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".3s">
+                            <h2 class="accordion-header" id="faqHeadingTwo">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseTwo" aria-expanded="false" aria-controls="faqCollapseTwo" style="font-weight: 600;">
+                                    Where is Al Maha located?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseTwo" class="accordion-collapse collapse" aria-labelledby="faqHeadingTwo" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our showroom is
+                                    open for tile fixing contractors, developers, architects, and homeowners to view our full range
+                                    of porcelain tiles, swimming pool tiles, outdoor tiles, marble and granite, and sanitary ware in
+                                    person.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">
-                            Is Al Maha a direct tiles importer in Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapsefour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes. Al Maha is a direct tiles importer in Dubai, sourcing porcelain tiles, marble, granite,
-                            natural stone, and sanitary ware directly from international manufacturers across Europe and
-                            Asia. This allows us to offer premium quality at competitive porcelain tile prices in Dubai with
-                            no middleman markup.
+                        
+                        <!-- Q3 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".4s">
+                            <h2 class="accordion-header" id="faqHeadingThree">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseThree" aria-expanded="false" aria-controls="faqCollapseThree" style="font-weight: 600;">
+                                    What products does Al Maha supply?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseThree" class="accordion-collapse collapse" aria-labelledby="faqHeadingThree" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Al Maha is a comprehensive building materials company in Dubai supplying premium porcelain
+                                    tiles, luxury tiles, swimming pool tiles, anti-slip pool tiles, coping tiles, cladding tiles,
+                                    outdoor porcelain floor tiles, outdoor tiles for gardens, marble, granite, natural stone, and
+                                    sanitary ware for projects of all scales across the UAE.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">
-                            Does Al Maha supply building materials outside Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapsefive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes. As a leading building materials supplier in Dubai, we supply and deliver tiles, sanitary
-                            ware, and building supplies to project sites across all seven Emirates — including Abu Dhabi,
-                            Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain
+                        
+                        <!-- Q4 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".5s">
+                            <h2 class="accordion-header" id="faqHeadingFour">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFour" aria-expanded="false" aria-controls="faqCollapseFour" style="font-weight: 600;">
+                                    Is Al Maha a direct tiles importer in Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseFour" class="accordion-collapse collapse" aria-labelledby="faqHeadingFour" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Yes. Al Maha is a direct tiles importer in Dubai, sourcing porcelain tiles, marble, granite,
+                                    natural stone, and sanitary ware directly from international manufacturers across Europe and
+                                    Asia. This allows us to offer premium quality at competitive porcelain tile prices in Dubai with
+                                    no middleman markup.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsesix" aria-expanded="false" aria-controls="collapsesix">
-                            Does Al Maha provide tile fixing services in Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapsesix" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes. In addition to supplying premium tiles and building materials, Al Maha provides
-                            professional tile fixing services in Dubai through our experienced tile fixing contractors and
-                            tiles work contractors for residential, commercial, and industrial projects across the UAE.
+                        
+                        <!-- Q5 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".6s">
+                            <h2 class="accordion-header" id="faqHeadingFive">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseFive" aria-expanded="false" aria-controls="faqCollapseFive" style="font-weight: 600;">
+                                    Does Al Maha supply building materials outside Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseFive" class="accordion-collapse collapse" aria-labelledby="faqHeadingFive" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Yes. As a leading building materials supplier in Dubai, we supply and deliver tiles, sanitary
+                                    ware, and building supplies to project sites across all seven Emirates — including Abu Dhabi,
+                                    Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseseven" aria-expanded="false" aria-controls="collapseseven">
-                            Do you supply marble and granite in Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapseseven" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes. Al Maha are trusted marble suppliers in Dubai and granite suppliers in Dubai, offering a
-                            curated range of natural stone for flooring, walls, countertops, and exterior applications. As
-                            direct importers, we offer competitive pricing across our full marble and granite range.
+                        
+                        <!-- Q6 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".7s">
+                            <h2 class="accordion-header" id="faqHeadingSix">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSix" aria-expanded="false" aria-controls="faqCollapseSix" style="font-weight: 600;">
+                                    Does Al Maha provide tile fixing services in Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseSix" class="accordion-collapse collapse" aria-labelledby="faqHeadingSix" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Yes. In addition to supplying premium tiles and building materials, Al Maha provides
+                                    professional tile fixing services in Dubai through our experienced tile fixing contractors and
+                                    tiles work contractors for residential, commercial, and industrial projects across the UAE.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapseeight" aria-expanded="false" aria-controls="collapseeight">
-                            What outdoor tiles do you supply in Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapseeight" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Al Maha supplies a full range of outdoor tiles in Dubai including outdoor porcelain floor tiles,
-                            outdoor tiles for gardens, terraces, pool surrounds, and landscaped areas. Our outdoor porcelain
-                            tiles are available in anti-slip finishes and a wide range of sizes and formats suitable for the
-                            UAE climate.
+                        
+                        <!-- Q7 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".8s">
+                            <h2 class="accordion-header" id="faqHeadingSeven">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseSeven" aria-expanded="false" aria-controls="faqCollapseSeven" style="font-weight: 600;">
+                                    Do you supply marble and granite in Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseSeven" class="accordion-collapse collapse" aria-labelledby="faqHeadingSeven" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Yes. Al Maha are trusted marble suppliers in Dubai and granite suppliers in Dubai, offering a
+                                    curated range of natural stone for flooring, walls, countertops, and exterior applications. As
+                                    direct importers, we offer competitive pricing across our full marble and granite range.
+                                </div>
+                            </div>
                         </div>
-                    </div>
-                </div>
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#collapsenine" aria-expanded="false" aria-controls="collapsenine">
-                            Are you sanitary ware suppliers in Dubai?
-                        </button>
-                    </h2>
-                    <div id="collapsenine" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                        <div class="accordion-body">
-                            Yes. Al Maha is a trusted sanitary ware supplier in Dubai, offering a comprehensive range of
-                            sanitary ware solutions for residential, commercial, and hospitality projects across the UAE. As
-                            direct importers, we provide quality sanitary ware at competitive prices with reliable UAE-wide
-                            supply.
+                        
+                        <!-- Q8 -->
+                        <div class="accordion-item mb-3 border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".9s">
+                            <h2 class="accordion-header" id="faqHeadingEight">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseEight" aria-expanded="false" aria-controls="faqCollapseEight" style="font-weight: 600;">
+                                    What outdoor tiles do you supply in Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseEight" class="accordion-collapse collapse" aria-labelledby="faqHeadingEight" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Al Maha supplies a full range of outdoor tiles in Dubai including outdoor porcelain floor tiles,
+                                    outdoor tiles for gardens, terraces, pool surrounds, and landscaped areas. Our outdoor porcelain
+                                    tiles are available in anti-slip finishes and a wide range of sizes and formats suitable for the
+                                    UAE climate.
+                                </div>
+                            </div>
                         </div>
+                        
+                        <!-- Q9 -->
+                        <div class="accordion-item border rounded shadow-sm wow fadeInUp bg-white" data-wow-delay=".95s">
+                            <h2 class="accordion-header" id="faqHeadingNine">
+                                <button class="accordion-button collapsed font-weight-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faqCollapseNine" aria-expanded="false" aria-controls="faqCollapseNine" style="font-weight: 600;">
+                                    Are you sanitary ware suppliers in Dubai?
+                                </button>
+                            </h2>
+                            <div id="faqCollapseNine" class="accordion-collapse collapse" aria-labelledby="faqHeadingNine" data-bs-parent="#aboutFaqAccordion">
+                                <div class="accordion-body text-muted bg-white text-justify">
+                                    Yes. Al Maha is a trusted sanitary ware supplier in Dubai, offering a comprehensive range of
+                                    sanitary ware solutions for residential, commercial, and hospitality projects across the UAE. As
+                                    direct importers, we provide quality sanitary ware at competitive prices with reliable UAE-wide
+                                    supply.
+                                </div>
+                            </div>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
         </div>
-    </section>
+    </section>n>
 
 @endsection

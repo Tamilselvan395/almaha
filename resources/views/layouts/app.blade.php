@@ -45,7 +45,7 @@
 
 
     {{-- null value issue resolved --}}
-    {!! $meta_details->all_page_scheme ??'' !!}
+    {!! $meta_details->all_page_scheme ?? '' !!}
 
     @yield('schema')
 
@@ -155,20 +155,68 @@
                                         <ul>
                                             <li><a href="{{ route('home') }}">Home</a></li>
                                             <li><a href="{{ route('about') }}">About Us</a></li>
+                                            {{-- <li>
+                                                <a href="{{ route('categories') }}">
+                                                    Products
+                                                    <i class="fas fa-angle-down"></i>
+                                                </a>
+                                                <ul class="submenu">
+                                                    @foreach ($categorys as $category) --}}
+                                            {{-- <li><a
+                                                                href="{{ route('tiles', ['categories' => $category->slug]) }}">{{ $category->name }}</a>
+                                                        </li> --}}
+                                            {{-- <li><a
+                                                                href="{{ Storage::url($category->pdf_image)}}" target="_blank">{{ $category->name }}</a>
+                                                        </li>
+                                                    @endforeach
+                                                </ul>
+                                            </li> --}}
+
                                             <li>
                                                 <a href="{{ route('categories') }}">
                                                     Products
                                                     <i class="fas fa-angle-down"></i>
                                                 </a>
                                                 <ul class="submenu">
-                                                    @foreach ($categorys as $category)
-                                                        {{-- <li><a
-                                                                href="{{ route('tiles', ['categories' => $category->slug]) }}">{{ $category->name }}</a>
-                                                        </li> --}}
-                                                        <li><a
-                                                                href="{{ Storage::url($category->pdf_image)}}" target="_blank">{{ $category->name }}</a>
-                                                        </li>
-                                                    @endforeach
+                                                    <li>
+                                                        <a href="{{ route('porcelain') }}" target="_blank">Porcelain
+                                                            Tiles</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('swimming-pool-tiles') }}"
+                                                            target="_blank">Swimming Pool Tiles</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('cladding-tiles-fixing') }}"
+                                                            target="_blank">Cladding Tiles with Fixing</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('sanitary-ware') }}"
+                                                            target="_blank">Sanitary Ware</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('roofing-materials-dubai') }}"
+                                                            target="_blank">Roofing Materials in Dubai</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('marble-granite') }}"
+                                                            target="_blank">Marble and Granite</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('solid-surface-filler-sheets') }}"
+                                                            target="_blank">Solid Surface Filler and Sheets</a>
+                                                    </li>
+
+                                                    <li>
+                                                        <a href="{{ route('interior-tiles-glue') }}"
+                                                            target="_blank">Interior Tiles Glue</a>
+                                                    </li>
                                                 </ul>
                                             </li>
 
@@ -271,12 +319,52 @@
                                         alt="shape">
                                     Services </h3>
                             </div>
-                            <ul class="list-area">
+                            {{-- <ul class="list-area">
                                 @foreach ($categorys as $category)
                                     <li><a
                                             href="{{ route('tiles', ['categories' => $category->slug]) }}">{{ $category->name }}</a>
                                     </li>
                                 @endforeach
+                            </ul> --}}
+
+                            <ul class="list-area">
+                                <li>
+                                    <a href="{{ route('porcelain') }}" target="_blank">Porcelain
+                                        Tiles</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('swimming-pool-tiles') }}" target="_blank">Swimming Pool
+                                        Tiles</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('cladding-tiles-fixing') }}" target="_blank">Cladding Tiles
+                                        with Fixing</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('sanitary-ware') }}" target="_blank">Sanitary Ware</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('roofing-materials-dubai') }}" target="_blank">Roofing
+                                        Materials in Dubai</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('marble-granite') }}" target="_blank">Marble and Granite</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('solid-surface-filler-sheets') }}" target="_blank">Solid
+                                        Surface Filler and Sheets</a>
+                                </li>
+
+                                <li>
+                                    <a href="{{ route('interior-tiles-glue') }}" target="_blank">Interior Tiles
+                                        Glue</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
