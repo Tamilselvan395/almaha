@@ -4,6 +4,9 @@
     # Prevent direct access to hidden files
     RewriteRule (^|/)\. - [F]
 
+    # Redirect root to public folder
+    RewriteRule ^$ public/ [L]
+
     # Redirect everything to public folder
     RewriteCond %{REQUEST_URI} !^/public/
     RewriteCond %{REQUEST_FILENAME} !-f
