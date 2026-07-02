@@ -46,8 +46,40 @@ class GenerateSitemap extends Command
             Url::create(route('categories'))->setPriority(0.9)
         );
 
+        $sitemap->add(
+            Url::create(route('porcelain'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('swimming-pool-tiles'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('cladding-tiles-fixing'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('sanitary-ware'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('roofing-materials-dubai'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('marble-granite'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('solid-surface-filler-sheets'))->setPriority(0.8)
+        );
+
+        $sitemap->add(
+            Url::create(route('interior-tiles-glue'))->setPriority(0.8)
+        );
+
         // ===== CATEGORY PAGES =====
-        Category::cursor()->each(function ($category) use ($sitemap) {
+        Category::where('status', true)->cursor()->each(function ($category) use ($sitemap) {
             $sitemap->add(
                 Url::create(route('tiles', ['categories' => $category->slug]))
                     ->setLastModificationDate($category->updated_at)
@@ -56,29 +88,44 @@ class GenerateSitemap extends Command
         });
 
         // ===== VARIANT PAGES =====
-        TileModel::cursor()->each(function ($tile) use ($sitemap) {
-            $sitemap->add(
-                Url::create(route('varient', ['tiles' => $tile->slug]))
-                    ->setLastModificationDate($tile->updated_at)
-                    ->setPriority(0.8)
-            );
-        });
+        TileModel::where('status', true)
+            ->whereHas('category', function ($query) {
+                $query->where('status', true);
+            })
+            ->cursor()
+            ->each(function ($tile) use ($sitemap) {
+                $sitemap->add(
+                    Url::create(route('varient', ['tiles' => $tile->slug]))
+                        ->setLastModificationDate($tile->updated_at)
+                        ->setPriority(0.8)
+                );
+            });
 
         // ===== PRODUCT DETAIL PAGES =====
-        Product::cursor()->each(function ($product) use ($sitemap) {
-            $sitemap->add(
-                Url::create(route('product', ['detail' => $product->slug]))
-                    ->setLastModificationDate($product->updated_at)
-                    ->setPriority(0.7)
-            );
-        });
+        Product::where('status', true)
+            ->whereHas('tile_model', function ($query) {
+                $query->where('status', true)
+                    ->whereHas('category', function ($q) {
+                        $q->where('status', true);
+                    });
+            })
+            ->whereHas('size', function ($query) {
+                $query->where('status', true);
+            })
+            ->cursor()
+            ->each(function ($product) use ($sitemap) {
+                $sitemap->add(
+                    Url::create(route('product', ['detail' => $product->slug]))
+                        ->setLastModificationDate($product->updated_at)
+                        ->setPriority(0.7)
+                );
+            });
 
         // ====== BLOG PAGE ========
         $sitemap->add(
             Url::create(route('blog'))->setPriority(0.9)
         );
 
-        // ===== BLOG DETAIL PAGES =====
         // ===== BLOG DETAIL PAGES =====
         Blog::where('status', true)->cursor()->each(function ($blog) use ($sitemap) {
             $sitemap->add(

@@ -87,9 +87,9 @@
 
                                         <h3 class="mb-3"><?= $offer['title'] ?></h3>
 
-                                        <p class="text mb-4">
+                                        {{-- <p class="text mb-4">
                                             <?= rtrim(substr($offer['desc'], 0, 70)) . '...' ?>
-                                        </p>
+                                        </p> --}}
 
                                         <ul class="checklist style1 mt-auto">
                                             <?php foreach ($offer['points'] as $point): ?>

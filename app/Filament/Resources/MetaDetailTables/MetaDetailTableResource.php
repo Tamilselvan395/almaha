@@ -22,6 +22,10 @@ class MetaDetailTableResource extends Resource
 
     protected static ?string $recordTitleAttribute = 'name';
 
+    protected static \UnitEnum|string|null $navigationGroup = 'Settings';
+
+    protected static ?int $navigationSort = 1;
+
     public static function form(Schema $schema): Schema
     {
         return MetaDetailTableForm::configure($schema);

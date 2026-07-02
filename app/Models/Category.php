@@ -31,9 +31,7 @@ class Category extends Model
     {
         static::saved(function ($category) {
             try {
-                if ($category->wasChanged('slug') || $category->wasRecentlyCreated) {
-                    Artisan::call('sitemap:generate');
-                }
+                Artisan::call('sitemap:generate');
             } catch (\Exception $e) {
                 \Log::error('Sitemap generation failed on category save: ' . $e->getMessage());
             }

@@ -60,9 +60,7 @@ class Product extends Model
     {
         static::saved(function ($product) {
             try {
-                if ($product->wasChanged('slug') || $product->wasRecentlyCreated) {
-                    Artisan::call('sitemap:generate');
-                }
+                Artisan::call('sitemap:generate');
             } catch (\Exception $e) {
                 \Log::error('Sitemap generation failed on product save: ' . $e->getMessage());
             }

@@ -357,6 +357,11 @@
                     </div>
                 </div>
 
+                <style>
+                    .testimonialSliderOne .swiper-slide {
+                        height: auto !important;
+                    }
+                </style>
                 <div class="slider-area testimonialSliderOne fix ">
                     <div class="swiper gt-slider" id="testimonialSliderOne"
                         data-slider-options='{"loop": true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1,"centeredSlides":true},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
@@ -365,11 +370,12 @@
                             <?php foreach ($testimonials as $t): ?>
                             <div class="swiper-slide">
                                 <div class="testimonial-card-items style1 wow fadeInUp" data-wow-delay=".5s"
-                                    data-bg-src="assets/images/bg/testimonialBg1_1.png">
+                                    data-bg-src="assets/images/bg/testimonialBg1_1.png"
+                                    style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
 
                                     <div class="body">
                                         <p>
-                                            <?= strlen($t['text']) > 120 ? rtrim(substr($t['text'], 0, 120)) . '...' : $t['text'] ?>
+                                            <?= $t['text'] ?>
                                         </p>
                                     </div>
 
@@ -395,16 +401,14 @@
     </div>
 
     <!-- Team Section    S T A R T -->
-    <section class="team-section">
+    {{-- <section class="team-section">
         <div class="team-container-wrapper style2 section-padding fix" data-bg-src="assets/images/bg/teamBg2_1.jpg">
             <div class="container">
                 <div class="section-title text-center mb-50 mxw-660 mx-auto">
                     <div class="subtitle text-center wow fadeInUp" data-wow-delay=".5s"> <img class="me-1"
                             src="assets/images/shape/titleShape1_1.png" alt="icon"> OUR TEAM <img class="ms-1"
                             src="assets/images/shape/titleShape1_2.png" alt="icon"> </div>
-                    <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Meet the Members of Our Team - Meet
-                        the Team Behind Our Success
-                    </h2>
+                    <h2 class="text-center mt-15 wow fadeInUp" data-wow-delay=".3s">Meet the Team Behind Our Success</h2>
                     <p>Our experienced team helps you choose the right porcelain tiles, outdoor tiles, pool tiles, and
                         sanitary ware while ensuring reliable building material supply and on-time delivery across the UAE.
                     </p>
@@ -620,7 +624,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
     <!-- FAQ Section Start -->
     <section class="faq-section section-padding bg-white mb-5 mt-5">

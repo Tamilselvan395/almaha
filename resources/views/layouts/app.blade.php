@@ -111,7 +111,7 @@
                                     <i class="fal fa-clock"></i>
                                 </div>
                                 <div class="offcanvas__contact-text">
-                                    <a target="_blank" href="#">Mod-friday, 09am -05pm</a>
+                                    <a  href="#">Mod-friday, 09am -05pm</a>
                                 </div>
                             </li>
                             <li class="d-flex align-items-center">
@@ -166,7 +166,7 @@
                                                                 href="{{ route('tiles', ['categories' => $category->slug]) }}">{{ $category->name }}</a>
                                                         </li> --}}
                                             {{-- <li><a
-                                                                href="{{ Storage::url($category->pdf_image)}}" target="_blank">{{ $category->name }}</a>
+                                                                href="{{ Storage::url($category->pdf_image)}}" >{{ $category->name }}</a>
                                                         </li>
                                                     @endforeach
                                                 </ul>
@@ -179,43 +179,43 @@
                                                 </a>
                                                 <ul class="submenu">
                                                     <li>
-                                                        <a href="{{ route('porcelain') }}" target="_blank">Porcelain
+                                                        <a href="{{ route('porcelain') }}" >Porcelain
                                                             Tiles</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('swimming-pool-tiles') }}"
-                                                            target="_blank">Swimming Pool Tiles</a>
+                                                            >Swimming Pool Tiles</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('cladding-tiles-fixing') }}"
-                                                            target="_blank">Cladding Tiles with Fixing</a>
+                                                            >Cladding Tiles with Fixing</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('sanitary-ware') }}"
-                                                            target="_blank">Sanitary Ware</a>
+                                                            >Sanitary Ware</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('roofing-materials-dubai') }}"
-                                                            target="_blank">Roofing Materials in Dubai</a>
+                                                            >Roofing Materials in Dubai</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('marble-granite') }}"
-                                                            target="_blank">Marble and Granite</a>
+                                                            >Marble and Granite</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('solid-surface-filler-sheets') }}"
-                                                            target="_blank">Solid Surface Filler and Sheets</a>
+                                                            >Solid Surface Filler and Sheets</a>
                                                     </li>
 
                                                     <li>
                                                         <a href="{{ route('interior-tiles-glue') }}"
-                                                            target="_blank">Interior Tiles Glue</a>
+                                                            >Interior Tiles Glue</a>
                                                     </li>
                                                 </ul>
                                             </li>
@@ -329,40 +329,40 @@
 
                             <ul class="list-area">
                                 <li>
-                                    <a href="{{ route('porcelain') }}" target="_blank">Porcelain
+                                    <a href="{{ route('porcelain') }}" >Porcelain
                                         Tiles</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('swimming-pool-tiles') }}" target="_blank">Swimming Pool
+                                    <a href="{{ route('swimming-pool-tiles') }}" >Swimming Pool
                                         Tiles</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('cladding-tiles-fixing') }}" target="_blank">Cladding Tiles
+                                    <a href="{{ route('cladding-tiles-fixing') }}" >Cladding Tiles
                                         with Fixing</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('sanitary-ware') }}" target="_blank">Sanitary Ware</a>
+                                    <a href="{{ route('sanitary-ware') }}" >Sanitary Ware</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('roofing-materials-dubai') }}" target="_blank">Roofing
+                                    <a href="{{ route('roofing-materials-dubai') }}" >Roofing
                                         Materials in Dubai</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('marble-granite') }}" target="_blank">Marble and Granite</a>
+                                    <a href="{{ route('marble-granite') }}" >Marble and Granite</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('solid-surface-filler-sheets') }}" target="_blank">Solid
+                                    <a href="{{ route('solid-surface-filler-sheets') }}" >Solid
                                         Surface Filler and Sheets</a>
                                 </li>
 
                                 <li>
-                                    <a href="{{ route('interior-tiles-glue') }}" target="_blank">Interior Tiles
+                                    <a href="{{ route('interior-tiles-glue') }}" >Interior Tiles
                                         Glue</a>
                                 </li>
                             </ul>

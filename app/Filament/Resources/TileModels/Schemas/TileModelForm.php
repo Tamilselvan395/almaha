@@ -8,8 +8,12 @@ use Filament\Forms\Components\Select;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Forms\Components\Toggle;
+use Filament\Forms\Components\RichEditor;
 use Filament\Schemas\Schema;
 use Illuminate\Support\Str;
+
+use Filament\Schemas\Components\Tabs;
+use Filament\Schemas\Components\Grid;
 
 class TileModelForm
 {
@@ -17,44 +21,67 @@ class TileModelForm
     {
         return $schema
             ->components([
+                Tabs::make('Variant Details')
+                    ->tabs([
+                        Tabs\Tab::make('General Info')
+                            ->icon('heroicon-o-information-circle')
+                            ->schema([
+                                Grid::make(3)
+                                    ->schema([
+                                        Select::make('category_id')
+                                            ->relationship('category', 'name')
+                                            ->required(),
+                                        TextInput::make('name')
+                                            ->required()
+                                            ->live(onBlur: true)
+                                            ->afterStateUpdated(
+                                                fn($state, callable $set) =>
+                                                $set('slug', Str::slug($state))
+                                            ),
+                                        TextInput::make('slug')
+                                            ->required()
+                                            ->unique(ignoreRecord: true)
+                                            ->disabled()
+                                            ->dehydrated(),
+                                    ]),
 
-                Select::make('category_id')
-                    ->relationship('category', 'name')
-                    ->required(),
+                                Grid::make(2)
+                                    ->schema([
+                                        TextInput::make('orderby')
+                                            ->required()
+                                            ->numeric()
+                                            ->default(fn() => (TileModel::max('orderby') ?? 0) + 1),
+                                        Toggle::make('status')
+                                            ->default(true),
+                                    ]),
 
-                TextInput::make('name')
-                    ->required()
-                    ->live(onBlur: true)
-                    ->afterStateUpdated(
-                        fn($state, callable $set) =>
-                        $set('slug', Str::slug($state))
-                    ),
+                                RichEditor::make('description')
+                                    ->columnSpanFull()
+                                    ->extraInputAttributes([
+                                        'style' => 'max-height: 400px; overflow-y: auto;',
+                                    ]),
+                            ]),
 
-                TextInput::make('slug')
-                    ->required()
-                    ->unique(ignoreRecord: true)
-                    ->disabled()
-                    ->dehydrated(),
+                        Tabs\Tab::make('Media')
+                            ->icon('heroicon-o-photo')
+                            ->schema([
+                                FileUpload::make('image')
+                                    ->image()
+                                    ->disk('public')
+                                    ->directory('Tiles_model'),
+                            ]),
 
-                Textarea::make('description')
+                        Tabs\Tab::make('SEO Settings')
+                            ->icon('heroicon-o-globe-alt')
+                            ->schema([
+                                TextInput::make('meta_title')
+                                    ->columnSpanFull(),
+                                Textarea::make('meta_description')
+                                    ->columnSpanFull()
+                                    ->rows(3),
+                            ]),
+                    ])
                     ->columnSpanFull(),
-                TextInput::make('meta_title')
-                    ->columnSpanFull(),
-                Textarea::make('meta_description')
-                    ->columnSpanFull(),
-
-                FileUpload::make('image')
-                    ->image()
-                    ->disk('public')
-                    ->directory('Tiles_model'),
-
-                Toggle::make('status')
-                    ->default(true),
-
-                TextInput::make('orderby')
-                    ->required()
-                    ->numeric()
-                    ->default(fn() => (TileModel::max('orderby') ?? 0) + 1),
             ]);
     }
 }

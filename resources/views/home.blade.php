@@ -716,6 +716,11 @@
                     </div>
                 </div>
 
+                <style>
+                    .testimonialSliderOne .swiper-slide {
+                        height: auto !important;
+                    }
+                </style>
                 <div class="slider-area testimonialSliderOne fix ">
                     <div class="swiper gt-slider" id="testimonialSliderOne"
                         data-slider-options='{"loop": true,"breakpoints":{"0":{"slidesPerView":1},"576":{"slidesPerView":1,"centeredSlides":true},"768":{"slidesPerView":1},"992":{"slidesPerView":2},"1200":{"slidesPerView":2}}}'>
@@ -724,11 +729,12 @@
                             <?php foreach ($testimonials as $t): ?>
                             <div class="swiper-slide">
                                 <div class="testimonial-card-items style1 wow fadeInUp" data-wow-delay=".5s"
-                                    data-bg-src="assets/images/bg/testimonialBg1_1.png">
+                                    data-bg-src="assets/images/bg/testimonialBg1_1.png"
+                                    style="height: 100%; display: flex; flex-direction: column; justify-content: space-between;">
 
                                     <div class="body">
                                         <p>
-                                            <?= strlen($t['text']) > 120 ? rtrim(substr($t['text'], 0, 120)) . '...' : $t['text'] ?>
+                                            <?= $t['text'] ?>
                                         </p>
                                     </div>
 

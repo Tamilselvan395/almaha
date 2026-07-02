@@ -13,9 +13,7 @@ class Blog extends Model
     {
         static::saved(function ($blog) {
             try {
-                if ($blog->wasChanged('slug') || $blog->wasRecentlyCreated) {
-                    Artisan::call('sitemap:generate');
-                }
+                Artisan::call('sitemap:generate');
             } catch (\Exception $e) {
                 \Log::error('Sitemap generation failed on blog save: ' . $e->getMessage());
             }

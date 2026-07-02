@@ -38,9 +38,7 @@ class TileModel extends Model
     {
         static::saved(function ($tilemodel) {
             try {
-                if ($tilemodel->wasChanged('slug') || $tilemodel->wasRecentlyCreated) {
-                    Artisan::call('sitemap:generate');
-                }
+                Artisan::call('sitemap:generate');
             } catch (\Exception $e) {
                 \Log::error('Sitemap generation failed on tilemodel save: ' . $e->getMessage());
             }
