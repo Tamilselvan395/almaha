@@ -3,6 +3,50 @@
 @section('meta_title', 'Premium Roofing Sheets Dubai | Al Maha')
 @section('meta_description', 'Premium roofing sheets in Dubai for residential, commercial, and industrial projects. Visit our showroom or get a free quote today!')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/roofing-materials-dubai#webpage",
+      "url": "https://www.mahabldg.com/roofing-materials-dubai",
+      "name": "Premium Roofing Sheets Dubai | Al Maha",
+      "description": "Premium roofing sheets in Dubai for residential, commercial, and industrial projects. Sourced direct, competitively priced.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/roofing-materials-dubai#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Roofing Materials",
+          "item": "https://www.mahabldg.com/roofing-materials-dubai"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

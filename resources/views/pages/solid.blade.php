@@ -3,6 +3,50 @@
 @section('meta_title', 'Premium Solid Surface Sheets Dubai | Al Maha Materials')
 @section('meta_description', 'Source premium solid surface solutions at competitive direct-importer prices in Dubai. 15+ years experience. Contact Al Maha for a bulk or project quote today!')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#webpage",
+      "url": "https://www.mahabldg.com/solid-surface-filler-sheets",
+      "name": "Premium Solid Surface Sheets Dubai | Al Maha Materials",
+      "description": "Source premium solid surface solutions at competitive direct-importer prices in Dubai. 15+ years experience.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Solid Surface Filler & Sheets",
+          "item": "https://www.mahabldg.com/solid-surface-filler-sheets"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

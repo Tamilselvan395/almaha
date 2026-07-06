@@ -3,6 +3,50 @@
 @section('meta_title', 'Premium Sanitary Ware Supplier Dubai | Al Maha Materials')
 @section('meta_description', 'Source luxury bathroom sanitary ware & accessories at direct-importer prices in Dubai. 15+ years of expertise with UAE-wide delivery. Contact us today.')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/sanitary-ware#webpage",
+      "url": "https://www.mahabldg.com/sanitary-ware",
+      "name": "Premium Sanitary Ware Supplier Dubai | Al Maha Materials",
+      "description": "Source luxury bathroom sanitary ware & accessories at direct-importer prices in Dubai. 15+ years of expertise with UAE-wide delivery.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/sanitary-ware#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sanitary Ware",
+          "item": "https://www.mahabldg.com/sanitary-ware"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

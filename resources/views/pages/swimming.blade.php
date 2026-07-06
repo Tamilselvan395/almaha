@@ -3,6 +3,50 @@
 @section('meta_title', 'Swimming Pool Tiles Dubai | Anti-Slip & Coping | Al Maha')
 @section('meta_description', 'Buy premium mosaic pool tiles, anti-slip tiles, & coping in Dubai. Direct importer prices, 15+ years of experience, and UAE-wide delivery. Get a quote!')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/swimming-pool-tiles#webpage",
+      "url": "https://www.mahabldg.com/swimming-pool-tiles",
+      "name": "Swimming Pool Tiles Dubai | Anti-Slip & Coping | Al Maha",
+      "description": "Buy premium mosaic pool tiles, anti-slip tiles, & coping in Dubai. Direct importer prices, 15+ years of experience, and UAE-wide delivery.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/swimming-pool-tiles#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Swimming Pool Tiles",
+          "item": "https://www.mahabldg.com/swimming-pool-tiles"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

@@ -3,6 +3,50 @@
 @section('meta_title', 'Cladding Tiles Dubai | Interior & Exterior | Al Maha')
 @section('meta_description', 'Premium interior & exterior cladding tiles in Dubai with expert fixing services. Direct importer prices & UAE-wide delivery. Request a quote from Al Maha!')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/cladding-tiles-fixing#webpage",
+      "url": "https://www.mahabldg.com/cladding-tiles-fixing",
+      "name": "Cladding Tiles Dubai | Interior & Exterior | Al Maha",
+      "description": "Premium interior & exterior cladding tiles in Dubai with expert fixing services. Direct importer prices & UAE-wide delivery.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/cladding-tiles-fixing#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cladding Tiles with Fixing",
+          "item": "https://www.mahabldg.com/cladding-tiles-fixing"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

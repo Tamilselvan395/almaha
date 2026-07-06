@@ -3,6 +3,50 @@
 @section('meta_title', 'Marble & Granite Supplier Dubai | Al Maha Materials')
 @section('meta_description', 'Source premium natural stone, marble, and granite at competitive direct-importer prices in Dubai. 15+ years experience. Contact Al Maha for a quote today!')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/marble-granite#webpage",
+      "url": "https://www.mahabldg.com/marble-granite",
+      "name": "Marble & Granite Supplier Dubai | Al Maha Materials",
+      "description": "Source premium natural stone, marble, and granite at competitive direct-importer prices in Dubai. 15+ years experience.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/marble-granite#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Marble & Granite",
+          "item": "https://www.mahabldg.com/marble-granite"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

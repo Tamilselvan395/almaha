@@ -3,6 +3,50 @@
 @section('meta_title', 'Premium Tile Adhesive Supplier Dubai | Al Maha Materials')
 @section('meta_description', 'Source high-performance tile glue and adhesives at competitive direct-importer prices in Dubai. 15+ years of experience. Contact Al Maha for a quote today.')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/interior-tiles-glue#webpage",
+      "url": "https://www.mahabldg.com/interior-tiles-glue",
+      "name": "Premium Tile Adhesive Supplier Dubai | Al Maha Materials",
+      "description": "Source high-performance tile glue and adhesives at competitive direct-importer prices in Dubai. 15+ years of experience.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/interior-tiles-glue#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Interior Tiles Glue",
+          "item": "https://www.mahabldg.com/interior-tiles-glue"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->
