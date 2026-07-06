@@ -57,18 +57,20 @@ class BlogForm
                                         'style' => 'max-height: 400px; overflow-y: auto;',
                                     ])
                                     ->toolbarButtons([
+                                        'attachFiles',
+                                        'blockquote',
                                         'bold',
-                                        'italic',
-                                        'underline',
-                                        'strike',
-                                        'link',
+                                        'bulletList',
+                                        'codeBlock',
                                         'h2',
                                         'h3',
-                                        'bulletList',
+                                        'italic',
+                                        'link',
                                         'orderedList',
-                                        'blockquote',
-                                        'undo',
                                         'redo',
+                                        'strike',
+                                        'underline',
+                                        'undo',
                                     ])
                                     ->required()
                                     ->columnSpanFull(),

@@ -13,7 +13,7 @@ class HomeController extends Controller
     { 
         $categories = Category::where('status', 1)->get(); // optional status
         $testimonials = Testimonial::where('status', 1)->latest()->get();
-        $blogs = Blog::where('status', 1)->take(4)->latest()->get();
+        $blogs = Blog::where('status', 1)->latest()->take(4)->get();
         // $meta_details = MetaDetailTable::where('status',1)->FirstorFail();
 
         return view('home', compact('categories','testimonials','blogs'));

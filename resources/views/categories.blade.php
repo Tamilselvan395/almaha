@@ -1,9 +1,100 @@
 @extends('layouts.app')
 
 @section('meta_title', 'Premium Tiles, Marble and Sanitary Ware Dubai | Al Maha ')
-@section('meta_description',
-    'Explore top-quality porcelain tiles, pool tiles, & sanitary ware with UAE-wide delivery.
-    15+ years of expertise. Request a quote from Al Maha today.')
+@section('meta_description', 'Explore top-quality porcelain tiles, pool tiles, & sanitary ware with UAE-wide delivery. 15+ years of expertise. Request a quote from Al Maha today.')
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/categories#webpage",
+      "url": "https://www.mahabldg.com/categories",
+      "name": "Premium Tiles, Marble, and Sanitary Ware Categories | Al Maha Dubai",
+      "description": "Explore Al Maha's premium categories of building materials, including porcelain tiles, swimming pool tiles, sanitary ware, marble, granite, cladding, and adhesives in Dubai, UAE.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "https://www.mahabldg.com/categories#itemlist",
+        "numberOfItems": 8,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": "Porcelain Tiles",
+            "url": "https://www.mahabldg.com/porcelain"
+          },
+          {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "Swimming Pool Tiles",
+            "url": "https://www.mahabldg.com/swimming-pool-tiles"
+          },
+          {
+            "@type": "ListItem",
+            "position": 3,
+            "name": "Cladding Tiles with Fixing",
+            "url": "https://www.mahabldg.com/cladding-tiles-fixing"
+          },
+          {
+            "@type": "ListItem",
+            "position": 4,
+            "name": "Sanitary Ware",
+            "url": "https://www.mahabldg.com/sanitary-ware"
+          },
+          {
+            "@type": "ListItem",
+            "position": 5,
+            "name": "Roofing Materials in Dubai",
+            "url": "https://www.mahabldg.com/roofing-materials-dubai"
+          },
+          {
+            "@type": "ListItem",
+            "position": 6,
+            "name": "Marble and Granite",
+            "url": "https://www.mahabldg.com/marble-granite"
+          },
+          {
+            "@type": "ListItem",
+            "position": 7,
+            "name": "Solid Surface Filler and Sheets",
+            "url": "https://www.mahabldg.com/solid-surface-filler-sheets"
+          },
+          {
+            "@type": "ListItem",
+            "position": 8,
+            "name": "Interior Tiles Glue",
+            "url": "https://www.mahabldg.com/interior-tiles-glue"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/categories#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Categories",
+          "item": "https://www.mahabldg.com/categories"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
 
 @section('content')
 

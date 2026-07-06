@@ -125,4 +125,23 @@
         </div>
     </div>
 
+    <style>
+        .blog-detailed-content ul {
+            list-style-type: disc !important;
+            padding-left: 25px !important;
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+        }
+        .blog-detailed-content ol {
+            list-style-type: decimal !important;
+            padding-left: 25px !important;
+            margin-top: 15px !important;
+            margin-bottom: 15px !important;
+        }
+        .blog-detailed-content li {
+            display: list-item !important;
+            margin-bottom: 8px !important;
+            list-style-position: outside !important;
+        }
+    </style>
 @endsection

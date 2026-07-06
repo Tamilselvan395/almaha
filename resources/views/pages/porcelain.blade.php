@@ -1,8 +1,51 @@
 @extends('layouts.app')
 
 @section('meta_title', 'Premium Porcelain Tiles Dubai | Al Maha Building Materials')
-@section('meta_description', 'Source outdoor porcelain tiles and slabs at competitive direct-importer prices in Dubai.
-    UAE-wide delivery. Contact Al Maha for a quote today!')
+@section('meta_description', 'Source outdoor porcelain tiles and slabs at competitive direct-importer prices in Dubai. UAE-wide delivery. Contact Al Maha for a quote today!')
+
+@section('schema')
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/porcelain#webpage",
+      "url": "https://www.mahabldg.com/porcelain",
+      "name": "Premium Porcelain Tiles Collection | Al Maha Dubai",
+      "description": "Explore our premium collection of indoor, outdoor, floor, and wall porcelain tiles available in Dubai, UAE.",
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/porcelain#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Porcelain Tiles",
+          "item": "https://www.mahabldg.com/porcelain"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
 
 @section('content')
 

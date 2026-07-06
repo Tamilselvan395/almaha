@@ -72,7 +72,7 @@
                                         <h2 class="product-title">Product Overview</h2>
                                     </div>
 
-                                    <p class="text">{{ $detailpage->description }}</p>
+                                    <div class="text product-rich-description">{!! $detailpage->description !!}</div>
 
                                     <div class="product-specs">
 
@@ -233,6 +233,23 @@
 
 
     <style>
+        .product-rich-description ul {
+            list-style-type: disc !important;
+            padding-left: 20px !important;
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .product-rich-description ol {
+            list-style-type: decimal !important;
+            padding-left: 20px !important;
+            margin-top: 10px !important;
+            margin-bottom: 10px !important;
+        }
+        .product-rich-description li {
+            display: list-item !important;
+            margin-bottom: 5px !important;
+        }
+
         .product-specs {
             margin-bottom: 20px;
         }
