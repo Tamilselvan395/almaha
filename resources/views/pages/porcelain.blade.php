@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/porcelain#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are porcelain tiles used for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcelain tiles are used for flooring, wall cladding, kitchens, bathrooms, commercial spaces, hospitality projects, and outdoor areas. Their durability and low maintenance requirements make them one of the most versatile tile options available in Dubai."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are porcelain tiles suitable for outdoor use in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Outdoor porcelain tiles are weather-resistant, UV-resistant, and available in slip-resistant finishes, making them suitable for patios, terraces, walkways, garden areas, balconies, and pool surrounds across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do porcelain tiles cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcelain tile prices in Dubai vary depending on the finish, size, and collection. Al Maha offers competitive pricing across both standard and premium ranges. Contact us for a quote tailored to your project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are porcelain tiles waterproof?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcelain tiles have very low water absorption properties, making them highly resistant to moisture and ideal for wet areas such as bathrooms, kitchens, and outdoor spaces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do porcelain tiles require special maintenance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "No. Porcelain tiles are easy to clean and maintain using standard cleaning methods, making them one of the most practical flooring choices for residential and commercial projects in Dubai."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why are porcelain tiles popular in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcelain tiles combine durability, moisture resistance, and style in a single product that aligns with Dubai's climate and modern UAE architecture, suiting both indoor and outdoor use."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sizes of porcelain tiles are available in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha stocks porcelain tiles in sizes including 600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, and large-format porcelain slabs. Contact the team to check availability for your project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between porcelain and ceramic tiles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Porcelain tiles are denser, harder, and have a significantly lower water absorption rate than standard ceramic tiles, making them more suitable for high-traffic areas, wet spaces, and outdoor use in Dubai's climate."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/porcelain#product",
+      "name": "Porcelain Tiles",
+      "description": "Premium porcelain floor tiles, wall tiles, and outdoor porcelain tiles in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Porcelain Tiles",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Sizes",
+          "value": "600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, large-format slabs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Thickness",
+          "value": "9mm to 20mm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Polished, matte, lappato, textured, anti-slip"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Sourcing",
+          "value": "Sourced from globally recognised international manufacturers"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/porcelain#breadcrumb",
       "itemListElement": [

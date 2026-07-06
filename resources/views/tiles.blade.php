@@ -3,6 +3,63 @@
 @section('meta_title', $categories->meta_title ?? '')
 @section('meta_description', $categories->meta_description ?? '')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ request()->url() }}#webpage",
+      "url": "{{ request()->url() }}",
+      "name": {!! json_encode($categories->name) !!},
+      "description": {!! json_encode($categories->description ?? 'Explore ' . $categories->name . ' collection at Al Maha.') !!},
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "{{ request()->url() }}#itemlist",
+        "numberOfItems": 1,
+        "itemListElement": [
+          {
+            "@type": "ListItem",
+            "position": 1,
+            "name": {!! json_encode($tiles->name) !!},
+            "url": "{{ route('varient', ['tiles' => $tiles->slug]) }}"
+          }
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ request()->url() }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Categories",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {!! json_encode($categories->name) !!},
+          "item": "{{ request()->url() }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

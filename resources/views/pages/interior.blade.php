@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/interior-tiles-glue#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What tile adhesive does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of tile adhesives and interior tile glue in Dubai, including standard set, rapid set, flexible, large-format, white, and waterproof tile adhesives for residential, commercial, and hospitality tiling projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Al Maha a direct tile adhesive supplier in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a direct building materials supplier in Dubai, sourcing tile adhesive and interior tile glue directly from internationally recognised manufacturers, offering premium quality at competitive prices with no middleman markup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between standard and flexible tile adhesive?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard tile adhesive is a cement-based bonding compound for stable, rigid substrates. Flexible tile adhesive is a polymer-modified formulation for substrates subject to movement, vibration, or thermal expansion, including underfloor heating and large-format tiles."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tile adhesive is best for large-format porcelain tiles in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Large-format porcelain tiles require a high-performance, non-slump adhesive with extended open time for accurate positioning and full back coverage. Al Maha supplies specialist large-format tile adhesive formulated for oversized slabs and heavy natural stone."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What tile adhesive is best for bathrooms and wet areas in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bathrooms and wet areas require waterproof or moisture-resistant tile adhesive for long-term bond strength in high-humidity environments. Al Maha supplies waterproof tile adhesive suitable for wet area floor and wall tile fixing."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply tile adhesive for hospitality and hotel projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha supplies rapid-set, large-format, and waterproof tile adhesives for luxury hotels, resorts, spas, and large-scale hospitality fit-outs across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much does tile adhesive cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Tile adhesive prices vary depending on formulation, grade, brand, and quantity required. Al Maha offers competitive pricing across standard and premium ranges as a direct supplier. Contact us for a tailored quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view tile adhesive products at Al Maha's Dubai showroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can visit Al Maha's showroom in Al Qusais Industrial Area 3, Dubai, to discuss tile fixing requirements with the team, who can advise on the right adhesive formulation. Tile adhesive is also supplied across all seven Emirates."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/interior-tiles-glue#product",
+      "name": "Tile Adhesive and Interior Tile Glue",
+      "description": "Premium tile adhesive and interior tile glue in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Tile Fixing Materials",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Adhesive Types",
+          "value": "Cement-based, epoxy, polymer-modified"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Setting Times",
+          "value": "Standard set, rapid set, extended open-time"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Flexibility & Colours",
+          "value": "Rigid, semi-flexible, fully flexible; grey and white"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Standards",
+          "value": "UAE construction regulations, EN 12004 / ISO standards"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/interior-tiles-glue#breadcrumb",
       "itemListElement": [

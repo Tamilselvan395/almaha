@@ -3,6 +3,65 @@
 @section('meta_title', $detailpage->meta_title ?? '')
 @section('meta_description', $detailpage->meta_description ?? '')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Product",
+      "@id": "{{ request()->url() }}#product",
+      "name": {!! json_encode($detailpage->name) !!},
+      "image": "{{ !empty($detailpage->image[0]) ? url(Storage::url($detailpage->image[0])) : '' }}",
+      "description": {!! json_encode(strip_tags($detailpage->description)) !!},
+      "sku": "{{ $detailpage->tiles_code ?? 'AM-' . $detailpage->id }}",
+      "mpn": "{{ $detailpage->tiles_code ?? 'AM-' . $detailpage->id }}",
+      "brand": {
+        "@type": "Brand",
+        "name": "Al Maha"
+      },
+      "offers": {
+        "@type": "Offer",
+        "url": "{{ request()->url() }}",
+        "priceCurrency": "AED",
+        "price": "{{ is_numeric($detailpage->price) ? $detailpage->price : '0.00' }}",
+        "priceValidUntil": "2027-12-31",
+        "itemCondition": "https://schema.org/NewCondition",
+        "availability": "https://schema.org/InStock",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#localbusiness"
+        }
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ request()->url() }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Products",
+          "item": "https://www.mahabldg.com/categories"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": {!! json_encode($detailpage->name) !!},
+          "item": "{{ request()->url() }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
     <!-- Breadcumb Section  S T A R T -->
     <div class="breadcumb-section">

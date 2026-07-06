@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/cladding-tiles-fixing#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What are cladding tiles used for in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cladding tiles in Dubai are used for interior and exterior wall applications including building facades, feature walls, kitchen splashbacks, bathroom walls, hotel lobbies, and commercial interiors. Their durability, weather resistance, and wide range of designs make them one of the most versatile wall finishing solutions available in the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between cladding tiles and regular wall tiles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cladding tiles are specifically designed for wall surface applications and are available in thicker formats and larger sizes than standard wall tiles, making them suitable for both interior accent walls and exterior building facades. Regular wall tiles are typically lighter and thinner and are suited to interior wet areas such as bathrooms and kitchens."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are cladding tiles suitable for exterior use in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our exterior cladding tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai's extreme heat, moisture, and wind conditions, making them suitable for building facades, exterior walls, and outdoor feature walls across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha provide cladding tile fixing services in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha provides a complete supply and installation service for cladding tiles in Dubai through our experienced tile fixing contractors. We handle interior and exterior cladding installations for residential, commercial, and large-scale construction projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do cladding tiles cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cladding tile prices in Dubai vary depending on the material, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium cladding tile ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What finishes are available for cladding tiles in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies cladding tiles in Dubai in a wide range of finishes including natural stone effect, wood effect, concrete effect, polished, matte, and textured surfaces. Our range covers porcelain cladding tiles, natural stone cladding, marble cladding, and granite cladding for every design specification."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can cladding tiles be used for feature walls in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Cladding tiles are one of the most popular choices for interior feature walls and accent walls in Dubai, used across residential villas, hotel lobbies, office receptions, restaurants, and retail spaces. Our range includes large-format porcelain cladding panels and natural stone cladding tiles suitable for high-impact interior feature wall applications."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I view cladding tiles in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can view our full range of cladding tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right cladding tile finish, format, and material for your specific project. We also supply cladding tiles to project sites across all seven Emirates."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/cladding-tiles-fixing#product",
+      "name": "Cladding Tiles",
+      "description": "Premium interior and exterior cladding tiles in Dubai with expert fixing and installation services, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Cladding Materials",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Materials",
+          "value": "Natural stone, slate, quartzite, premium porcelain, marble, granite"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Fixing Systems",
+          "value": "Mechanical fixing, adhesive fixing, dry cladding, wet cladding"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Panel Sizes",
+          "value": "150x600mm, 300x600mm, large-format facade slabs"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Split-face, natural cleft, honed, textured, brick-effect, 3D relief"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/cladding-tiles-fixing#breadcrumb",
       "itemListElement": [

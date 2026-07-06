@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/marble-granite#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What marble and granite does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of marble and granite in Dubai, including marble flooring, granite flooring, wall cladding slabs, countertops, staircase pieces, and natural stone mosaics for residential, commercial, and hospitality projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Al Maha a direct marble and granite importer in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a direct marble and granite importer in Dubai, sourcing natural stone directly from internationally recognised quarries and manufacturers across Italy, Spain, India, Turkey, and Brazil. This allows us to offer premium quality at competitive marble and granite prices in Dubai with no middleman markup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of marble are available in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a wide range of marble in Dubai including Carrara marble, Statuario marble, Emperador marble, and a variety of imported and locally stocked natural stone collections. Our marble range is available in polished, honed, and brushed finishes in standard tile formats, large-format slabs, and custom-cut pieces."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between marble and granite?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marble is a metamorphic natural stone known for its distinctive veining and polished finish, making it the preferred choice for luxury bathrooms, lobbies, and feature walls. Granite is an igneous natural stone known for its superior hardness, scratch resistance, and durability, making it ideal for kitchen countertops, high-traffic flooring, and exterior applications. Al Maha supplies both marble and granite in Dubai to suit every project requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply marble and granite for hospitality projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a trusted natural stone supplier for hospitality projects in Dubai and across the UAE, supplying marble flooring, granite surfaces, and complete natural stone solutions for luxury hotels, resorts, spas, serviced apartments, and large-scale hospitality developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do marble and granite cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Marble and granite prices in Dubai vary depending on the stone type, origin, finish, format, and collection. Al Maha offers competitive pricing across both standard and premium natural stone ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view marble and granite at Al Maha's Dubai showroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can view our full range of marble and granite in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right natural stone for your project budget, design specification, and application. We also supply natural stone to project sites across all seven Emirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply marble and granite for large-scale construction projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha supplies marble and granite for large-scale residential developments, commercial buildings, mixed-use projects, and hospitality developments across Dubai and the UAE, providing reliable supply, consistent stone quality, and UAE-wide delivery for projects of every scale."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/marble-granite#product",
+      "name": "Marble and Granite",
+      "description": "Premium natural stone, imported marble slabs, and granite surfaces in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Natural Stone",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Stone Types",
+          "value": "Carrara, Statuario, Emperador marble; exotic and local granite"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Origins",
+          "value": "Italy, Spain, Turkey, Brazil, India"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Slab Sizes",
+          "value": "Standard 2cm and 3cm thick slabs, custom cut-to-size options"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Polished, honed, brushed, leathered, flamed"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/marble-granite#breadcrumb",
       "itemListElement": [

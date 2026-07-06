@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/swimming-pool-tiles#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What types of swimming pool tiles does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of swimming pool tiles in Dubai including anti-slip pool tiles, coping tiles, mosaic pool tiles, porcelain pool tiles, and ceramic pool tiles. Our range covers residential villas, hotel pools, resort developments, spas, and recreational facilities across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are swimming pool tiles suitable for outdoor pools in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our swimming pool tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai's extreme heat, direct sun exposure, and constant water contact, making them suitable for both indoor and outdoor pools across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are anti-slip pool tiles and why are they important?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Anti-slip pool tiles in Dubai feature textured or treated surfaces that provide better grip in wet conditions. They are essential for pool steps, entry areas, pool edges, and surrounding walkways where slip resistance is a critical safety requirement for both residential and commercial pools."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are coping tiles used for in a swimming pool?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Coping tiles in Dubai are used to finish the edge of a swimming pool, creating a clean, safe border between the pool water and the surrounding area. They protect the pool structure, provide a comfortable edge for swimmers, and contribute to the visual finish of the pool design."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do swimming pool tiles cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Swimming pool tile prices in Dubai vary depending on the tile type, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium pool tile ranges. Contact us for a quote tailored to your project."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can swimming pool tiles be used for spas and water features?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Our swimming pool tiles in Dubai are commonly used for spas, jacuzzis, fountains, water features, and other wet environments due to their durability, water resistance, and wide range of available finishes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Where can I buy swimming pool tiles in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "You can view and purchase swimming pool tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. As a direct pool tiles supplier in Dubai, we also supply to project sites across all seven Emirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between pool tiles and regular tiles?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Swimming pool tiles are specifically engineered for constant water immersion, chemical exposure, and wet environment conditions. Unlike standard floor or wall tiles, pool tiles have very low water absorption rates, enhanced chemical resistance, and are available in anti-slip finishes, making them the only recommended choice for pool interiors, pool surrounds, and wet areas across Dubai and the UAE."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/swimming-pool-tiles#product",
+      "name": "Swimming Pool Tiles",
+      "description": "Premium swimming pool tiles, anti-slip pool tiles, mosaic pool tiles, and coping tiles in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Swimming Pool Tiles",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Tile Types",
+          "value": "Glass mosaics, ceramic mosaics, porcelain coping, anti-slip border tiles"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Sizes",
+          "value": "20x20mm, 25x25mm, 48x48mm mosaics; custom coping sizes"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Glossy, matte, anti-slip (Class C / R11 rating), textured"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Properties",
+          "value": "Frost-resistant, chemical-resistant, UV-resistant, zero water absorption glass"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/swimming-pool-tiles#breadcrumb",
       "itemListElement": [

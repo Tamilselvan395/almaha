@@ -111,50 +111,7 @@ return new class extends Migration
       ],
       "hasOfferCatalog": {
         "@id": "https://www.mahabldg.com/#offercatalog"
-      },
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "reviewCount": "3"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Ahmad Al-Mansoori"
-          },
-          "reviewBody": "Al Maha has been our go-to partner for premium porcelain and outdoor swimming pool tiles in Dubai. Their material quality is consistently excellent, and the delivery schedules are always met.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Sarah Jenkins"
-          },
-          "reviewBody": "The variety of marble, granite, and interior tiles glue we sourced from Al Maha for our residential villa projects was outstanding. Highly professional service and top-grade building materials.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          }
-        },
-        {
-          "@type": "Review",
-          "author": {
-            "@type": "Person",
-            "name": "Vikram Malhotra"
-          },
-          "reviewBody": "Reliability, competitive pricing, and outstanding support. Their cladding tiles and sanitary ware collections helped us achieve the premium finish required for our commercial projects.",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5"
-          }
-        }
-      ]
+      }
     },
     {
       "@type": "OfferCatalog",
@@ -275,6 +232,62 @@ return new class extends Migration
             "@type": "Answer",
             "text": "Al Maha Building Materials is located in Al Qusais Industrial Area 3, Dubai. Our showroom is open for contractors, developers, and homeowners to view our full range of tiles, sanitary ware, marble, granite, and surface solutions in person."
           }
+        }
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://www.mahabldg.com/#service-list",
+      "name": "Al Maha Building Materials Categories",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Porcelain Tiles",
+          "url": "https://www.mahabldg.com/porcelain"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Swimming Pool Tiles",
+          "url": "https://www.mahabldg.com/swimming-pool-tiles"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Cladding Tiles with Fixing",
+          "url": "https://www.mahabldg.com/cladding-tiles-fixing"
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "name": "Sanitary Ware",
+          "url": "https://www.mahabldg.com/sanitary-ware"
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "name": "Roofing Materials in Dubai",
+          "url": "https://www.mahabldg.com/roofing-materials-dubai"
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "name": "Marble and Granite",
+          "url": "https://www.mahabldg.com/marble-granite"
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "name": "Solid Surface Filler and Sheets",
+          "url": "https://www.mahabldg.com/solid-surface-filler-sheets"
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "name": "Interior Tiles Glue",
+          "url": "https://www.mahabldg.com/interior-tiles-glue"
         }
       ]
     },
@@ -461,28 +474,87 @@ JSON;
 JSON;
 
         $meta = MetaDetailTable::first();
+        $data = [
+            'index_meta_title' => 'Al Maha Building Materials | Premium Tiles Supplier Dubai',
+            'index_meta_description' => 'Al Maha Building Materials is a leading supplier of high-quality porcelain tiles, swimming pool tiles, sanitary ware, marble, granite, cladding and roofing sheets in Dubai, UAE.',
+            'index_schema' => $index_schema,
+            'about_meta_title' => 'About Al Maha Building Materials Trading LLC | Dubai',
+            'about_meta_description' => 'Discover the legacy of Al Maha International, a premier supplier of premium tiles, stones, and sanitary ware in the UAE since 15 years.',
+            'about_schema' => $about_schema,
+            'contact_meta_title' => 'Contact Al Maha Building Materials | Dubai Tile Supplier',
+            'contact_meta_description' => 'Contact Al Maha Building Materials in Al Qusais, Dubai for tile, sanitary ware, and building material inquiries, quotes, and project consultations. Call +971 4 267 1988.',
+            'contact_schema' => $contact_schema,
+            'blog_meta_title' => 'Al Maha International Building Materials Trading LLC | Blogs',
+            'blog_meta_description' => 'Stay updated with the latest trends, guides, and tips on tile selection, stone cladding, and construction materials in Dubai.',
+            'blog_schema' => $blog_schema,
+            'status' => true,
+        ];
+
         if ($meta) {
-            $meta->update([
-                'index_schema' => $index_schema,
-                'about_schema' => $about_schema,
-                'blog_schema' => $blog_schema,
-                'contact_schema' => $contact_schema,
-            ]);
+            $meta->update($data);
         } else {
-            MetaDetailTable::create([
-                'index_meta_title' => 'Al Maha International Building Materials Trading LLC | Dubai',
-                'index_meta_description' => 'Al Maha is one of the leading supplier of high quality porcelain tiles, swimming pool tiles, sanitary ware, marble, granite, cladding and roofing sheets in Dubai, UAE.',
-                'index_schema' => $index_schema,
-                'about_meta_title' => 'About Al Maha Building Materials Trading LLC | Dubai',
-                'about_meta_description' => 'Discover the legacy of Al Maha International, a premier supplier of premium tiles, stones, and sanitary ware in the UAE.',
-                'about_schema' => $about_schema,
-                'contact_meta_title' => 'Contact Al Maha Building Materials | Al Qusais Showroom',
-                'contact_meta_description' => 'Get in touch with Al Maha International in Dubai. Visit our showroom on Amman St, Al Qusais Industrial Area 3.',
-                'contact_schema' => $contact_schema,
-                'blog_meta_title' => 'Al Maha International Building Materials Trading LLC | Blogs',
-                'blog_meta_description' => 'Stay updated with the latest trends, guides, and tips on tile selection, stone cladding, and construction materials.',
-                'blog_schema' => $blog_schema,
+            MetaDetailTable::create($data);
+        }
+
+        // Truncate and seed Testimonials to ensure only the requested 3 reviews exist
+        \App\Models\Testimonial::truncate();
+        \App\Models\Testimonial::insert([
+            [
+                'text' => 'Al Maha has been our go-to partner for premium porcelain and outdoor swimming pool tiles in Dubai. Their material quality is consistently excellent, and the delivery schedules are always met.',
+                'name' => 'Ahmad Al-Mansoori',
+                'role' => 'Senior Architect, Landmark Developments',
                 'status' => true,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'text' => 'The variety of marble, granite, and interior tiles glue we sourced from Al Maha for our residential villa projects was outstanding. Highly professional service and top-grade building materials.',
+                'name' => 'Sarah Jenkins',
+                'role' => 'Principal Interior Designer, Luxe Spaces',
+                'status' => true,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+            [
+                'text' => 'Reliability, competitive pricing, and outstanding support. Their cladding tiles and sanitary ware collections helped us achieve the premium finish required for our commercial projects.',
+                'name' => 'Vikram Malhotra',
+                'role' => 'Project Manager, BuildCorp UAE',
+                'status' => true,
+                'created_at' => now(),
+                'updated_at' => now(),
+            ],
+        ]);
+
+        // Seed the 2 dummy/test blogs if they do not exist
+        $blog1_slug = 'porcelain-tiles-vs-ceramic-tiles-dubai';
+        if (!\App\Models\Blog::where('slug', $blog1_slug)->exists()) {
+            \App\Models\Blog::create([
+                'title' => 'Porcelain Tiles vs Ceramic Tiles: Which Is Better for Dubai Homes?',
+                'slug' => $blog1_slug,
+                'short_description' => 'Compare porcelain tiles vs ceramic tiles to discover the best flooring solution for Dubai homes, covering durability, water resistance, maintenance, and cost.',
+                'long_description' => '<h3>Porcelain vs Ceramic</h3><p>When selecting the best tiling for Dubai homes, the choice often comes down to porcelain tiles vs ceramic tiles. Both materials have their advantages, but porcelain is denser, harder, and has a lower water absorption rate. This makes it highly durable and ideal for wet areas like bathrooms and kitchens, as well as outdoor areas. Ceramic tiles, on the other hand, are lighter and easier to cut, making them a cost-effective option for walls and low-traffic indoor spaces.</p>',
+                'image' => 'blog/01KWV4KPVREXZP7MW7KMS4RTTJ.png',
+                'meta_title' => 'Porcelain Tiles vs Ceramic Tiles Dubai | Al Maha',
+                'meta_description' => 'Discover the key differences between porcelain and ceramic tiles to make the best choice for your Dubai home renovation.',
+                'status' => true,
+                'created_at' => now()->subDays(5),
+                'updated_at' => now()->subDays(5),
+            ]);
+        }
+
+        $blog2_slug = '10-luxury-bathroom-design-ideas-with-premium-sanitary-ware';
+        if (!\App\Models\Blog::where('slug', $blog2_slug)->exists()) {
+            \App\Models\Blog::create([
+                'title' => '10 Luxury Bathroom Design Ideas with Premium Sanitary Ware',
+                'slug' => $blog2_slug,
+                'short_description' => 'Discover 10 inspiring luxury bathroom design ideas featuring premium sanitary ware, porcelain tiles, elegant fixtures, and modern finishes.',
+                'long_description' => '<h3>Luxury Bathroom Design</h3><p>Creating a spa-like retreat in your home is easier than ever with premium sanitary ware. From wall-hung toilets and freestanding bathtubs to elegant chrome faucets, modern fixtures offer both functionality and aesthetic appeal. Pairing premium sanitary ware with high-quality porcelain tiling completes the look, providing a clean, elegant, and durable finish that lasts.</p>',
+                'image' => 'blog/01KTRR20DPPWJP055D42X11K58.png',
+                'meta_title' => '10 Luxury Bathroom Design Ideas Dubai | Al Maha',
+                'meta_description' => 'Explore 10 designer bathroom layouts and fixtures to transform your bathroom into a luxury retreat.',
+                'status' => true,
+                'created_at' => now()->subDays(10),
+                'updated_at' => now()->subDays(10),
             ]);
         }
     }

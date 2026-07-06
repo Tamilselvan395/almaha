@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/roofing-materials-dubai#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What roofing sheets does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of roofing sheets in Dubai, including corrugated roofing panels, polycarbonate sheets, metal roofing, insulated sandwich panels, and roofing accessories for residential, commercial, and industrial projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Al Maha a direct roofing sheet supplier in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a direct roofing supplier in Dubai, sourcing roofing sheets and construction materials directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive roofing sheet prices with no middleman markup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What types of roofing sheets are available in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies roofing sheets in Dubai in a wide range of materials and profiles including corrugated metal, polycarbonate, aluminium, galvanised steel, and insulated sandwich panels. Our range covers multiple finishes and specifications to suit every construction and architectural requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply roofing sheets for industrial projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a trusted building materials supplier for industrial projects in Dubai and across the UAE, supplying heavy-duty roofing sheets, insulated panels, and complete roofing solutions for warehouses, factories, cold storage facilities, and large-scale industrial developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do roofing sheets cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Roofing sheet prices in Dubai vary depending on the material type, profile, finish, and specification. Al Maha offers competitive pricing across both standard and premium roofing ranges as a direct building materials supplier. Contact us for a quote tailored to your specific project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply roofing sheets for commercial buildings in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha supplies roofing sheets for commercial buildings, warehouses, retail developments, and large-scale construction projects across Dubai and the UAE, providing reliable supply and UAE-wide delivery for every project scale."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view roofing sheets at Al Maha's Dubai showroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can view our roofing sheet range at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right roofing solution for your project budget and specifications. We also supply roofing materials to project sites across all seven Emirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between standard and luxury roofing sheets?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard roofing sheets offer reliable weather protection and practical performance at competitive prices, making them suitable for industrial facilities, warehouses, and budget-conscious construction projects. Premium roofing sheets combine high-performance materials, superior insulation, and architectural finishes, making them the preferred choice for luxury residential developments, high-end commercial buildings, and premium hospitality projects in Dubai."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/roofing-materials-dubai#product",
+      "name": "Roofing Materials",
+      "description": "Premium roofing sheets, insulated sandwich panels, corrugated sheets, and polycarbonate roofing in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Roofing Sheets",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Sheet Types",
+          "value": "Corrugated metal, polycarbonate panels, insulated sandwich panels, aluminium sheets"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Materials",
+          "value": "Galvanised steel, aluminium, polycarbonate, polyurethane foam insulation"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Ratings",
+          "value": "Thermal insulation U-value, UV protection, impact resistance, weather rating"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Sizes",
+          "value": "Standard corrugated lengths, custom sandwich panel thicknesses, variable width sheets"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/roofing-materials-dubai#breadcrumb",
       "itemListElement": [

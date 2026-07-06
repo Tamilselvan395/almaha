@@ -3,6 +3,59 @@
 @section('meta_title', $tiles->meta_title ?? '')
 @section('meta_description', $tiles->meta_description ?? '')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "{{ request()->url() }}#webpage",
+      "url": "{{ request()->url() }}",
+      "name": {!! json_encode($tiles->name) !!},
+      "description": {!! json_encode($tiles->description ?? 'Explore ' . $tiles->name . ' variants at Al Maha.') !!},
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      },
+      "mainEntity": {
+        "@type": "ItemList",
+        "@id": "{{ request()->url() }}#itemlist",
+        "numberOfItems": {{ count($varients) }},
+        "itemListElement": [
+          @foreach($varients as $index => $varient)
+          {
+            "@type": "ListItem",
+            "position": {{ $index + 1 }},
+            "name": {!! json_encode($varient->name) !!},
+            "url": "{{ route('product', ['detail' => $varient->slug]) }}"
+          }{{ !$loop->last ? ',' : '' }}
+          @endforeach
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ request()->url() }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {!! json_encode($tiles->name) !!},
+          "item": "{{ request()->url() }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
     <style>
         .shop-card-items img {

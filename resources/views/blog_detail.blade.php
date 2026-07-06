@@ -3,6 +3,67 @@
 @section('meta_title', $blog->meta_title ?? '')
 @section('meta_description', $blog->meta_description ?? '')
 
+@section('schema')
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "BlogPosting",
+      "@id": "{{ request()->url() }}#post",
+      "headline": {!! json_encode($blog->title) !!},
+      "description": {!! json_encode($blog->short_description) !!},
+      "articleBody": {!! json_encode(strip_tags($blog->long_description)) !!},
+      "image": "{{ $blog->image ? url(Storage::url($blog->image)) : '' }}",
+      "datePublished": "{{ $blog->created_at ? $blog->created_at->toIso8601String() : '' }}",
+      "dateModified": "{{ $blog->updated_at ? $blog->updated_at->toIso8601String() : '' }}",
+      "mainEntityOfPage": "{{ request()->url() }}",
+      "author": {
+        "@type": "Organization",
+        "name": "Al Maha Building Materials"
+      },
+      "publisher": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "{{ request()->url() }}#webpage",
+        "url": "{{ request()->url() }}"
+      }
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://www.mahabldg.com/#organization",
+      "name": "Al Maha Building Materials",
+      "url": "https://www.mahabldg.com/",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://www.mahabldg.com/assets/images/logo.png"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "{{ request()->url() }}#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": {!! json_encode($blog->title) !!},
+          "item": "{{ request()->url() }}"
+        }
+      ]
+    }
+  ]
+}
+</script>
+@endsection
+
 @section('content')
 
     <!-- Breadcumb Section  S T A R T -->

@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/sanitary-ware#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What sanitary ware does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of sanitary wares, including basins, toilets, bathtubs, shower trays, shower enclosures, urinals, and bathroom accessories for residential, commercial, and hospitality projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Al Maha a direct sanitary ware importer in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a direct sanitary ware importer in Dubai, sourcing bathroom fittings and sanitary ware directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive sanitary ware prices in Dubai with no middleman markup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What styles of sanitary ware are available in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies sanitary ware across Dubai in a wide range of styles including modern, contemporary, classic, and minimalist designs. Our range covers gloss white, matte white, custom colour, and metallic finishes to suit every bathroom specification and interior design requirement."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply luxury sanitary ware in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha supplies a carefully curated range of luxury sanitary ware in Dubai including designer basins, freestanding bathtubs, wall-hung toilets, and frameless shower enclosures for high-end residential villas, luxury hotels, and premium hospitality developments across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do sanitary ware cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sanitary ware prices in Dubai vary depending on the product type, style, finish, and collection. Al Maha offers competitive pricing across both standard and premium sanitary ware ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply sanitary ware for hotels and hospitality projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a trusted sanitary ware supplier for hospitality projects in Dubai and across the UAE, supplying bathroom fittings, hotel bathroom sanitary ware, and complete washroom solutions for luxury hotels, resorts, serviced apartments, and large-scale hospitality developments."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view sanitary ware in Al Maha's Dubai showroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can view our full range of sanitary ware in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right sanitary ware for your project budget and specifications. We also supply sanitary ware to project sites across all seven Emirates."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between standard and luxury sanitary ware?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Standard sanitary ware offers reliable quality and practical functionality at competitive prices, making it suitable for residential developments, commercial washrooms, and budget-conscious projects. Luxury sanitary ware combines premium materials, designer aesthetics, and advanced functionality, making it the preferred choice for high-end villas, boutique hotels, and premium hospitality projects in Dubai."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/sanitary-ware#product",
+      "name": "Sanitary Ware",
+      "description": "Premium bathroom fittings, luxury toilets, designer basins, and sanitary ware in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Sanitary Ware",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Fixture Types",
+          "value": "WC suites, wall-hung toilets, wash basins, freestanding tubs, faucets, shower systems"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Materials",
+          "value": "Vitreous china, fine fireclay, solid surface, acrylic, solid brass chrome-plated"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Gloss white, matte white, matte black, chrome, brushed gold, anthracite"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Compliance Standards",
+          "value": "Dubai Municipality standards, water-saving certifications, ESMA certified"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/sanitary-ware#breadcrumb",
       "itemListElement": [

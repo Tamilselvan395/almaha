@@ -19,6 +19,117 @@
       }
     },
     {
+      "@type": "FAQPage",
+      "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What solid surface sheets and fillers does Al Maha supply in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies a comprehensive range of solid surface sheets and fillers in Dubai, including standard panels, stone-look sheets, translucent backlit panels, colour-matched fillers, and jointing adhesives for residential, commercial, and hospitality projects across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is Al Maha a direct solid surface sheets supplier in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha is a direct building materials supplier in Dubai, sourcing solid surface sheets and fillers directly from internationally recognised manufacturers, offering premium quality at competitive prices with no middleman markup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between solid surface sheets and natural stone?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solid surface sheets are engineered, non-porous panels offering seamless joining, full repairability, and design flexibility that natural stone cannot match. Natural stone offers unique natural patterning and premium aesthetic appeal. Al Maha supplies both to suit every project requirement and budget."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What colours and finishes are available for solid surface sheets in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Al Maha supplies solid surface sheets in a wide range of colours, patterns, and finishes including stone-look, wood-look, solid colours, veined patterns, and translucent designs, with matte, satin, gloss, and textured surface finishes."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What are solid surface fillers used for?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Solid surface fillers are colour-matched jointing compounds used to create seamless, invisible joins between sheets during installation, and are also used for surface repairs and achieving a continuous, high-finish appearance."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does Al Maha supply solid surface sheets for hospitality projects in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Al Maha supplies solid surface sheets, vanity tops, reception desk surfaces, and complete solutions for luxury hotels, spas, resorts, serviced apartments, and large-scale hospitality developments across the UAE."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How much do solid surface sheets cost in Dubai?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Prices vary depending on material type, thickness, colour, finish, and collection. Al Maha offers competitive pricing across standard and premium ranges as a direct supplier. Contact us for a tailored quote."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I view solid surface sheets at Al Maha's Dubai showroom?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. You can view the full range of solid surface sheets and fillers at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai, with team support for selecting the right solution. Materials are also supplied across all seven Emirates."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Product",
+      "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#product",
+      "name": "Solid Surface Sheets and Fillers",
+      "description": "Premium engineered solid surface sheets and jointing fillers in Dubai, sourced direct from international manufacturers.",
+      "brand": {
+        "@id": "https://www.mahabldg.com/#organization"
+      },
+      "category": "Solid Surface Materials",
+      "additionalProperty": [
+        {
+          "@type": "PropertyValue",
+          "name": "Materials",
+          "value": "Acrylic solid surface, polyester solid surface, hybrid acrylic-polyester blends"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Sheet Sizes",
+          "value": "760mm x 3660mm, 920mm x 3660mm, custom sizing available"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Thickness",
+          "value": "6mm, 9mm, 12mm"
+        },
+        {
+          "@type": "PropertyValue",
+          "name": "Finishes",
+          "value": "Matte, satin, gloss, textured; stone-look, wood-look, solid colours, veined, translucent"
+        }
+      ],
+      "offers": {
+        "@type": "AggregateOffer",
+        "priceCurrency": "AED",
+        "availability": "https://schema.org/InStock",
+        "areaServed": "AE",
+        "seller": {
+          "@id": "https://www.mahabldg.com/#organization"
+        }
+      }
+    },
+    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#breadcrumb",
       "itemListElement": [

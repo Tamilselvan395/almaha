@@ -3,7 +3,62 @@
 @section('meta_title', $meta_details->blog_meta_title ?? '')
 @section('meta_description', $meta_details->blog_meta_description ?? '')
 @section('schema')
-    {!! $meta_details->blog_schema ?? '' !!}
+<script type="application/ld+json">
+{
+  "@@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "CollectionPage",
+      "@id": "https://www.mahabldg.com/blogs#webpage",
+      "url": "https://www.mahabldg.com/blogs",
+      "name": {!! json_encode($meta_details->blog_meta_title ?? 'Latest Building Materials Tips & News Blog | Al Maha') !!},
+      "description": {!! json_encode($meta_details->blog_meta_description ?? 'Read helpful guides, installation instructions, and design trends about porcelain tiles, marble, sanitary ware, and stone fixing in the UAE.') !!},
+      "isPartOf": {
+        "@id": "https://www.mahabldg.com/#website"
+      },
+      "mainEntity": {
+        "@type": "Blog",
+        "@id": "https://www.mahabldg.com/blogs#blog",
+        "name": "Al Maha Tiles and Stones Blog",
+        "blogPost": [
+          @foreach($blogs as $blog)
+          {
+            "@type": "BlogPosting",
+            "headline": {!! json_encode($blog->title) !!},
+            "url": "{{ route('blog.detail', $blog->slug) }}",
+            "image": "{{ $blog->image ? url(Storage::url($blog->image)) : '' }}",
+            "datePublished": "{{ $blog->created_at ? $blog->created_at->toDateString() : '' }}",
+            "author": {
+              "@type": "Organization",
+              "name": "Al Maha Building Materials"
+            },
+            "description": {!! json_encode($blog->short_description) !!}
+          }{{ !$loop->last ? ',' : '' }}
+          @endforeach
+        ]
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://www.mahabldg.com/blogs#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://www.mahabldg.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Blog",
+          "item": "https://www.mahabldg.com/blogs"
+        }
+      ]
+    }
+  ]
+}
+</script>
 @endsection
 
 @section('content')
