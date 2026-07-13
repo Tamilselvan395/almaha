@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/porcelain#product",
-      "name": "Porcelain Tiles",
-      "description": "Premium porcelain floor tiles, wall tiles, and outdoor porcelain tiles in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Porcelain Tiles",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Sizes",
-          "value": "600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, large-format slabs"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Thickness",
-          "value": "9mm to 20mm"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Polished, matte, lappato, textured, anti-slip"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Sourcing",
-          "value": "Sourced from globally recognised international manufacturers"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/porcelain#breadcrumb",
       "itemListElement": [

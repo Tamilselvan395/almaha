@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/swimming-pool-tiles#product",
-      "name": "Swimming Pool Tiles",
-      "description": "Premium swimming pool tiles, anti-slip pool tiles, mosaic pool tiles, and coping tiles in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Swimming Pool Tiles",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Tile Types",
-          "value": "Glass mosaics, ceramic mosaics, porcelain coping, anti-slip border tiles"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Sizes",
-          "value": "20x20mm, 25x25mm, 48x48mm mosaics; custom coping sizes"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Glossy, matte, anti-slip (Class C / R11 rating), textured"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Properties",
-          "value": "Frost-resistant, chemical-resistant, UV-resistant, zero water absorption glass"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/swimming-pool-tiles#breadcrumb",
       "itemListElement": [

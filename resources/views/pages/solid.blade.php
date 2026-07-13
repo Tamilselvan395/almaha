@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#product",
-      "name": "Solid Surface Sheets and Fillers",
-      "description": "Premium engineered solid surface sheets and jointing fillers in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Solid Surface Materials",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Materials",
-          "value": "Acrylic solid surface, polyester solid surface, hybrid acrylic-polyester blends"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Sheet Sizes",
-          "value": "760mm x 3660mm, 920mm x 3660mm, custom sizing available"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Thickness",
-          "value": "6mm, 9mm, 12mm"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Matte, satin, gloss, textured; stone-look, wood-look, solid colours, veined, translucent"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/solid-surface-filler-sheets#breadcrumb",
       "itemListElement": [

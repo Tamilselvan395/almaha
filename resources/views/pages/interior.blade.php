@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/interior-tiles-glue#product",
-      "name": "Tile Adhesive and Interior Tile Glue",
-      "description": "Premium tile adhesive and interior tile glue in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Tile Fixing Materials",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Adhesive Types",
-          "value": "Cement-based, epoxy, polymer-modified"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Setting Times",
-          "value": "Standard set, rapid set, extended open-time"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Flexibility & Colours",
-          "value": "Rigid, semi-flexible, fully flexible; grey and white"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Standards",
-          "value": "UAE construction regulations, EN 12004 / ISO standards"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/interior-tiles-glue#breadcrumb",
       "itemListElement": [

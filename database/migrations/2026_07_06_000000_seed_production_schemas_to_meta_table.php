@@ -111,7 +111,50 @@ return new class extends Migration
       ],
       "hasOfferCatalog": {
         "@id": "https://www.mahabldg.com/#offercatalog"
-      }
+      },
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "3"
+      },
+      "review": [
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Ahmad Al-Mansoori"
+          },
+          "reviewBody": "Al Maha has been our go-to partner for premium porcelain and outdoor swimming pool tiles in Dubai. Their material quality is consistently excellent, and the delivery schedules are always met.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Sarah Jenkins"
+          },
+          "reviewBody": "The variety of marble, granite, and interior tiles glue we sourced from Al Maha for our residential villa projects was outstanding. Highly professional service and top-grade building materials.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        },
+        {
+          "@type": "Review",
+          "author": {
+            "@type": "Person",
+            "name": "Vikram Malhotra"
+          },
+          "reviewBody": "Reliability, competitive pricing, and outstanding support. Their cladding tiles and sanitary ware collections helped us achieve the premium finish required for our commercial projects.",
+          "reviewRating": {
+            "@type": "Rating",
+            "ratingValue": "5"
+          }
+        }
+      ]
     },
     {
       "@type": "OfferCatalog",

@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/cladding-tiles-fixing#product",
-      "name": "Cladding Tiles",
-      "description": "Premium interior and exterior cladding tiles in Dubai with expert fixing and installation services, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Cladding Materials",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Materials",
-          "value": "Natural stone, slate, quartzite, premium porcelain, marble, granite"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Fixing Systems",
-          "value": "Mechanical fixing, adhesive fixing, dry cladding, wet cladding"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Panel Sizes",
-          "value": "150x600mm, 300x600mm, large-format facade slabs"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Split-face, natural cleft, honed, textured, brick-effect, 3D relief"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/cladding-tiles-fixing#breadcrumb",
       "itemListElement": [

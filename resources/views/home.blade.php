@@ -4,40 +4,6 @@
 @section('meta_description', $meta_details->index_meta_description ?? '')
 @section('schema')
     {!! $meta_details->index_schema ?? '' !!}
-    @if(isset($testimonials) && count($testimonials) > 0)
-    <script type="application/ld+json">
-    {
-      "@@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "HomeAndConstructionBusiness",
-          "@id": "https://www.mahabldg.com/#localbusiness",
-          "aggregateRating": {
-            "@type": "AggregateRating",
-            "ratingValue": "4.9",
-            "reviewCount": "{{ count($testimonials) }}"
-          },
-          "review": [
-            @foreach($testimonials as $t)
-            {
-              "@type": "Review",
-              "author": {
-                "@type": "Person",
-                "name": {!! json_encode($t->name) !!}
-              },
-              "reviewBody": {!! json_encode($t->text) !!},
-              "reviewRating": {
-                "@type": "Rating",
-                "ratingValue": "5"
-              }
-            }{{ !$loop->last ? ',' : '' }}
-            @endforeach
-          ]
-        }
-      ]
-    }
-    </script>
-    @endif
 @endsection
 
 @section('content')

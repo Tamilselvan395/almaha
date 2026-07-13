@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/roofing-materials-dubai#product",
-      "name": "Roofing Materials",
-      "description": "Premium roofing sheets, insulated sandwich panels, corrugated sheets, and polycarbonate roofing in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Roofing Sheets",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Sheet Types",
-          "value": "Corrugated metal, polycarbonate panels, insulated sandwich panels, aluminium sheets"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Materials",
-          "value": "Galvanised steel, aluminium, polycarbonate, polyurethane foam insulation"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Ratings",
-          "value": "Thermal insulation U-value, UV protection, impact resistance, weather rating"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Sizes",
-          "value": "Standard corrugated lengths, custom sandwich panel thicknesses, variable width sheets"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/roofing-materials-dubai#breadcrumb",
       "itemListElement": [

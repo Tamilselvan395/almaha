@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/marble-granite#product",
-      "name": "Marble and Granite",
-      "description": "Premium natural stone, imported marble slabs, and granite surfaces in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Natural Stone",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Stone Types",
-          "value": "Carrara, Statuario, Emperador marble; exotic and local granite"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Origins",
-          "value": "Italy, Spain, Turkey, Brazil, India"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Slab Sizes",
-          "value": "Standard 2cm and 3cm thick slabs, custom cut-to-size options"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Polished, honed, brushed, leathered, flamed"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/marble-granite#breadcrumb",
       "itemListElement": [

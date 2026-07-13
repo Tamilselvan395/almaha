@@ -25,90 +25,50 @@
           {
             "@type": "ListItem",
             "position": 1,
-            "item": {
-              "@type": "Product",
-              "name": "Porcelain Tiles",
-              "url": "https://www.mahabldg.com/porcelain",
-              "description": "Premium porcelain floor tiles, wall tiles, and outdoor porcelain tiles in Dubai.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-1.png"
-            }
+            "url": "https://www.mahabldg.com/porcelain",
+            "name": "Porcelain Tiles"
           },
           {
             "@type": "ListItem",
             "position": 2,
-            "item": {
-              "@type": "Product",
-              "name": "Swimming Pool Tiles",
-              "url": "https://www.mahabldg.com/swimming-pool-tiles",
-              "description": "High-quality, anti-slip pool tiles and mosaics designed for residential and commercial pools.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-2.png"
-            }
+            "url": "https://www.mahabldg.com/swimming-pool-tiles",
+            "name": "Swimming Pool Tiles"
           },
           {
             "@type": "ListItem",
             "position": 3,
-            "item": {
-              "@type": "Product",
-              "name": "Cladding Tiles with Fixing",
-              "url": "https://www.mahabldg.com/cladding-tiles-fixing",
-              "description": "Professional stone and tile cladding services in Dubai for walls and facades.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-3.png"
-            }
+            "url": "https://www.mahabldg.com/cladding-tiles-fixing",
+            "name": "Cladding Tiles with Fixing"
           },
           {
             "@type": "ListItem",
             "position": 4,
-            "item": {
-              "@type": "Product",
-              "name": "Sanitary Ware",
-              "url": "https://www.mahabldg.com/sanitary-ware",
-              "description": "Premium sanitary ware, fixtures, WC suites, and vanity fittings in Dubai.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-4.png"
-            }
+            "url": "https://www.mahabldg.com/sanitary-ware",
+            "name": "Sanitary Ware"
           },
           {
             "@type": "ListItem",
             "position": 5,
-            "item": {
-              "@type": "Product",
-              "name": "Roofing Materials in Dubai",
-              "url": "https://www.mahabldg.com/roofing-materials-dubai",
-              "description": "Premium roofing sheets for residential, commercial, and industrial projects.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-5.png"
-            }
+            "url": "https://www.mahabldg.com/roofing-materials-dubai",
+            "name": "Roofing Materials in Dubai"
           },
           {
             "@type": "ListItem",
             "position": 6,
-            "item": {
-              "@type": "Product",
-              "name": "Marble and Granite",
-              "url": "https://www.mahabldg.com/marble-granite",
-              "description": "Premium natural stone, imported marble slabs, and granite surfaces in Dubai.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-6.png"
-            }
+            "url": "https://www.mahabldg.com/marble-granite",
+            "name": "Marble and Granite"
           },
           {
             "@type": "ListItem",
             "position": 7,
-            "item": {
-              "@type": "Product",
-              "name": "Solid Surface Filler and Sheets",
-              "url": "https://www.mahabldg.com/solid-surface-filler-sheets",
-              "description": "Premium acrylic solid surface panels and seamless jointing fillers in Dubai.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-7.png"
-            }
+            "url": "https://www.mahabldg.com/solid-surface-filler-sheets",
+            "name": "Solid Surface Filler and Sheets"
           },
           {
             "@type": "ListItem",
             "position": 8,
-            "item": {
-              "@type": "Product",
-              "name": "Interior Tiles Glue",
-              "url": "https://www.mahabldg.com/interior-tiles-glue",
-              "description": "High-performance tile adhesives and polymer-modified tile fixing glue.",
-              "image": "https://www.mahabldg.com/assets/images/products/p-8.png"
-            }
+            "url": "https://www.mahabldg.com/interior-tiles-glue",
+            "name": "Interior Tiles Glue"
           }
         ]
       }

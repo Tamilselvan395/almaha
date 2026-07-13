@@ -89,47 +89,6 @@
       ]
     },
     {
-      "@type": "Product",
-      "@id": "https://www.mahabldg.com/sanitary-ware#product",
-      "name": "Sanitary Ware",
-      "description": "Premium bathroom fittings, luxury toilets, designer basins, and sanitary ware in Dubai, sourced direct from international manufacturers.",
-      "brand": {
-        "@id": "https://www.mahabldg.com/#organization"
-      },
-      "category": "Sanitary Ware",
-      "additionalProperty": [
-        {
-          "@type": "PropertyValue",
-          "name": "Fixture Types",
-          "value": "WC suites, wall-hung toilets, wash basins, freestanding tubs, faucets, shower systems"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Materials",
-          "value": "Vitreous china, fine fireclay, solid surface, acrylic, solid brass chrome-plated"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Finishes",
-          "value": "Gloss white, matte white, matte black, chrome, brushed gold, anthracite"
-        },
-        {
-          "@type": "PropertyValue",
-          "name": "Compliance Standards",
-          "value": "Dubai Municipality standards, water-saving certifications, ESMA certified"
-        }
-      ],
-      "offers": {
-        "@type": "AggregateOffer",
-        "priceCurrency": "AED",
-        "availability": "https://schema.org/InStock",
-        "areaServed": "AE",
-        "seller": {
-          "@id": "https://www.mahabldg.com/#organization"
-        }
-      }
-    },
-    {
       "@type": "BreadcrumbList",
       "@id": "https://www.mahabldg.com/sanitary-ware#breadcrumb",
       "itemListElement": [
