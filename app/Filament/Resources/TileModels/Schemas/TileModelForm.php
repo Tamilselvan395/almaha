@@ -68,7 +68,8 @@ class TileModelForm
                                 FileUpload::make('image')
                                     ->image()
                                     ->disk('public')
-                                    ->directory('Tiles_model'),
+                                    ->directory('Tiles_model')
+                                    ->preserveFilenames(),
                             ]),
 
                         Tabs\Tab::make('SEO Settings')

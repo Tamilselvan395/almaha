@@ -15317,6 +15317,15 @@ table.woocommerce-product-attributes {
 .blog-detailed-content h2 {
   font-size: 22px;
   font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.blog-detailed-content h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 8px;
 }
 
 .sticky-image {

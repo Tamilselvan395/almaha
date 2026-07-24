@@ -66,13 +66,15 @@ class CategoryForm
                                         FileUpload::make('image')
                                             ->image()
                                             ->disk('public')
-                                            ->directory('Category'),
+                                            ->directory('Category')
+                                            ->preserveFilenames(),
 
                                         FileUpload::make('pdf_image')
                                             ->label('PDF Image Brochure')
                                             ->acceptedFileTypes(['application/pdf'])
                                             ->disk('public')
-                                            ->directory('Category'),
+                                            ->directory('Category')
+                                            ->preserveFilenames(),
                                     ]),
                             ]),
 

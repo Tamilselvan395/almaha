@@ -30,7 +30,8 @@ class ColorForm
                 TextInput::make('hex_code'),
 
                 FileUpload::make('image')
-                    ->image(),
+                    ->image()
+                    ->preserveFilenames(),
 
                 Toggle::make('status')
                     ->default(true),

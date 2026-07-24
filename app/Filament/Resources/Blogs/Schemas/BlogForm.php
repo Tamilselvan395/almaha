@@ -41,6 +41,7 @@ class BlogForm
                                     ->image()
                                     ->disk('public')
                                     ->directory('blog')
+                                    ->preserveFilenames()
                                     ->required(),
 
                                 Toggle::make('status')

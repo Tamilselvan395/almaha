@@ -122,13 +122,15 @@ class ProductForm
                                                 'video/ogg',
                                             ])
                                             ->maxSize(2048)
-                                            ->reorderable(),
+                                            ->reorderable()
+                                            ->preserveFilenames(),
 
                                         FileUpload::make('brochure_pdf')
                                             ->label('Brochure (PDF)')
                                             ->acceptedFileTypes(['application/pdf'])
                                             ->disk('public')
-                                            ->directory('brochures'),
+                                            ->directory('brochures')
+                                            ->preserveFilenames(),
                                     ]),
                             ]),
 
