@@ -12341,7 +12341,7 @@ input.main-search-input::placeholder {
   }
 }
 
-.blog-details-area .blog-post-details .single-blog-post .post-content h3 {
+/* .blog-details-area .blog-post-details .single-blog-post .post-content h3 {
   margin-bottom: 10px;
   font-size: 32px;
 }
@@ -12354,7 +12354,7 @@ input.main-search-input::placeholder {
 
 .blog-details-area .blog-post-details .single-blog-post .post-content h3 a:hover {
   color: var(--theme);
-}
+} */
 
 .blog-details-area .blog-post-details .single-blog-post .post-content .group-img {
   margin-top: 20px;
