@@ -276,7 +276,7 @@
                         <div class="single-footer-widget">
                             <div class="widget-head">
                                 <a href="{{ route('home') }}">
-                                    <img src="{{ asset('assets/images/logo/almaha-logo.png') }}" alt="logo-img">
+                                    <img src="{{ asset('assets/images/logo/almaha-logo-white.png') }}" alt="logo-img">
                                 </a>
                             </div>
                             <div class="footer-content">
