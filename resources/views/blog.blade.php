@@ -99,7 +99,7 @@
                                     <div class="month text-uppercase">{{ $blog->created_at ? $blog->created_at->format('M') : 'SEP' }}</div>
                                 </div>
                                 <div class="blog-content">
-                                    <h3><a href="{{ route('blog.detail',$blog->slug) }}">{{ $blog->title }}</a></h3>
+                                    <h3>{{ $blog->title }}</h3>
                                     <ul>
                                         <li>
                                             <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20"
@@ -127,10 +127,10 @@
                                                     </clipPath>
                                                 </defs>
                                             </svg>
-                                            Tiels
+                                            Tiles
                                         </li>
                                     </ul>
-                                    <p class="mt-3">{{ $blog->short_description }}</p>
+                                    <p class="mt-3">{{ Str::limit($blog->short_description, 100, '') }}... <span style="color: var(--theme); font-weight: 600;">Read More</span></p>
                                 </div>
                             </div>
                         </a>

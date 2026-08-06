@@ -3932,24 +3932,24 @@ input.main-search-input::placeholder {
 }
 
 .section-padding {
-  padding: 120px 0;
+  padding: 40px 0;
 }
 
 @media (max-width: 1199px) {
   .section-padding {
-    padding: 120px 0;
+    padding: 40px 0;
   }
 }
 
 @media (max-width: 991px) {
   .section-padding {
-    padding: 120px 0;
+    padding: 40px 0;
   }
 }
 
 @media (max-width: 575px) {
   .section-padding {
-    padding: 80px 0;
+    padding: 25px 0;
   }
 }
 
@@ -11553,6 +11553,9 @@ input.main-search-input::placeholder {
   position: relative;
   margin-top: 30px;
   background-color: var(--white);
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 30px);
 }
 
 .blog-card-items.style1 .blog-image {
@@ -11624,6 +11627,9 @@ input.main-search-input::placeholder {
   /* max-width: 286px; */
   background: var(--white);
   z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
 }
 
 .blog-card-items.style1 .blog-content ul {
@@ -11678,8 +11684,13 @@ input.main-search-input::placeholder {
   }
 }
 
-.blog-card-items.style1 .blog-content h3 a {
-  display: inline-block;
+.blog-card-items.style1 .blog-content h3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 56px;
   position: relative;
   color: var(--title);
   font-family: "Plus Jakarta Sans", system-ui;
@@ -11697,16 +11708,23 @@ input.main-search-input::placeholder {
 }
 
 @media (max-width: 1399px) {
-  .blog-card-items.style1 .blog-content h3 a {
+  .blog-card-items.style1 .blog-content h3 {
     font-size: 16px;
     line-height: 24px;
+    height: 48px;
   }
 }
 
-.blog-card-items.style1 .blog-content h3 a:hover {
+.blog-card-items.style1:hover .blog-content h3 {
   text-decoration: underline;
   color: var(--theme);
 }
+
+.blog-card-items.style1 .blog-content p {
+  min-height: 48px;
+  margin-bottom: 0px;
+}
+
 
 .blog-card-items.style1 .blog-content:before {
   position: absolute;
@@ -15339,3 +15357,19 @@ table.woocommerce-product-attributes {
     position: static;
   }
 }
+
+.blog-section .row > [class*="col-"],
+.blog-grid-section .row > [class*="col-"] {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-section .row > [class*="col-"] > a,
+.blog-grid-section .row > [class*="col-"] > a {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 100%;
+  text-decoration: none;
+}
+
