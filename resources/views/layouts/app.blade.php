@@ -413,7 +413,7 @@
             <div class="container">
                 <div class="footer-wrapper d-flex align-items-center justify-content-between">
                     <p class="wow fadeInLeft" data-wow-delay=".3s">
-                        © All Copyright {{ date('Y') }} by Almaha
+                        © All Copyright {{ date('Y') }} by Almaha. Designed and Developed by <a href="https://dividigital.ae/" target="_blank" style="color: inherit; text-decoration: underline;">Divi Digital</a>
                     </p>
                     <ul class="brand-logo wow fadeInRight" data-wow-delay=".5s">
                         <li>
