@@ -569,6 +569,33 @@
         </script>
     @endif
 
+    <!-- Floating Contact Actions (Desktop Float / Mobile Bottom Bar) -->
+    <div class="floating-contact-wrapper">
+        <!-- Desktop Floating Buttons -->
+        <div class="floating-contact-desktop">
+            <a href="https://wa.me/971565004077?text=Hello%20Al%20Maha%2C%20I%20am%20interested%20in%20your%20building%20materials." target="_blank" class="float-btn whatsapp-float" title="Chat on WhatsApp" aria-label="WhatsApp">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span class="float-tooltip">Chat with Us</span>
+            </a>
+            <a href="tel:+97142671988" class="float-btn phone-float" title="Call Us" aria-label="Call Now">
+                <i class="fa-solid fa-phone"></i>
+                <span class="float-tooltip">Call +971 4 267 1988</span>
+            </a>
+        </div>
+
+        <!-- Mobile Bottom Sticky Bar -->
+        <div class="mobile-bottom-bar">
+            <a href="tel:+97142671988" class="mobile-action-btn mobile-call-btn">
+                <i class="fa-solid fa-phone-volume"></i>
+                <span>Call Now</span>
+            </a>
+            <a href="https://wa.me/971565004077?text=Hello%20Al%20Maha%2C%20I%20am%20interested%20in%20your%20building%20materials." target="_blank" class="mobile-action-btn mobile-whatsapp-btn">
+                <i class="fa-brands fa-whatsapp"></i>
+                <span>WhatsApp</span>
+            </a>
+        </div>
+    </div>
+
 </body>
 
 </html>
