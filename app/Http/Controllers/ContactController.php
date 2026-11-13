@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\Lead;
 use Illuminate\Http\Request;
+use Illuminate\Support\Facades\Log;
 use Illuminate\Support\Facades\Mail;
 use App\Mail\NewLeadMail;
 
@@ -29,8 +30,14 @@ class ContactController extends Controller
 
         Lead::create($data);
 
-        
-        Mail::to('saitamil395@gmail.com')->send(new NewLeadMail($data));
+        try {
+            Mail::to([
+                'info@mahabldg.com',
+                'tamilselvangopi395@gmail.com',
+            ])->send(new NewLeadMail($data));
+        } catch (\Throwable $e) {
+            Log::error('Failed to send contact lead notification email: ' . $e->getMessage());
+        }
 
         return redirect()->back()->with('success', 'Thank you! We will contact you soon.');
     }
