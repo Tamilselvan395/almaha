@@ -1,0 +1,1590 @@
+{
+    "porcelain": {
+        "name": "Porcelain Tiles",
+        "slug": "porcelain",
+        "subtitle": "PREMIUM TILES",
+        "heading": "Porcelain Tiles Dubai",
+        "subheading": "Premium Floor & Wall Tile Supplier",
+        "intro_image": "product-pages/p-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted porcelain tiles supplier and tile supplier in Dubai, offering premium\n                            porcelain floor tiles, wall tiles, and outdoor porcelain tiles for residential and commercial\n                            projects across the UAE. With over 15 years of experience, we provide high-quality porcelain\n                            tiles, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\"\n                            style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What are Porcelain Tiles?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Porcelain tiles are a premium ceramic tile manufactured from refined clay and fired at high\n                            temperatures, producing a dense, hard-wearing surface with very low water absorption. As one of\n                            the leading porcelain tile companies in Dubai, Al Maha supplies a carefully selected range of\n                            high-quality porcelain tiles, from luxury large-format collections to competitively priced\n                            options for projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of sizes, finishes, and formats, our porcelain tiles suit homeowners,\n                            contractors, interior designers, and developers working on projects of all scales across the\n                            UAE. From outdoor porcelain floor tiles and wall tiles to competitively priced standard options,\n                            Al Maha has the right solution for every project requirement across Dubai and the UAE.\n                        </p>",
+        "meta_title": "Premium Porcelain Tiles Dubai | Al Maha Building Materials",
+        "meta_description": "Source outdoor porcelain tiles and slabs at competitive direct-importer prices in Dubai. UAE-wide delivery. Contact Al Maha for a quote today!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/porcelain#webpage\",\n      \"url\": \"https://www.mahabldg.com/porcelain\",\n      \"name\": \"Premium Porcelain Tiles Collection | Al Maha Dubai\",\n      \"description\": \"Explore our premium collection of indoor, outdoor, floor, and wall porcelain tiles available in Dubai, UAE.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/porcelain#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are porcelain tiles used for?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Porcelain tiles are used for flooring, wall cladding, kitchens, bathrooms, commercial spaces, hospitality projects, and outdoor areas. Their durability and low maintenance requirements make them one of the most versatile tile options available in Dubai.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are porcelain tiles suitable for outdoor use in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Outdoor porcelain tiles are weather-resistant, UV-resistant, and available in slip-resistant finishes, making them suitable for patios, terraces, walkways, garden areas, balconies, and pool surrounds across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do porcelain tiles cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Porcelain tile prices in Dubai vary depending on the finish, size, and collection. Al Maha offers competitive pricing across both standard and premium ranges. Contact us for a quote tailored to your project.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are porcelain tiles waterproof?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Porcelain tiles have very low water absorption properties, making them highly resistant to moisture and ideal for wet areas such as bathrooms, kitchens, and outdoor spaces.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do porcelain tiles require special maintenance?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"No. Porcelain tiles are easy to clean and maintain using standard cleaning methods, making them one of the most practical flooring choices for residential and commercial projects in Dubai.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why are porcelain tiles popular in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Porcelain tiles combine durability, moisture resistance, and style in a single product that aligns with Dubai's climate and modern UAE architecture, suiting both indoor and outdoor use.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What sizes of porcelain tiles are available in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha stocks porcelain tiles in sizes including 600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, and large-format porcelain slabs. Contact the team to check availability for your project.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between porcelain and ceramic tiles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Porcelain tiles are denser, harder, and have a significantly lower water absorption rate than standard ceramic tiles, making them more suitable for high-traffic areas, wet spaces, and outdoor use in Dubai's climate.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/porcelain#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Porcelain Tiles\",\n          \"item\": \"https://www.mahabldg.com/porcelain\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Porcelain Tiles",
+            "description": "Engineered for durability, aesthetic appeal, and outstanding performance in the UAE climate.",
+            "items": [
+                {
+                    "title": "Climate Resistant",
+                    "icon": "fas fa-temperature-high",
+                    "description": "Engineered to withstand Dubai's heat, humidity, and heavy foot traffic without losing structural integrity or fading."
+                },
+                {
+                    "title": "Stain & Scratch Resistant",
+                    "icon": "fas fa-shield-alt",
+                    "description": "Highly durable surfaces, ideal for UAE kitchens, bathrooms, and high-traffic commercial floors."
+                },
+                {
+                    "title": "Low Water Absorption",
+                    "icon": "fas fa-tint-slash",
+                    "description": "Below 0.5% water absorption, making them suitable for pool surrounds, wet rooms, and outdoor areas across the UAE."
+                },
+                {
+                    "title": "UV-Stable Finishes",
+                    "icon": "fas fa-sun",
+                    "description": "UV-stable finishes that resist fading, discolouration, or damage under direct Gulf sun exposure."
+                },
+                {
+                    "title": "Easy Maintenance",
+                    "icon": "fas fa-magic",
+                    "description": "Easy to clean and maintain, making them a preferred flooring choice for residential and commercial projects in Dubai."
+                },
+                {
+                    "title": "Highly Versatile",
+                    "icon": "fas fa-expand-arrows-alt",
+                    "description": "Versatile for both interior spaces (kitchens, bathrooms, lobbies) and outdoor applications across the UAE."
+                },
+                {
+                    "title": "Aesthetic Range",
+                    "icon": "fas fa-palette",
+                    "description": "Available in elegant wood-effect, stone-effect, marble-effect, and solid-colour finishes to fit any design layout."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "SPECIFICATIONS",
+            "heading": "Product Specifications",
+            "description": "Our porcelain tile range is available in a variety of sizes, thicknesses, and finishes to meet the requirements of any residential or commercial project:",
+            "image": "product-pages/p-2.png",
+            "items": [
+                {
+                    "label": "Sizes",
+                    "icon": "fas fa-layer-group",
+                    "value": "600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, and large-format porcelain slabs"
+                },
+                {
+                    "label": "Thickness",
+                    "icon": "fas fa-layer-group",
+                    "value": "9mm to 20mm (20mm recommended for outdoor porcelain tiles and heavy-duty applications)"
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-layer-group",
+                    "value": "Polished, matte, lappato, textured, and anti-slip finishes"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-layer-group",
+                    "value": "Sourced from globally recognised tile manufacturers known for quality and innovation"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Porcelain Tiles",
+            "description": "Our porcelain floor tiles and wall tiles in Dubai are specified for a wide range of residential, commercial, and hospitality projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-building",
+                    "points": "Porcelain floor tiles for villas and apartments\nKitchen and bathroom wall tiles and floor tiles\nOutdoor porcelain tiles for patios, terraces, and balconies\nSwimming pool surround tiles"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-building",
+                    "points": "Office floor tiles and wall cladding\nRetail store and shopping mall floor tiles UAE\nRestaurant and café floor and wall tiles\nHotel lobby tiles and hospitality fit-out tiles Dubai\nCladding tiles for interior and exterior wall applications"
+                },
+                {
+                    "title": "Specialist",
+                    "icon": "fas fa-building",
+                    "points": "Healthcare facility floor tiles that are hygienic, slip-resistant, and easy to maintain across clinical environments\nEducational institution floor tiles that are durable and scratch-resistant for schools and universities\nLarge-scale residential and commercial development flooring solutions supplied across Dubai and the UAE"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "OUTDOOR PORCELAIN",
+            "heading": "Outdoor Porcelain Tiles in Dubai",
+            "image": "product-pages/p-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Outdoor porcelain tiles have become one of the most specified exterior flooring solutions in\n                            Dubai and across the UAE, valued for their ability to withstand extreme heat, UV exposure, and\n                            heavy use without compromising on design.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha supplies a comprehensive range of outdoor porcelain tiles in Dubai, including anti-slip\n                            outdoor tiles, 20mm thick outdoor porcelain floor tiles, and UV-resistant patio tiles suitable\n                            for the Gulf climate.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\"\n                            style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Outdoor Porcelain Tiles Are\n                            Ideal for Dubai</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Outdoor porcelain tiles are engineered to perform in Dubai's extreme climate conditions. Their\n                            resistance to UV rays, heat, moisture, and heavy foot traffic makes them a reliable and\n                            low-maintenance exterior flooring solution for both residential and commercial projects across\n                            the UAE.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".8s\"\n                            style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Outdoor Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".9s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Patios and terraces</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Pool surrounds with anti-slip finishes</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Garden areas & landscaping tiles</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Balconies and rooftop terraces</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Driveways and pathways</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\"\n                                            style=\"font-size: 0.75rem;\"></i> Commercial outdoor areas</li>\n                                </ul>\n                            </div>\n                        </div>\n\n                        <div class=\"mt-4 p-3 rounded text-justify wow fadeInUp\" data-wow-delay=\"1s\"\n                            style=\"background-color: var(--theme2); border-left: 4px solid var(--theme);\">\n                            <p class=\"mb-0 text-muted\" style=\"font-size: 0.95rem;\">\n                                <strong>Anti-Slip and Heavy-Duty Outdoor Tile Options:</strong> All our outdoor porcelain\n                                tiles in Dubai are weather-resistant, UV-stable, and available in slip-resistant finishes,\n                                making them the preferred outdoor flooring choice for residential villas, luxury hotels,\n                                landscaping projects, and commercial developments across Dubai and the UAE.\n                            </p>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Porcelain Tiles in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted porcelain tile suppliers, with over 15 years of experience supplying premium porcelain tiles, natural stone, and surface solutions to contractors, developers, architects, and homeowners across the UAE.\n\nAs a direct tile importer in Dubai, we source our porcelain tiles from leading international manufacturers, giving our clients access to premium quality at competitive porcelain tile prices in Dubai. From project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every project.",
+            "image": "product-pages/p-4.png",
+            "items": [
+                {
+                    "title": "Competitive Pricing",
+                    "description": "Direct tiles importer in Dubai with competitive porcelain tile prices and no middleman markup."
+                },
+                {
+                    "title": "Premium Quality",
+                    "description": "Premium porcelain tiles sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Experience",
+                    "description": "Trusted tiles company in Dubai supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "Diverse Collections",
+                    "description": "Wide range of sizes, finishes, and collections for every project type."
+                },
+                {
+                    "title": "UAE-Wide Delivery",
+                    "description": "Reliable supply and delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Expert Support",
+                    "description": "Dedicated support for contractors, developers, and interior designers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about porcelain tiles and their installation in Dubai.",
+            "items": [
+                {
+                    "question": "What are porcelain tiles used for?",
+                    "answer": "Porcelain tiles are used for flooring, wall cladding, kitchens, bathrooms, commercial spaces, hospitality projects, and outdoor areas. Their durability and low maintenance requirements make them one of the most versatile tile options available in Dubai."
+                },
+                {
+                    "question": "Are porcelain tiles suitable for outdoor use in Dubai?",
+                    "answer": "Yes. Our outdoor porcelain tiles are weather-resistant, UV-resistant, and available in slip-resistant finishes, making them suitable for patios, terraces, walkways, garden areas, balconies, and pool surrounds across the UAE."
+                },
+                {
+                    "question": "How much do porcelain tiles cost in Dubai?",
+                    "answer": "Porcelain tile prices in Dubai vary depending on the finish, size, and collection. Al Maha offers competitive pricing across both standard and premium ranges. Contact us for a quote tailored to your project."
+                },
+                {
+                    "question": "Are porcelain tiles waterproof?",
+                    "answer": "Porcelain tiles have very low water absorption properties, making them highly resistant to moisture and ideal for wet areas such as bathrooms, kitchens, and outdoor spaces."
+                },
+                {
+                    "question": "Do porcelain tiles require special maintenance?",
+                    "answer": "No. Porcelain tiles are easy to clean and maintain using standard cleaning methods, making them one of the most practical flooring choices for residential and commercial projects in Dubai."
+                },
+                {
+                    "question": "Why are porcelain tiles popular in Dubai?",
+                    "answer": "Porcelain tiles combine durability, moisture resistance, and style in a single product that aligns perfectly with Dubai's climate and the demands of modern UAE architecture. Their suitability for both indoor and outdoor use makes them a natural choice for a wide range of projects."
+                },
+                {
+                    "question": "What sizes of porcelain tiles are available in Dubai?",
+                    "answer": "Al Maha stocks porcelain tiles in Dubai in a range of sizes including 600x600mm, 800x800mm, 600x1200mm, 1200x1200mm, and large-format porcelain slabs. Contact our team to check availability for your specific project."
+                },
+                {
+                    "question": "What is the difference between porcelain and ceramic tiles?",
+                    "answer": "Porcelain tiles are denser, harder, and have a significantly lower water absorption rate than standard ceramic tiles, making them more suitable for high-traffic areas, wet spaces, and outdoor use in Dubai's climate. For most residential and commercial projects in the UAE, porcelain tiles are the recommended choice."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "swimming-pool-tiles": {
+        "name": "Swimming Pool Tiles",
+        "slug": "swimming-pool-tiles",
+        "subtitle": "POOL SOLUTIONS",
+        "heading": "Swimming Pool Tiles Dubai",
+        "subheading": "Anti-Slip Pool Tiles & Coping Tiles Supplier",
+        "intro_image": "product-pages/sm-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted swimming pool tiles supplier in Dubai, offering premium pool tiles for residential and commercial projects across the UAE. With over 15 years of experience, we provide high-quality swimming pool tiles, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What are Swimming Pool Tiles?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Swimming pool tiles are specially engineered tiles designed to withstand constant water exposure, pool chemicals, UV radiation, and the physical demands of wet environments. As one of the most trusted swimming pool tiles companies, Al Maha supplies a carefully selected range of pool tiles, from luxury mosaic collections and anti-slip pool tiles to coping tiles and large-format porcelain pool tiles for projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of sizes, finishes, and formats, our swimming pool tiles in Dubai suit homeowners, contractors, interior designers, and developers working on residential villas, hotels, resorts, spas, and large-scale developments across the UAE. From anti-slip pool tiles for safety-critical areas to decorative mosaic tiles for luxury pool interiors, Al Maha has the right solution for every pool project across Dubai and the UAE.\n                        </p>",
+        "meta_title": "Swimming Pool Tiles Dubai | Anti-Slip & Coping | Al Maha",
+        "meta_description": "Buy premium mosaic pool tiles, anti-slip tiles, & coping in Dubai. Direct importer prices, 15+ years of experience, and UAE-wide delivery. Get a quote!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/swimming-pool-tiles#webpage\",\n      \"url\": \"https://www.mahabldg.com/swimming-pool-tiles\",\n      \"name\": \"Swimming Pool Tiles Dubai | Anti-Slip & Coping | Al Maha\",\n      \"description\": \"Buy premium mosaic pool tiles, anti-slip tiles, & coping in Dubai. Direct importer prices, 15+ years of experience, and UAE-wide delivery.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/swimming-pool-tiles#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What types of swimming pool tiles does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of swimming pool tiles in Dubai including anti-slip pool tiles, coping tiles, mosaic pool tiles, porcelain pool tiles, and ceramic pool tiles. Our range covers residential villas, hotel pools, resort developments, spas, and recreational facilities across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are swimming pool tiles suitable for outdoor pools in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Our swimming pool tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai's extreme heat, direct sun exposure, and constant water contact, making them suitable for both indoor and outdoor pools across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are anti-slip pool tiles and why are they important?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Anti-slip pool tiles in Dubai feature textured or treated surfaces that provide better grip in wet conditions. They are essential for pool steps, entry areas, pool edges, and surrounding walkways where slip resistance is a critical safety requirement for both residential and commercial pools.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are coping tiles used for in a swimming pool?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Coping tiles in Dubai are used to finish the edge of a swimming pool, creating a clean, safe border between the pool water and the surrounding area. They protect the pool structure, provide a comfortable edge for swimmers, and contribute to the visual finish of the pool design.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do swimming pool tiles cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Swimming pool tile prices in Dubai vary depending on the tile type, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium pool tile ranges. Contact us for a quote tailored to your project.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can swimming pool tiles be used for spas and water features?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Our swimming pool tiles in Dubai are commonly used for spas, jacuzzis, fountains, water features, and other wet environments due to their durability, water resistance, and wide range of available finishes.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Where can I buy swimming pool tiles in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"You can view and purchase swimming pool tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. As a direct pool tiles supplier in Dubai, we also supply to project sites across all seven Emirates.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between pool tiles and regular tiles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Swimming pool tiles are specifically engineered for constant water immersion, chemical exposure, and wet environment conditions. Unlike standard floor or wall tiles, pool tiles have very low water absorption rates, enhanced chemical resistance, and are available in anti-slip finishes, making them the only recommended choice for pool interiors, pool surrounds, and wet areas across Dubai and the UAE.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/swimming-pool-tiles#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Swimming Pool Tiles\",\n          \"item\": \"https://www.mahabldg.com/swimming-pool-tiles\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Swimming Pool Tiles",
+            "description": "Engineered for durability, aesthetic appeal, and outstanding performance in wet environments.",
+            "items": [
+                {
+                    "title": "Chemical & Heat Resistant",
+                    "icon": "fas fa-water",
+                    "description": "Engineered to withstand constant water exposure, pool chemicals, and Dubai's intense heat without degradation."
+                },
+                {
+                    "title": "Low Water Absorption",
+                    "icon": "fas fa-tint-slash",
+                    "description": "Low water absorption properties prevent moisture damage and maintain structural integrity over time."
+                },
+                {
+                    "title": "UV-Stable Finishes",
+                    "icon": "fas fa-sun",
+                    "description": "UV-stable finishes that resist fading, chalking, or discoloration under direct Gulf sun exposure."
+                },
+                {
+                    "title": "Anti-Slip Options",
+                    "icon": "fas fa-running",
+                    "description": "Anti-slip surface options available for enhanced safety around pool edges, steps, and surrounds."
+                },
+                {
+                    "title": "Easy Maintenance",
+                    "icon": "fas fa-magic",
+                    "description": "Easy to clean and maintain, making them a practical choice for residential and commercial pools in Dubai."
+                },
+                {
+                    "title": "All-Weather Durability",
+                    "icon": "fas fa-cloud-sun",
+                    "description": "Durable under varying weather conditions, suitable for both indoor and outdoor pools across the UAE."
+                },
+                {
+                    "title": "Design Versatility",
+                    "icon": "fas fa-palette",
+                    "description": "Available in a wide range of colours, patterns, sizes, and finishes to complement any pool design."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "SPECIFICATIONS",
+            "heading": "Product Specifications",
+            "description": "Our swimming pool tile range in Dubai is available in a variety of sizes, formats, and finishes to meet the requirements of any residential or commercial pool project:",
+            "image": "product-pages/sm-2.png",
+            "items": [
+                {
+                    "label": "Sizes",
+                    "icon": "fas fa-expand",
+                    "value": "100x100mm mosaic tiles, 300x300mm, 600x300mm, 600x600mm, and large-format porcelain pool tiles"
+                },
+                {
+                    "label": "Thickness",
+                    "icon": "fas fa-ruler-combined",
+                    "value": "9mm to 20mm depending on application and pool type"
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-layer-group",
+                    "value": "Gloss, matte, textured, anti-slip, and mosaic"
+                },
+                {
+                    "label": "Materials",
+                    "icon": "fas fa-shapes",
+                    "value": "Porcelain, ceramic, and glass mosaic pool tiles"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised tile manufacturers known for quality, durability, and innovation"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Swimming Pool Tiles",
+            "description": "Our swimming pool tiles in Dubai are specified for a wide range of residential, commercial, and hospitality pool projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Swimming pool interior tiles for private villas and apartments in Dubai\nAnti-slip pool tiles for pool steps, ledges, and entry areas\nCoping tiles in Dubai for clean, safe pool edge finishes\nPool surround tiles for patios, terraces, and landscaped areas\nSpa and jacuzzi tiles for luxury residential wellness spaces"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Hotel and resort pool tiles for luxury hospitality projects across the UAE\nSwimming pool tiles in Dubai for recreational and sports facilities\nWater feature tiles for hotel lobbies, commercial landscapes, and public spaces\nLarge-scale development pool tiles supplied across Dubai and the UAE\nAnti-slip pool tiles for community pools, gyms, and leisure centres"
+                },
+                {
+                    "title": "Specialist",
+                    "icon": "fas fa-clinic-medical",
+                    "points": "Mosaic pool tiles for decorative water features, fountains, and luxury pool interiors\nCoping tiles for commercial pool edges in hotels, resorts, and developments\nSpa, steam room, and wet room tiles for hospitality and wellness facilities\nLarge-scale residential and commercial development pool tile supply across the UAE"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "SAFETY & EDGES",
+            "heading": "Anti-Slip Pool Tiles & Coping Tiles",
+            "image": "product-pages/sm-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Safety is one of the most important considerations in any pool environment. Anti-slip pool tiles in Dubai are engineered to provide better grip in wet conditions, significantly reducing the risk of slipping around pool edges, steps, entry points, and surrounding areas.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Al Maha supplies a comprehensive range of anti-slip pool tiles in Dubai for residential villas, hotel pools, resort developments, community facilities, and commercial projects across the UAE. Our anti-slip pool tile range is available in multiple finishes, sizes, and formats to suit any pool design without compromising on appearance.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".7s\">\n                            <strong>Why Anti-Slip Pool Tiles Matter:</strong> Dubai's outdoor pool environments are subject to intense heat and constant wet surfaces, making slip resistance a critical safety requirement. Anti-slip pool tiles are engineered with textured or treated surfaces that maintain grip even under continuous water exposure, making them the recommended choice for pool steps, entry areas, and pool surrounds across the UAE.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".8s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Coping Tiles in Dubai</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".9s\">\n                            Coping tiles form the finished edge of a swimming pool, providing a clean, safe, and aesthetically consistent border between the pool water and the surrounding area. Al Maha supplies coping tiles in a range of sizes, profiles, and finishes designed to complement any pool design, from contemporary residential villas to large resort and hospitality developments.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify mb-0\" data-wow-delay=\"1s\">\n                            Coping tiles serve both a functional and decorative purpose. They protect the pool structure, provide a comfortable and safe edge for swimmers, and contribute to the overall visual finish of the pool. As a direct coping tiles supplier, Al Maha offers a range of coping tile options to suit any project scale and design specification across the UAE.\n                        </p>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Swimming Pool Tiles in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted swimming pool tiles suppliers, with over 15 years of experience supplying premium pool tiles, anti-slip pool tiles, coping tiles, and surface solutions to contractors, developers, architects, and homeowners across the UAE.\n\nAs a direct pool tiles importer, we source our swimming pool tile collections from leading international manufacturers, giving our clients access to premium quality at competitive pool tile prices. From project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every pool project.",
+            "image": "product-pages/sm-4.png",
+            "items": [
+                {
+                    "title": "Direct Sourcing Advantages",
+                    "description": "Direct swimming pool tiles importer in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Premium Manufacturers",
+                    "description": "Sourced from globally recognised international manufacturers known for durability."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted swimming pool tiles company in Dubai supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "Wide Selection",
+                    "description": "Wide range of anti-slip pool tiles, coping tiles, mosaic tiles, and porcelain pool tiles for every project type."
+                },
+                {
+                    "title": "UAE-wide Supply",
+                    "description": "Reliable supply and delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Trade & Contractor Support",
+                    "description": "Dedicated support for contractors, developers, and interior designers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about swimming pool tiles, anti-slip finishes, and coping tiles in Dubai.",
+            "items": [
+                {
+                    "question": "What types of swimming pool tiles does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of swimming pool tiles in Dubai including anti-slip pool tiles, coping tiles, mosaic pool tiles, porcelain pool tiles, and ceramic pool tiles. Our range covers residential villas, hotel pools, resort developments, spas, and recreational facilities across the UAE."
+                },
+                {
+                    "question": "Are swimming pool tiles suitable for outdoor pools in Dubai?",
+                    "answer": "Yes. Our swimming pool tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai\\'s extreme heat, direct sun exposure, and constant water contact, making them suitable for both indoor and outdoor pools across the UAE."
+                },
+                {
+                    "question": "What are anti-slip pool tiles and why are they important?",
+                    "answer": "Anti-slip pool tiles in Dubai feature textured or treated surfaces that provide better grip in wet conditions. They are essential for pool steps, entry areas, pool edges, and surrounding walkways where slip resistance is a critical safety requirement for both residential and commercial pools."
+                },
+                {
+                    "question": "What are coping tiles used for in a swimming pool?",
+                    "answer": "Coping tiles in Dubai are used to finish the edge of a swimming pool, creating a clean, safe border between the pool water and the surrounding area. They protect the pool structure, provide a comfortable edge for swimmers, and contribute to the visual finish of the pool design."
+                },
+                {
+                    "question": "How much do swimming pool tiles cost in Dubai?",
+                    "answer": "Swimming pool tile prices in Dubai vary depending on the tile type, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium pool tile ranges. Contact us for a quote tailored to your project."
+                },
+                {
+                    "question": "Can swimming pool tiles be used for spas and water features?",
+                    "answer": "Yes. Our swimming pool tiles in Dubai are commonly used for spas, jacuzzis, fountains, water features, and other wet environments due to their durability, water resistance, and wide range of available finishes."
+                },
+                {
+                    "question": "Where can I buy swimming pool tiles in Dubai?",
+                    "answer": "You can view and purchase swimming pool tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. As a direct pool tiles supplier in Dubai, we also supply to project sites across all seven Emirates including Abu Dhabi, Sharjah, Ajman, Ras Al Khaimah, Fujairah, and Umm Al Quwain."
+                },
+                {
+                    "question": "What is the difference between pool tiles and regular tiles?",
+                    "answer": "Swimming pool tiles are specifically engineered for constant water immersion, chemical exposure, and wet environment conditions. Unlike standard floor or wall tiles, pool tiles have very low water absorption rates, enhanced chemical resistance, and are available in anti-slip finishes, making them the only recommended choice for pool interiors, pool surrounds, and wet areas across Dubai and the UAE."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "cladding-tiles-fixing": {
+        "name": "Cladding Tiles with Fixing",
+        "slug": "cladding-tiles-fixing",
+        "subtitle": "WALL SURFACES",
+        "heading": "Cladding Tiles Dubai",
+        "subheading": "Interior and Exterior Cladding Tiles Supplier with Fixing",
+        "intro_image": "product-pages/cd-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted cladding tiles supplier in Dubai, offering premium interior and exterior cladding tiles for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality cladding tiles, professional tile fixing services, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Are Cladding Tiles?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Cladding tiles are specially designed tiles applied to interior and exterior wall surfaces to enhance appearance, protect structural surfaces, and add durability to both residential and commercial buildings. As one of the most trusted cladding tiles companies in Dubai, Al Maha supplies a carefully selected range of cladding tiles, from premium natural stone and porcelain cladding panels to large-format exterior facade tiles for projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of sizes, finishes, textures, and formats, our cladding tiles in Dubai suit homeowners, contractors, interior designers, and developers working on projects of all scales across the UAE. From exterior building facades and feature walls to interior accent walls and commercial fit-outs, Al Maha has the right cladding tile solution for every project across Dubai and the UAE.\n                        </p>",
+        "meta_title": "Cladding Tiles Dubai | Interior & Exterior | Al Maha",
+        "meta_description": "Premium interior & exterior cladding tiles in Dubai with expert fixing services. Direct importer prices & UAE-wide delivery. Request a quote from Al Maha!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/cladding-tiles-fixing#webpage\",\n      \"url\": \"https://www.mahabldg.com/cladding-tiles-fixing\",\n      \"name\": \"Cladding Tiles Dubai | Interior & Exterior | Al Maha\",\n      \"description\": \"Premium interior & exterior cladding tiles in Dubai with expert fixing services. Direct importer prices & UAE-wide delivery.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/cladding-tiles-fixing#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are cladding tiles used for in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Cladding tiles in Dubai are used for interior and exterior wall applications including building facades, feature walls, kitchen splashbacks, bathroom walls, hotel lobbies, and commercial interiors. Their durability, weather resistance, and wide range of designs make them one of the most versatile wall finishing solutions available in the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between cladding tiles and regular wall tiles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Cladding tiles are specifically designed for wall surface applications and are available in thicker formats and larger sizes than standard wall tiles, making them suitable for both interior accent walls and exterior building facades. Regular wall tiles are typically lighter and thinner and are suited to interior wet areas such as bathrooms and kitchens.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are cladding tiles suitable for exterior use in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Our exterior cladding tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai's extreme heat, moisture, and wind conditions, making them suitable for building facades, exterior walls, and outdoor feature walls across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha provide cladding tile fixing services in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha provides a complete supply and installation service for cladding tiles in Dubai through our experienced tile fixing contractors. We handle interior and exterior cladding installations for residential, commercial, and large-scale construction projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do cladding tiles cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Cladding tile prices in Dubai vary depending on the material, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium cladding tile ranges as a direct importer. Contact us for a quote tailored to your specific project requirements.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What finishes are available for cladding tiles in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies cladding tiles in Dubai in a wide range of finishes including natural stone effect, wood effect, concrete effect, polished, matte, and textured surfaces. Our range covers porcelain cladding tiles, natural stone cladding, marble cladding, and granite cladding for every design specification.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can cladding tiles be used for feature walls in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Cladding tiles are one of the most popular choices for interior feature walls and accent walls in Dubai, used across residential villas, hotel lobbies, office receptions, restaurants, and retail spaces. Our range includes large-format porcelain cladding panels and natural stone cladding tiles suitable for high-impact interior feature wall applications.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Where can I view cladding tiles in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"You can view our full range of cladding tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right cladding tile finish, format, and material for your specific project. We also supply cladding tiles to project sites across all seven Emirates.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/cladding-tiles-fixing#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Cladding Tiles with Fixing\",\n          \"item\": \"https://www.mahabldg.com/cladding-tiles-fixing\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Cladding Tiles",
+            "description": "Engineered for durability, aesthetic appeal, and outstanding protection of building walls in the UAE climate.",
+            "items": [
+                {
+                    "title": "Enhances Aesthetics",
+                    "icon": "fas fa-home",
+                    "description": "Enhances the appearance of interior and exterior wall surfaces across residential and commercial projects in Dubai."
+                },
+                {
+                    "title": "Weather Protection",
+                    "icon": "fas fa-shield-alt",
+                    "description": "Protects building facades and wall surfaces from weather, UV exposure, and moisture in the UAE climate."
+                },
+                {
+                    "title": "Durable & Long-lasting",
+                    "icon": "fas fa-award",
+                    "description": "Durable and long-lasting, maintaining appearance and structural integrity under demanding outdoor conditions."
+                },
+                {
+                    "title": "Design Versatility",
+                    "icon": "fas fa-palette",
+                    "description": "Available in a wide range of textures, colours, and finishes to complement any architectural style or interior design."
+                },
+                {
+                    "title": "Low Maintenance",
+                    "icon": "fas fa-magic",
+                    "description": "Low maintenance and easy to clean, making them a practical choice for commercial and residential buildings in Dubai."
+                },
+                {
+                    "title": "Highly Versatile",
+                    "icon": "fas fa-expand-arrows-alt",
+                    "description": "Suitable for both interior feature walls and exterior facade cladding applications across the UAE."
+                },
+                {
+                    "title": "Fire Safety",
+                    "icon": "fas fa-fire-extinguisher",
+                    "description": "Fire-resistant options available for commercial and high-rise building applications in Dubai."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "SPECIFICATIONS",
+            "heading": "Product Specifications",
+            "description": "Our cladding tile range in Dubai is available in a variety of sizes, thicknesses, and finishes to meet the requirements of any residential or commercial project:",
+            "image": "product-pages/cd-2.png",
+            "items": [
+                {
+                    "label": "Sizes",
+                    "icon": "fas fa-expand",
+                    "value": "300x600mm, 600x600mm, 600x1200mm, 1200x1200mm, and large-format cladding panels"
+                },
+                {
+                    "label": "Thickness",
+                    "icon": "fas fa-ruler-combined",
+                    "value": "9mm to 20mm, depending on application and surface type"
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-layer-group",
+                    "value": "Natural stone effect, wood effect, concrete effect, polished, matte, and textured"
+                },
+                {
+                    "label": "Materials",
+                    "icon": "fas fa-shapes",
+                    "value": "Porcelain cladding tiles, natural stone cladding, marble cladding, and granite cladding"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised tile manufacturers known for quality, durability, and innovation"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Cladding Tiles",
+            "description": "Our cladding tiles in Dubai are specified for a wide range of residential, commercial, and hospitality projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Exterior facade cladding for villas and residential buildings\nInterior feature walls and accent walls for living rooms and bedrooms\nKitchen splashback and wall cladding tiles\nBathroom wall cladding tiles for luxury residential projects\nGarden and landscaping wall cladding"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Exterior building facade cladding tiles for commercial developments\nOffice interior wall cladding and feature walls\nRetail store and shopping mall interior cladding tiles\nHotel lobby and hospitality feature wall cladding\nRestaurant and cafe interior wall cladding tiles"
+                },
+                {
+                    "title": "Specialist",
+                    "icon": "fas fa-clinic-medical",
+                    "points": "High-rise building exterior cladding tiles for large-scale developments across the UAE\nHealthcare facility wall cladding tiles that are hygienic, durable, and easy to maintain\nEducational institution wall cladding tiles suitable for high-traffic environments\nLarge-scale residential and commercial development cladding solutions supplied across Dubai and the UAE"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "EXPERT FIXING & EXTERIORS",
+            "heading": "Cladding Tile Fixing & Facades",
+            "image": "product-pages/cd-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha offers a complete supply and installation service for cladding tiles in Dubai, handled by our experienced tile fixing contractors. As a trusted tile fixing company, we manage the full process from material selection and project consultation through to professional cladding installation across residential, commercial, and large-scale construction projects in the UAE.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".6s\">\n                            <strong>Why Choose Al Maha for Cladding Tile Fixing:</strong> Our experienced tile fixing contractors in Dubai are skilled in interior and exterior cladding installations, ensuring accurate alignment, clean finishes, and long-lasting results on every project. Whether you need cladding tiles fixed on a single feature wall or an entire building facade, Al Maha provides reliable and professional tile fixing services across UAE.\n                        </p>\n\n                        <h5 class=\"mt-3 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-weight: 700;\">Cladding Tile Fixing Applications:</h5>\n                        <ul class=\"list-unstyled mb-4 wow fadeInUp\" data-wow-delay=\".75s\">\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Exterior facade cladding installation for villas, apartments, and commercial buildings</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Interior feature wall and accent wall cladding installation</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Kitchen and bathroom wall cladding tile fixing</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Hotel lobby and hospitality interior cladding installation across the UAE</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Large-scale commercial and residential development cladding fixing services</li>\n                        </ul>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".8s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Exterior Cladding Tiles in Dubai</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".9s\">\n                            Exterior cladding tiles are one of the most specified building materials across the UAE, valued for their ability to protect building facades while enhancing architectural appearance. Al Maha supplies a comprehensive range of exterior cladding tiles in Dubai including large-format facade tiles, natural stone cladding, porcelain cladding panels, and textured exterior tiles suitable for the Gulf climate.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\"1.0s\">\n                            <strong>Why Exterior Cladding Tiles Are Ideal:</strong> Exterior cladding tiles are engineered to perform in Dubai's demanding climate conditions. Their resistance to UV rays, heat, moisture, and wind-driven sand makes them a reliable and low-maintenance exterior wall solution for both residential and commercial buildings across the UAE.\n                        </p>\n                        \n                        <h5 class=\"mt-3 mb-2 wow fadeInUp\" data-wow-delay=\"1.05s\" style=\"font-weight: 700;\">Exterior Cladding Applications:</h5>\n                        <ul class=\"list-unstyled mb-0 wow fadeInUp\" data-wow-delay=\"1.1s\">\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Building facades and exterior walls of villas and apartments</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Commercial building exteriors and office towers</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Hotel and resort exterior cladding across the UAE</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Retail and shopping centre exterior facades</li>\n                            <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Large-scale residential and commercial development exteriors across Dubai and the UAE</li>\n                        </ul>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Cladding Tiles in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted cladding tiles suppliers, with over 15 years of experience supplying premium cladding tiles, interior wall tiles, and exterior facade solutions to contractors, developers, architects, and homeowners across the UAE.\n\nAs a direct cladding tiles importer, we source our cladding tile collections from leading international manufacturers, giving our clients access to premium quality at competitive cladding tile prices in Dubai. From project consultation and material selection to supply, delivery, and professional tile fixing, Al Maha provides end-to-end support for every cladding project across the UAE.",
+            "image": "product-pages/cd-4.png",
+            "items": [
+                {
+                    "title": "Importer Pricing",
+                    "description": "Direct cladding tiles importer in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Global Manufacturers",
+                    "description": "Premium cladding tiles sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted cladding tiles company in Dubai supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "End-to-End Service",
+                    "description": "Complete supply and fixing service through our experienced tile fixing contractors in Dubai."
+                },
+                {
+                    "title": "Extensive Formats",
+                    "description": "Wide range of interior and exterior cladding tiles in sizes, finishes, and formats for every project type."
+                },
+                {
+                    "title": "Reliable Logistics",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Dedicated Project Support",
+                    "description": "Custom support for contractors, developers, and interior designers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about interior and exterior cladding tiles and fixing in Dubai.",
+            "items": [
+                {
+                    "question": "What are cladding tiles used for in Dubai?",
+                    "answer": "Cladding tiles in Dubai are used for interior and exterior wall applications including building facades, feature walls, kitchen splashbacks, bathroom walls, hotel lobbies, and commercial interiors. Their durability, weather resistance, and wide range of designs make them one of the most versatile wall finishing solutions available in the UAE."
+                },
+                {
+                    "question": "What is the difference between cladding tiles and regular wall tiles?",
+                    "answer": "Cladding tiles are specifically designed for wall surface applications and are available in thicker formats and larger sizes than standard wall tiles, making them suitable for both interior accent walls and exterior building facades. Regular wall tiles are typically lighter and thinner and are suited to interior wet areas such as bathrooms and kitchens."
+                },
+                {
+                    "question": "Are cladding tiles suitable for exterior use in Dubai?",
+                    "answer": "Yes. Our exterior cladding tiles in Dubai are weather-resistant, UV-stable, and engineered to withstand Dubai's extreme heat, moisture, and wind conditions, making them suitable for building facades, exterior walls, and outdoor feature walls across the UAE."
+                },
+                {
+                    "question": "Does Al Maha provide cladding tile fixing services in Dubai?",
+                    "answer": "Yes. Al Maha provides a complete supply and installation service for cladding tiles in Dubai through our experienced tile fixing contractors. We handle interior and exterior cladding installations for residential, commercial, and large-scale construction projects across the UAE."
+                },
+                {
+                    "question": "How much do cladding tiles cost in Dubai?",
+                    "answer": "Cladding tile prices in Dubai vary depending on the material, finish, size, and collection. Al Maha offers competitive pricing across both standard and premium cladding tile ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+                },
+                {
+                    "question": "What finishes are available for cladding tiles in Dubai?",
+                    "answer": "Al Maha supplies cladding tiles in Dubai in a wide range of finishes including natural stone effect, wood effect, concrete effect, polished, matte, and textured surfaces. Our range covers porcelain cladding tiles, natural stone cladding, marble cladding, and granite cladding for every design specification."
+                },
+                {
+                    "question": "Can cladding tiles be used for feature walls in Dubai?",
+                    "answer": "Yes. Cladding tiles are one of the most popular choices for interior feature walls and accent walls in Dubai, used across residential villas, hotel lobbies, office receptions, restaurants, and retail spaces. Our range includes large-format porcelain cladding panels and natural stone cladding tiles suitable for high-impact interior feature wall applications."
+                },
+                {
+                    "question": "Where can I view cladding tiles in Dubai?",
+                    "answer": "You can view our full range of cladding tiles in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right cladding tile finish, format, and material for your specific project. We also supply cladding tiles to project sites across all seven Emirates."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "sanitary-ware": {
+        "name": "Sanitary Ware",
+        "slug": "sanitary-ware",
+        "subtitle": "BATHROOM FITTINGS",
+        "heading": "Sanitary Ware Dubai",
+        "subheading": "Premium Sanitary Ware Supplier and Importer",
+        "intro_image": "product-pages/san-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted sanitary ware supplier in Dubai, offering premium basins, toilets, bathtubs, showers, and bathroom accessories for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality sanitary ware, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Is Sanitary Ware?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Sanitary ware refers to the fixed bathroom and washroom fittings used in residential, commercial, and hospitality environments, including toilets, basins, bathtubs, shower trays, and urinals. As one of the most trusted sanitary ware suppliers in Dubai, Al Maha supplies a carefully selected range of sanitary ware, from premium luxury bathroom collections to competitively priced standard ranges for projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of styles, finishes, and specifications, our sanitary ware in Dubai suits homeowners, contractors, interior designers, and developers working on projects of all scales across the UAE. From luxury villa bathrooms and hotel fit-outs to large-scale residential developments and commercial washrooms, Al Maha has the right sanitary ware solution for every project across Dubai and the UAE.\n                        </p>",
+        "meta_title": "Premium Sanitary Ware Supplier Dubai | Al Maha Materials",
+        "meta_description": "Source luxury bathroom sanitary ware & accessories at direct-importer prices in Dubai. 15+ years of expertise with UAE-wide delivery. Contact us today.",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/sanitary-ware#webpage\",\n      \"url\": \"https://www.mahabldg.com/sanitary-ware\",\n      \"name\": \"Premium Sanitary Ware Supplier Dubai | Al Maha Materials\",\n      \"description\": \"Source luxury bathroom sanitary ware & accessories at direct-importer prices in Dubai. 15+ years of expertise with UAE-wide delivery.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/sanitary-ware#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What sanitary ware does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of sanitary wares, including basins, toilets, bathtubs, shower trays, shower enclosures, urinals, and bathroom accessories for residential, commercial, and hospitality projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is Al Maha a direct sanitary ware importer in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a direct sanitary ware importer in Dubai, sourcing bathroom fittings and sanitary ware directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive sanitary ware prices in Dubai with no middleman markup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What styles of sanitary ware are available in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies sanitary ware across Dubai in a wide range of styles including modern, contemporary, classic, and minimalist designs. Our range covers gloss white, matte white, custom colour, and metallic finishes to suit every bathroom specification and interior design requirement.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply luxury sanitary ware in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha supplies a carefully curated range of luxury sanitary ware in Dubai including designer basins, freestanding bathtubs, wall-hung toilets, and frameless shower enclosures for high-end residential villas, luxury hotels, and premium hospitality developments across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do sanitary ware cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Sanitary ware prices in Dubai vary depending on the product type, style, finish, and collection. Al Maha offers competitive pricing across both standard and premium sanitary ware ranges as a direct importer. Contact us for a quote tailored to your specific project requirements.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply sanitary ware for hotels and hospitality projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a trusted sanitary ware supplier for hospitality projects in Dubai and across the UAE, supplying bathroom fittings, hotel bathroom sanitary ware, and complete washroom solutions for luxury hotels, resorts, serviced apartments, and large-scale hospitality developments.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I view sanitary ware in Al Maha's Dubai showroom?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You can view our full range of sanitary ware in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right sanitary ware for your project budget and specifications. We also supply sanitary ware to project sites across all seven Emirates.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between standard and luxury sanitary ware?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Standard sanitary ware offers reliable quality and practical functionality at competitive prices, making it suitable for residential developments, commercial washrooms, and budget-conscious projects. Luxury sanitary ware combines premium materials, designer aesthetics, and advanced functionality, making it the preferred choice for high-end villas, boutique hotels, and premium hospitality projects in Dubai.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/sanitary-ware#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Sanitary Ware\",\n          \"item\": \"https://www.mahabldg.com/sanitary-ware\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Our Sanitary Ware",
+            "description": "Engineered for absolute hygiene, durability, and contemporary style in any residential or commercial setting.",
+            "items": [
+                {
+                    "title": "Premium Quality",
+                    "icon": "fas fa-certificate",
+                    "description": "Engineered for durability and long-term performance in residential and commercial environments."
+                },
+                {
+                    "title": "Aesthetic Range",
+                    "icon": "fas fa-palette",
+                    "description": "Wide range of styles from modern and contemporary to classic designs suitable for every interior specification."
+                },
+                {
+                    "title": "Water Efficient",
+                    "icon": "fas fa-tint",
+                    "description": "Water-efficient options available to meet UAE sustainability and building regulations."
+                },
+                {
+                    "title": "Easy Maintenance",
+                    "icon": "fas fa-magic",
+                    "description": "Easy to clean and maintain, making them a practical choice for high-traffic commercial and hospitality environments."
+                },
+                {
+                    "title": "Competitive Pricing",
+                    "icon": "fas fa-tags",
+                    "description": "Sourced directly from internationally recognised manufacturers, ensuring consistent quality and competitive prices."
+                },
+                {
+                    "title": "Highly Versatile",
+                    "icon": "fas fa-building",
+                    "description": "Suitable for residential villas, apartments, hotels, offices, and large-scale construction projects across the UAE."
+                },
+                {
+                    "title": "Complete Bathroom Solutions",
+                    "icon": "fas fa-bath",
+                    "description": "Complete bathroom packages available, covering basins, toilets, bathtubs, showers, and accessories from a single supplier."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "OUR RANGE",
+            "heading": "Sanitary Ware Product Range",
+            "description": "Our sanitary ware range in Dubai is available across a variety of styles, materials, and specifications to meet the requirements of any residential or commercial project:",
+            "image": "product-pages/san-2.png",
+            "items": [
+                {
+                    "label": "Materials",
+                    "icon": "fas fa-cubes",
+                    "value": "Vitreous china, ceramic, acrylic, stone resin, and tempered glass"
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-layer-group",
+                    "value": "Gloss white, matte white, custom colours, and metallic finishes"
+                },
+                {
+                    "label": "Standards",
+                    "icon": "fas fa-shield-alt",
+                    "value": "Products sourced to meet UAE building and plumbing regulations"
+                },
+                {
+                    "label": "Styles",
+                    "icon": "fas fa-star",
+                    "value": "Modern, contemporary, classic, and minimalist designs"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised sanitary ware manufacturers known for quality, innovation, and durability"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Sanitary Ware",
+            "description": "Our sanitary ware is specified for a wide range of residential, commercial, and hospitality projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Sanitary ware for luxury villas and private residences\nBathroom fittings for apartments and townhouses across the UAE\nEnsuite and master bathroom sanitary ware for high-end residential projects\nPowder room and guest bathroom fittings for residential developments\nComplete bathroom packages for villa and apartment fit-outs"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Office washroom sanitary ware for commercial buildings\nRetail store and shopping mall washroom fittings across the UAE\nRestaurant and cafe bathroom fittings for hospitality fit-outs\nGym and leisure facility sanitary ware for commercial developments\nLarge-scale residential/commercial development washroom supply"
+                },
+                {
+                    "title": "Hospitality & Health",
+                    "icon": "fas fa-hotel",
+                    "points": "Hotel bathroom sanitary ware for luxury and mid-range hospitality projects\nResort and spa bathroom fittings for hospitality developments across the UAE\nServiced apartment sanitary ware for short-term rental projects\nHotel lobby and public washroom sanitary ware for developments\nHealthcare facility sanitary ware that is hygienic, durable, and easy to maintain"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "LUXURY SELECTION",
+            "heading": "Luxury Sanitary Ware",
+            "image": "product-pages/san-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Al Maha supplies a carefully curated range of luxury sanitary ware for high-end residential villas, boutique hotels, luxury apartments, and premium hospitality developments across the UAE. Our luxury sanitary ware collection includes designer basins, freestanding bathtubs, wall-hung toilets, frameless shower enclosures, and premium bathroom accessories sourced from internationally acclaimed manufacturers.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".5s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Choose Luxury Sanitary Ware for Your Project</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Premium sanitary ware elevates the appearance and functionality of any bathroom space, combining high-quality materials with contemporary design to create bathrooms that are both visually impressive and built to last. As a direct luxury sanitary ware importer, Al Maha gives contractors, developers, and homeowners access to premium collections at competitive prices with no middleman markup.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Luxury Sanitary Ware Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".8s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Master bathroom & ensuite fittings</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Boutique hotel suite fixtures</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> High-end apartment bathroom fit-outs</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Spa and wellness facility fittings</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Developer show apartment models</li>\n                                </ul>\n                            </div>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Sanitary Ware in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted sanitary ware suppliers, with over 15 years of experience supplying premium sanitary ware, bathroom fittings, and surface solutions to contractors, developers, architects, and homeowners across the UAE.\n\nAs a direct sanitary ware importer, we source our sanitary ware collections from leading international manufacturers, giving our clients access to premium quality at competitive sanitary ware prices in Dubai. From product selection and project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every bathroom and washroom project.",
+            "image": "product-pages/san-4.png",
+            "items": [
+                {
+                    "title": "Direct Importer Prices",
+                    "description": "Direct sanitary ware importer in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Premium Brands",
+                    "description": "Premium sanitary ware sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted sanitary ware company in Dubai with 15+ years of supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "Complete Range",
+                    "description": "Complete bathroom range covering basins, toilets, bathtubs, showers, urinals, and accessories."
+                },
+                {
+                    "title": "Versatile Styles",
+                    "description": "Wide range of styles, finishes, and specifications for every project type and budget."
+                },
+                {
+                    "title": "UAE-wide Supply",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Expert Trade Support",
+                    "description": "Dedicated support for contractors, developers, and interior designers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about bathroom fittings, luxury sanitary ware, and orders in Dubai.",
+            "items": [
+                {
+                    "question": "What sanitary ware does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of sanitary wares, including basins, toilets, bathtubs, shower trays, shower enclosures, urinals, and bathroom accessories for residential, commercial, and hospitality projects across the UAE."
+                },
+                {
+                    "question": "Is Al Maha a direct sanitary ware importer in Dubai?",
+                    "answer": "Yes. Al Maha is a direct sanitary ware importer in Dubai, sourcing bathroom fittings and sanitary ware directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive sanitary ware prices in Dubai with no middleman markup."
+                },
+                {
+                    "question": "What styles of sanitary ware are available in Dubai?",
+                    "answer": "Al Maha supplies sanitary ware across Dubai in a wide range of styles including modern, contemporary, classic, and minimalist designs. Our range covers gloss white, matte white, custom colour, and metallic finishes to suit every bathroom specification and interior design requirement."
+                },
+                {
+                    "question": "Does Al Maha supply luxury sanitary ware in Dubai?",
+                    "answer": "Yes. Al Maha supplies a carefully curated range of luxury sanitary ware in Dubai including designer basins, freestanding bathtubs, wall-hung toilets, and frameless shower enclosures for high-end residential villas, luxury hotels, and premium hospitality developments across the UAE."
+                },
+                {
+                    "question": "How much do sanitary ware cost in Dubai?",
+                    "answer": "Sanitary ware prices in Dubai vary depending on the product type, style, finish, and collection. Al Maha offers competitive pricing across both standard and premium sanitary ware ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+                },
+                {
+                    "question": "Does Al Maha supply sanitary ware for hotels and hospitality projects in Dubai?",
+                    "answer": "Yes. Al Maha is a trusted sanitary ware supplier for hospitality projects in Dubai and across the UAE, supplying bathroom fittings, hotel bathroom sanitary ware, and complete washroom solutions for luxury hotels, resorts, serviced apartments, and large-scale hospitality developments."
+                },
+                {
+                    "question": "Can I view sanitary ware in Al Maha's Dubai showroom?",
+                    "answer": "Yes. You can view our full range of sanitary ware in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right sanitary ware for your project budget and specifications. We also supply sanitary ware to project sites across all seven Emirates."
+                },
+                {
+                    "question": "What is the difference between standard and luxury sanitary ware?",
+                    "answer": "Standard sanitary ware offers reliable quality and practical functionality at competitive prices, making it suitable for residential developments, commercial washrooms, and budget-conscious projects. Luxury sanitary ware combines premium materials, designer aesthetics, and advanced functionality, making it the preferred choice for high-end villas, boutique hotels, and premium hospitality projects in Dubai."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "roofing-materials-dubai": {
+        "name": "Roofing Materials in Dubai",
+        "slug": "roofing-materials-dubai",
+        "subtitle": "STRUCTURAL COVERING",
+        "heading": "Roofing Sheets Dubai",
+        "subheading": "Premium Roofing Supplier and Importer",
+        "intro_image": "product-pages/r-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted roofing sheets supplier in Dubai, offering premium roofing solutions for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality roofing sheets, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Are Roofing Sheets?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Roofing sheets are structural and weatherproofing panels used across residential, commercial, and industrial buildings to provide durable, weather-resistant roof coverage. As one of the most trusted building materials suppliers in Dubai, Al Maha supplies a carefully selected range of roofing sheets, from premium solutions for high-end construction to competitively priced options for large-scale development projects.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of materials, profiles, and specifications, our roofing sheets in Dubai suit contractors, developers, and project managers working on projects of all scales across the UAE. From luxury villa roofing and commercial warehouses to large-scale industrial facilities and hospitality developments, Al Maha has the right roofing solution for every project across Dubai and the UAE.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".9s\" style=\"border-left: 3px solid var(--theme); padding-left: 15px;\">\n                            Dubai's climate presents unique roofing challenges, including intense UV exposure, extreme summer heat, and sandstorm conditions that demand materials engineered specifically for high-performance longevity. Al Maha supplies roofing sheets that are selected to withstand these conditions, ensuring every project delivers lasting protection and structural integrity across the UAE's demanding environment.\n                        </p>",
+        "meta_title": "Premium Roofing Sheets Dubai | Al Maha",
+        "meta_description": "Premium roofing sheets in Dubai for residential, commercial, and industrial projects. Visit our showroom or get a free quote today!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/roofing-materials-dubai#webpage\",\n      \"url\": \"https://www.mahabldg.com/roofing-materials-dubai\",\n      \"name\": \"Premium Roofing Sheets Dubai | Al Maha\",\n      \"description\": \"Premium roofing sheets in Dubai for residential, commercial, and industrial projects. Sourced direct, competitively priced.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/roofing-materials-dubai#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What roofing sheets does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of roofing sheets in Dubai, including corrugated roofing panels, polycarbonate sheets, metal roofing, insulated sandwich panels, and roofing accessories for residential, commercial, and industrial projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is Al Maha a direct roofing sheet supplier in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a direct roofing supplier in Dubai, sourcing roofing sheets and construction materials directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive roofing sheet prices with no middleman markup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What types of roofing sheets are available in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies roofing sheets in Dubai in a wide range of materials and profiles including corrugated metal, polycarbonate, aluminium, galvanised steel, and insulated sandwich panels. Our range covers multiple finishes and specifications to suit every construction and architectural requirement.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply roofing sheets for industrial projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a trusted building materials supplier for industrial projects in Dubai and across the UAE, supplying heavy-duty roofing sheets, insulated panels, and complete roofing solutions for warehouses, factories, cold storage facilities, and large-scale industrial developments.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do roofing sheets cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Roofing sheet prices in Dubai vary depending on the material type, profile, finish, and specification. Al Maha offers competitive pricing across both standard and premium roofing ranges as a direct building materials supplier. Contact us for a quote tailored to your specific project requirements.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply roofing sheets for commercial buildings in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha supplies roofing sheets for commercial buildings, warehouses, retail developments, and large-scale construction projects across Dubai and the UAE, providing reliable supply and UAE-wide delivery for every project scale.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I view roofing sheets at Al Maha's Dubai showroom?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You can view our roofing sheet range at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right roofing solution for your project budget and specifications. We also supply roofing materials to project sites across all seven Emirates.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between standard and luxury roofing sheets?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Standard roofing sheets offer reliable weather protection and practical performance at competitive prices, making them suitable for industrial facilities, warehouses, and budget-conscious construction projects. Premium roofing sheets combine high-performance materials, superior insulation, and architectural finishes, making them the preferred choice for luxury residential developments, high-end commercial buildings, and premium hospitality projects in Dubai.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/roofing-materials-dubai#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Roofing Materials\",\n          \"item\": \"https://www.mahabldg.com/roofing-materials-dubai\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Our Roofing Sheets",
+            "description": "Engineered to deliver high strength, temperature regulation, and absolute weather protection.",
+            "items": [
+                {
+                    "title": "Weather Performance",
+                    "icon": "fas fa-shield-alt",
+                    "description": "Premium quality roofing sheets engineered for durability and long-term weather performance in demanding environments."
+                },
+                {
+                    "title": "Wide Profile Range",
+                    "icon": "fas fa-cubes",
+                    "description": "Wide range of profiles, materials, and finishes suitable for every architectural and construction specification."
+                },
+                {
+                    "title": "Lightweight & Strong",
+                    "icon": "fas fa-weight-hanging",
+                    "description": "Lightweight yet structurally strong, reducing load on building frameworks across commercial and industrial applications."
+                },
+                {
+                    "title": "UV & Heat Resistant",
+                    "icon": "fas fa-sun",
+                    "description": "UV and heat resistant options available to meet UAE climate conditions and building regulations."
+                },
+                {
+                    "title": "Easy Installation",
+                    "icon": "fas fa-tools",
+                    "description": "Easy to install and maintain, making them a practical choice for large-scale construction and industrial developments."
+                },
+                {
+                    "title": "Direct Pricing",
+                    "icon": "fas fa-tags",
+                    "description": "Sourced directly from internationally recognised manufacturers, ensuring consistent quality and competitive roofing sheet prices."
+                },
+                {
+                    "title": "Multi-sector Application",
+                    "icon": "fas fa-building",
+                    "description": "Suitable for residential villas, commercial buildings, warehouses, industrial facilities, and large-scale projects."
+                },
+                {
+                    "title": "Complete Service",
+                    "icon": "fas fa-hands-helping",
+                    "description": "Complete roofing systems and ancillary accessories available from a single trusted roofing solutions provider."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "OUR RANGE",
+            "heading": "Roofing Product Range",
+            "description": "Our roofing sheets range is available across a variety of materials, profiles, and specifications to meet the requirements of any residential, commercial, or industrial project:",
+            "image": "product-pages/r-2.png",
+            "items": [
+                {
+                    "label": "Materials",
+                    "icon": "fas fa-cubes",
+                    "value": "Galvanised steel, aluminium, polycarbonate, GRP fibreglass, and insulated composite panels"
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-palette",
+                    "value": "Coated metal, clear, tinted, and opaque polycarbonate, powder-coated aluminium, and pre-painted steel"
+                },
+                {
+                    "label": "Standards",
+                    "icon": "fas fa-clipboard-check",
+                    "value": "Products sourced to meet UAE construction and building regulations"
+                },
+                {
+                    "label": "Profiles",
+                    "icon": "fas fa-border-style",
+                    "value": "Corrugated, trapezoidal, standing seam, flat, and box profile designs"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised roofing manufacturers known for quality, durability, and innovation"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Roofing Sheets",
+            "description": "Our roofing sheets are specified for a wide range of residential, commercial, and industrial projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Roofing sheets for luxury villas and private residences\nCarport and pergola roofing for apartments and townhouses across the UAE\nCanopy and covered walkway roofing for residential developments\nUtility and service area roofing for villa and apartment projects\nLightweight roofing solutions for extensions and outbuildings across the UAE"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Warehouse and storage facility roofing for commercial and logistics projects\nRetail store, showroom, and shopping mall canopy roofing across the UAE\nOffice building and commercial development roofing solutions\nCar park and multi-storey parking structure roofing for commercial projects\nLarge-scale commercial and mixed-use development roofing supply across the UAE"
+                },
+                {
+                    "title": "Industrial",
+                    "icon": "fas fa-industry",
+                    "points": "Industrial facility and factory roofing for manufacturing and production projects\nCold storage and temperature-controlled warehouse roofing across the UAE\nLogistics hub and distribution centre roofing for large-scale industrial developments\nAgricultural and storage structure roofing for industrial applications\nHeavy-duty roofing solutions for ports, infrastructure, and large industrial projects"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "PREMIUM SELECTION",
+            "heading": "Premium Roofing Sheets in Dubai",
+            "image": "product-pages/r-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Al Maha supplies a carefully curated range of premium roofing sheets in Dubai for high-end residential villas, luxury commercial developments, boutique hospitality projects, and large-scale construction across the UAE. Our premium roofing collection includes insulated sandwich panels, standing seam metal roofing, architectural polycarbonate systems, and high-performance coated steel panels sourced from internationally acclaimed manufacturers.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".5s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Choose Premium Roofing Sheets for Your Project</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Premium roofing sheets combine superior weather resistance, structural performance, and architectural finish to deliver roofing that is both visually impressive and built to withstand UAE climate conditions over the long term. As a direct building materials supplier in Dubai, Al Maha gives contractors, developers, and project managers access to premium roofing collections at competitive prices with no middleman markup.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Premium Roofing Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".8s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Luxury villa and high-end residential roofing</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Boutique hotel & resort roofing projects</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Premium commercial headquarters roofing</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Architectural canopies & landmark features</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Developer show villas & model unit roofing</li>\n                                </ul>\n                            </div>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Roofing Sheets in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted building materials suppliers, with over 15 years of experience supplying premium roofing sheets, surface solutions, and building materials to contractors, developers, architects, and project managers across the UAE.\n\nAs a direct roofing supplier, we source our roofing sheets from leading international manufacturers, giving our clients access to premium quality at competitive roofing sheet prices. From product selection and project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every roofing project.",
+            "image": "product-pages/r-4.png",
+            "items": [
+                {
+                    "title": "Metal Roofing Sheets Supplier",
+                    "description": "Direct supplier in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Globally Sourced",
+                    "description": "Premium roofing sheets sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted building materials company supplying residential, commercial, and industrial projects across the UAE."
+                },
+                {
+                    "title": "Complete Range",
+                    "description": "Covering corrugated sheets, polycarbonate panels, metal roofing, sandwich panels, and accessories."
+                },
+                {
+                    "title": "Specifications & Profiles",
+                    "description": "Wide range of profiles, materials, and specifications for every project type and budget."
+                },
+                {
+                    "title": "UAE-wide Supply",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert project consultation."
+                },
+                {
+                    "title": "B2B Support",
+                    "description": "Dedicated support for contractors, developers, and project managers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about metal sheets, polycarbonate panels, sandwich panels, and orders in Dubai.",
+            "items": [
+                {
+                    "question": "What roofing sheets does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of roofing sheets in Dubai, including corrugated roofing panels, polycarbonate sheets, metal roofing, insulated sandwich panels, and roofing accessories for residential, commercial, and industrial projects across the UAE."
+                },
+                {
+                    "question": "Is Al Maha a direct roofing sheet supplier in Dubai?",
+                    "answer": "Yes. Al Maha is a direct roofing supplier in Dubai, sourcing roofing sheets and construction materials directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive roofing sheet prices with no middleman markup."
+                },
+                {
+                    "question": "What types of roofing sheets are available in Dubai?",
+                    "answer": "Al Maha supplies roofing sheets in Dubai in a wide range of materials and profiles including corrugated metal, polycarbonate, aluminium, galvanised steel, and insulated sandwich panels. Our range covers multiple finishes and specifications to suit every construction and architectural requirement."
+                },
+                {
+                    "question": "Does Al Maha supply roofing sheets for industrial projects in Dubai?",
+                    "answer": "Yes. Al Maha is a trusted building materials supplier for industrial projects in Dubai and across the UAE, supplying heavy-duty roofing sheets, insulated panels, and complete roofing solutions for warehouses, factories, cold storage facilities, and large-scale industrial developments."
+                },
+                {
+                    "question": "How much do roofing sheets cost in Dubai?",
+                    "answer": "Roofing sheet prices in Dubai vary depending on the material type, profile, finish, and specification. Al Maha offers competitive pricing across both standard and premium roofing ranges as a direct building materials supplier. Contact us for a quote tailored to your specific project requirements."
+                },
+                {
+                    "question": "Does Al Maha supply roofing sheets for commercial buildings in Dubai?",
+                    "answer": "Yes. Al Maha supplies roofing sheets for commercial buildings, warehouses, retail developments, and large-scale construction projects across Dubai and the UAE, providing reliable supply and UAE-wide delivery for every project scale."
+                },
+                {
+                    "question": "Can I view roofing sheets at Al Maha's Dubai showroom?",
+                    "answer": "Yes. You can view our roofing sheet range at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right roofing solution for your project budget and specifications. We also supply roofing materials to project sites across all seven Emirates."
+                },
+                {
+                    "question": "What is the difference between standard and luxury roofing sheets?",
+                    "answer": "Standard roofing sheets offer reliable weather protection and practical performance at competitive prices, making them suitable for industrial facilities, warehouses, and budget-conscious construction projects. Premium roofing sheets combine high-performance materials, superior insulation, and architectural finishes, making them the preferred choice for luxury residential developments, high-end commercial buildings, and premium hospitality projects in Dubai."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "marble-granite": {
+        "name": "Marble and Granite",
+        "slug": "marble-granite",
+        "subtitle": "NATURAL STONES",
+        "heading": "Marble & Granite Dubai",
+        "subheading": "Premium Marble and Granite Supplier and Importer",
+        "intro_image": "product-pages/m-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted marble and granite supplier in Dubai, offering premium natural stone solutions for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality marble and granite, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Are Marble and Granite?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Marble and granite are premium natural stones widely used across residential, commercial, and hospitality environments for flooring, wall cladding, countertops, staircases, and feature surfaces. As one of the most trusted natural stone suppliers in Dubai, Al Maha supplies a carefully selected range of marble and granite, from premium luxury stone collections to competitively priced options for projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of colours, finishes, and specifications, our marble and granite in Dubai suit homeowners, contractors, interior designers, and developers working on projects of all scales across the UAE. From luxury villa interiors and five-star hotel lobbies to large-scale residential developments and commercial fit-outs, Al Maha has the right natural stone solution for every project across the UAE.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".9s\" style=\"border-left: 3px solid var(--theme); padding-left: 15px;\">\n                            Dubai's design culture demands natural stone that combines visual excellence with durability. Our marble and granite collections are carefully sourced to meet the aesthetic and performance standards expected across the UAE's most prestigious residential, hospitality, and commercial developments.\n                        </p>",
+        "meta_title": "Marble & Granite Supplier Dubai | Al Maha Materials",
+        "meta_description": "Source premium natural stone, marble, and granite at competitive direct-importer prices in Dubai. 15+ years experience. Contact Al Maha for a quote today!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/marble-granite#webpage\",\n      \"url\": \"https://www.mahabldg.com/marble-granite\",\n      \"name\": \"Marble & Granite Supplier Dubai | Al Maha Materials\",\n      \"description\": \"Source premium natural stone, marble, and granite at competitive direct-importer prices in Dubai. 15+ years experience.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/marble-granite#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What marble and granite does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of marble and granite in Dubai, including marble flooring, granite flooring, wall cladding slabs, countertops, staircase pieces, and natural stone mosaics for residential, commercial, and hospitality projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is Al Maha a direct marble and granite importer in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a direct marble and granite importer in Dubai, sourcing natural stone directly from internationally recognised quarries and manufacturers across Italy, Spain, India, Turkey, and Brazil. This allows us to offer premium quality at competitive marble and granite prices in Dubai with no middleman markup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What types of marble are available in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a wide range of marble in Dubai including Carrara marble, Statuario marble, Emperador marble, and a variety of imported and locally stocked natural stone collections. Our marble range is available in polished, honed, and brushed finishes in standard tile formats, large-format slabs, and custom-cut pieces.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between marble and granite?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Marble is a metamorphic natural stone known for its distinctive veining and polished finish, making it the preferred choice for luxury bathrooms, lobbies, and feature walls. Granite is an igneous natural stone known for its superior hardness, scratch resistance, and durability, making it ideal for kitchen countertops, high-traffic flooring, and exterior applications. Al Maha supplies both marble and granite in Dubai to suit every project requirement.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply marble and granite for hospitality projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a trusted natural stone supplier for hospitality projects in Dubai and across the UAE, supplying marble flooring, granite surfaces, and complete natural stone solutions for luxury hotels, resorts, spas, serviced apartments, and large-scale hospitality developments.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do marble and granite cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Marble and granite prices in Dubai vary depending on the stone type, origin, finish, format, and collection. Al Maha offers competitive pricing across both standard and premium natural stone ranges as a direct importer. Contact us for a quote tailored to your specific project requirements.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I view marble and granite at Al Maha's Dubai showroom?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You can view our full range of marble and granite in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right natural stone for your project budget, design specification, and application. We also supply natural stone to project sites across all seven Emirates.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply marble and granite for large-scale construction projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha supplies marble and granite for large-scale residential developments, commercial buildings, mixed-use projects, and hospitality developments across Dubai and the UAE, providing reliable supply, consistent stone quality, and UAE-wide delivery for projects of every scale.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/marble-granite#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Marble & Granite\",\n          \"item\": \"https://www.mahabldg.com/marble-granite\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Marble & Granite",
+            "description": "Natural stone offers unparalleled aesthetics, durability, and value addition to properties.",
+            "items": [
+                {
+                    "title": "Timeless Elegance",
+                    "icon": "fas fa-gem",
+                    "description": "Premium natural stone offering timeless elegance and long-term durability for residential and commercial environments."
+                },
+                {
+                    "title": "Aesthetic Options",
+                    "icon": "fas fa-palette",
+                    "description": "Wide range of colours, veining patterns, and finishes suitable for every interior design specification."
+                },
+                {
+                    "title": "Heat & Scratch Resistant",
+                    "icon": "fas fa-shield-alt",
+                    "description": "Naturally heat and scratch-resistant, making granite an ideal choice for kitchen countertops and heavy commercial floors."
+                },
+                {
+                    "title": "Distinctive Veining",
+                    "icon": "fas fa-paint-brush",
+                    "description": "Marble's distinctive veining and polished finish elevate the appearance of luxury bathrooms, lobbies, and feature walls."
+                },
+                {
+                    "title": "Low Maintenance",
+                    "icon": "fas fa-magic",
+                    "description": "Easy to clean and maintain when properly sealed, making natural stone a practical choice for hospitality and commercial projects."
+                },
+                {
+                    "title": "Competitive Price",
+                    "icon": "fas fa-tags",
+                    "description": "Sourced directly from internationally recognised quarries and suppliers, ensuring consistent quality and competitive prices."
+                },
+                {
+                    "title": "Highly Versatile",
+                    "icon": "fas fa-building",
+                    "description": "Suitable for residential villas, apartments, hotels, offices, and large-scale construction projects across the UAE."
+                },
+                {
+                    "title": "End-to-End Solutions",
+                    "icon": "fas fa-clipboard-list",
+                    "description": "Complete natural stone solutions covering flooring, wall cladding, countertops, staircases, and custom fabrication."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "OUR RANGE",
+            "heading": "Marble & Granite Product Range",
+            "description": "Our marble and granite range in Dubai is available across a variety of stone types, finishes, and specifications to meet project requirements:",
+            "image": "product-pages/m-2.png",
+            "items": [
+                {
+                    "label": "Stone Types",
+                    "icon": "fas fa-gem",
+                    "value": "Carrara marble, Statuario marble, Emperador marble, Black Galaxy granite, Absolute Black granite, Kashmir White granite, etc."
+                },
+                {
+                    "label": "Finishes",
+                    "icon": "fas fa-layer-group",
+                    "value": "Polished, honed, brushed, sandblasted, and flamed finishes"
+                },
+                {
+                    "label": "Formats",
+                    "icon": "fas fa-expand",
+                    "value": "Standard tiles, large-format slabs, custom-cut pieces, mosaic sheets, and bespoke fabrication"
+                },
+                {
+                    "label": "Origin",
+                    "icon": "fas fa-globe-americas",
+                    "value": "Italy, Spain, India, Turkey, Brazil, and other globally recognised producing regions"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-building",
+                    "value": "Sourced from globally recognised quarries and stone manufacturers known for consistency and natural stone expertise"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Marble & Granite",
+            "description": "Our marble and granite are specified for a wide range of residential, commercial, and hospitality projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Marble flooring for luxury villas and private residences\nGranite countertops and kitchen work surfaces for apartments\nMarble bathroom flooring and wall cladding in high-end projects\nGranite and marble staircase treads and landings for developments\nFeature wall marble cladding for living rooms and entrance lobbies"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Marble lobby flooring and wall cladding for commercial office buildings\nGranite reception desks and countertops for corporate offices\nRetail store and shopping mall flooring for high-footfall environments\nRestaurant and cafe marble and granite countertops and surfaces\nLarge-scale development natural stone supply across the UAE"
+                },
+                {
+                    "title": "Hospitality",
+                    "icon": "fas fa-hotel",
+                    "points": "Hotel lobby marble flooring and wall cladding for hospitality projects\nSpa and wellness facility surfaces for premium hospitality developments\nHotel bathroom flooring, wall tiles, and vanity tops for luxury fit-outs\nResort and boutique hotel feature wall cladding across the UAE\nServiced apartment natural stone fit-outs for short-term rental projects"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "LUXURY SELECTION",
+            "heading": "Luxury Marble & Granite",
+            "image": "product-pages/m-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Al Maha supplies a carefully curated range of luxury marble and granite in Dubai for high-end residential villas, boutique hotels, luxury apartments, and premium hospitality developments across the UAE. Our luxury natural stone collection includes Carrara marble, Statuario marble, exotic granite slabs, custom mosaic pieces, and premium large-format natural stone sourced from internationally acclaimed quarries and stone manufacturers.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".5s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Choose Luxury Marble and Granite for Your Project</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Premium natural stone elevates the appearance and value of any residential or commercial space, combining the timeless beauty of natural materials with long-term structural performance. As a direct marble and granite importer in Dubai, Al Maha gives contractors, developers, and homeowners access to premium natural stone collections at competitive prices with no middleman markup.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Luxury Stone Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".8s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Master bathroom & ensuite marble cladding</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Hotel lobby & suite flooring projects</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Luxury kitchen granite countertops</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Spa and wellness facility stone fit-outs</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Model show villa premium stone finishes</li>\n                                </ul>\n                            </div>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Marble & Granite in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted natural stone suppliers, with over 15 years of experience supplying premium marble, granite, and surface solutions to contractors, developers, architects, interior designers, and homeowners across the UAE.\n\nAs a direct marble and granite importer, we source our natural stone collections from leading international quarries and manufacturers, giving our clients access to premium quality at competitive marble and granite prices in Dubai. From product selection and project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every natural stone project.",
+            "image": "product-pages/m-4.png",
+            "items": [
+                {
+                    "title": "Direct Quarry Importer",
+                    "description": "Direct importer in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Premium Quarries",
+                    "description": "Premium natural stone sourced from globally recognised international quarries and manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted natural stone supplier in Dubai with 15+ years of supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "Complete Range",
+                    "description": "Covering marble flooring, granite flooring, wall cladding, countertops, staircases, and custom pieces."
+                },
+                {
+                    "title": "Bespoke Options",
+                    "description": "Wide range of stone types, colours, finishes, and formats for every project type and budget."
+                },
+                {
+                    "title": "UAE-wide Supply",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Design Support",
+                    "description": "Dedicated support for contractors, developers, and interior designers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about natural stone, marble types, granite uses, and orders in Dubai.",
+            "items": [
+                {
+                    "question": "What marble and granite does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of marble and granite in Dubai, including marble flooring, granite flooring, wall cladding slabs, countertops, staircase pieces, and natural stone mosaics for residential, commercial, and hospitality projects across the UAE."
+                },
+                {
+                    "question": "Is Al Maha a direct marble and granite importer in Dubai?",
+                    "answer": "Yes. Al Maha is a direct marble and granite importer in Dubai, sourcing natural stone directly from internationally recognised quarries and manufacturers across Italy, Spain, India, Turkey, and Brazil. This allows us to offer premium quality at competitive marble and granite prices in Dubai with no middleman markup."
+                },
+                {
+                    "question": "What types of marble are available in Dubai?",
+                    "answer": "Al Maha supplies a wide range of marble in Dubai including Carrara marble, Statuario marble, Emperador marble, and a variety of imported and locally stocked natural stone collections. Our marble range is available in polished, honed, and brushed finishes in standard tile formats, large-format slabs, and custom-cut pieces."
+                },
+                {
+                    "question": "What is the difference between marble and granite?",
+                    "answer": "Marble is a metamorphic natural stone known for its distinctive veining and polished finish, making it the preferred choice for luxury bathrooms, lobbies, and feature walls. Granite is an igneous natural stone known for its superior hardness, scratch resistance, and durability, making it ideal for kitchen countertops, high-traffic flooring, and exterior applications. Al Maha supplies both marble and granite in Dubai to suit every project requirement."
+                },
+                {
+                    "question": "Does Al Maha supply marble and granite for hospitality projects in Dubai?",
+                    "answer": "Yes. Al Maha is a trusted natural stone supplier for hospitality projects in Dubai and across the UAE, supplying marble flooring, granite surfaces, and complete natural stone solutions for luxury hotels, resorts, spas, serviced apartments, and large-scale hospitality developments."
+                },
+                {
+                    "question": "How much do marble and granite cost in Dubai?",
+                    "answer": "Marble and granite prices in Dubai vary depending on the stone type, origin, finish, format, and collection. Al Maha offers competitive pricing across both standard and premium natural stone ranges as a direct importer. Contact us for a quote tailored to your specific project requirements."
+                },
+                {
+                    "question": "Can I view marble and granite at Al Maha's Dubai showroom?",
+                    "answer": "Yes. You can view our full range of marble and granite in Dubai at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right natural stone for your project budget, design specification, and application. We also supply natural stone to project sites across all seven Emirates."
+                },
+                {
+                    "question": "Does Al Maha supply marble and granite for large-scale construction projects in Dubai?",
+                    "answer": "Yes. Al Maha supplies marble and granite for large-scale residential developments, commercial buildings, mixed-use projects, and hospitality developments across Dubai and the UAE, providing reliable supply, consistent stone quality, and UAE-wide delivery for projects of every scale."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "solid-surface-filler-sheets": {
+        "name": "Solid Surface Filler and Sheets",
+        "slug": "solid-surface-filler-sheets",
+        "subtitle": "MODERN SURFACES",
+        "heading": "Solid Surface Sheets Dubai",
+        "subheading": "Premium Solid Surface Supplier and Importer",
+        "intro_image": "product-pages/sl-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted solid surface sheets supplier in Dubai, offering premium solid surface sheets and fillers for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality surface solutions, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Are Solid Surface Sheets and Fillers?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Solid surface sheets are engineered, non-porous surface materials manufactured from a blend of natural minerals and high-performance resins, used across residential, commercial, and hospitality environments for countertops, wall cladding, vanity tops, reception desks, and architectural feature surfaces. Solid surface fillers are complementary adhesive and jointing compounds used to create seamless, invisible joins between solid surface sheets for a continuous, high-finish appearance.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            As one of the most trusted building materials suppliers in Dubai, Al Maha supplies a carefully selected range of solid surface sheets and fillers in Dubai, from premium designer collections to competitively priced options for projects of every scale. Available in a wide range of colours, patterns, and finishes, our solid surface solutions suit homeowners, fit-out contractors, interior designers, and developers working on projects of all scales across the UAE.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".9s\" style=\"border-left: 3px solid var(--theme); padding-left: 15px;\">\n                            Dubai's interior design and fit-out industry demands surface materials that combine visual excellence with long-term performance. Our solid surface sheets are selected to meet the aesthetic and functional standards expected across the UAE's most prestigious residential, hospitality, and commercial developments, offering a seamless alternative to natural stone that is non-porous, hygienic, and fully repairable.\n                        </p>",
+        "meta_title": "Premium Solid Surface Sheets Dubai | Al Maha Materials",
+        "meta_description": "Source premium solid surface solutions at competitive direct-importer prices in Dubai. 15+ years experience. Contact Al Maha for a bulk or project quote today!",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/solid-surface-filler-sheets#webpage\",\n      \"url\": \"https://www.mahabldg.com/solid-surface-filler-sheets\",\n      \"name\": \"Premium Solid Surface Sheets Dubai | Al Maha Materials\",\n      \"description\": \"Source premium solid surface solutions at competitive direct-importer prices in Dubai. 15+ years experience.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/solid-surface-filler-sheets#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What solid surface sheets and fillers does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of solid surface sheets and fillers in Dubai, including standard panels, stone-look sheets, translucent backlit panels, colour-matched fillers, and jointing adhesives for residential, commercial, and hospitality projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is Al Maha a direct solid surface sheets supplier in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a direct building materials supplier in Dubai, sourcing solid surface sheets and fillers directly from internationally recognised manufacturers, offering premium quality at competitive prices with no middleman markup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between solid surface sheets and natural stone?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Solid surface sheets are engineered, non-porous panels offering seamless joining, full repairability, and design flexibility that natural stone cannot match. Natural stone offers unique natural patterning and premium aesthetic appeal. Al Maha supplies both to suit every project requirement and budget.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What colours and finishes are available for solid surface sheets in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies solid surface sheets in a wide range of colours, patterns, and finishes including stone-look, wood-look, solid colours, veined patterns, and translucent designs, with matte, satin, gloss, and textured surface finishes.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What are solid surface fillers used for?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Solid surface fillers are colour-matched jointing compounds used to create seamless, invisible joins between sheets during installation, and are also used for surface repairs and achieving a continuous, high-finish appearance.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply solid surface sheets for hospitality projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha supplies solid surface sheets, vanity tops, reception desk surfaces, and complete solutions for luxury hotels, spas, resorts, serviced apartments, and large-scale hospitality developments across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much do solid surface sheets cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Prices vary depending on material type, thickness, colour, finish, and collection. Al Maha offers competitive pricing across standard and premium ranges as a direct supplier. Contact us for a tailored quote.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I view solid surface sheets at Al Maha's Dubai showroom?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You can view the full range of solid surface sheets and fillers at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai, with team support for selecting the right solution. Materials are also supplied across all seven Emirates.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/solid-surface-filler-sheets#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Solid Surface Filler & Sheets\",\n          \"item\": \"https://www.mahabldg.com/solid-surface-filler-sheets\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Solid Surface Solutions",
+            "description": "Seamless integration, complete hygiene, and endless design capabilities.",
+            "items": [
+                {
+                    "title": "Non-Porous & Hygienic",
+                    "icon": "fas fa-shield-virus",
+                    "description": "Hygienic, stain-resistant, non-porous surface that is easy to clean, making it ideal for kitchens and healthcare environments."
+                },
+                {
+                    "title": "Seamless Joins",
+                    "icon": "fas fa-link",
+                    "description": "Seamless joining capability using solid surface fillers to create invisible joins for a continuous, high-finish surface appearance."
+                },
+                {
+                    "title": "Fully Repairable",
+                    "icon": "fas fa-tools",
+                    "description": "Scratches, chips, and surface damage can be easily sanded and restored to original condition without material replacement."
+                },
+                {
+                    "title": "Extensive Design Range",
+                    "icon": "fas fa-palette",
+                    "description": "Wide range of colours, patterns, and finishes, including stone-look, wood-look, solid colours, and translucent designs."
+                },
+                {
+                    "title": "Thermoformable",
+                    "icon": "fas fa-compress-arrows-alt",
+                    "description": "Thermoformable material allows curved, shaped, and custom-fabricated applications that natural stone cannot achieve."
+                },
+                {
+                    "title": "UV & Heat Resistant",
+                    "icon": "fas fa-sun",
+                    "description": "UV-stable and heat-resistant options available for interior applications across the UAE's demanding climate conditions."
+                },
+                {
+                    "title": "Competitive Price",
+                    "icon": "fas fa-tags",
+                    "description": "Sourced directly from internationally recognised manufacturers, ensuring consistent quality and competitive prices."
+                },
+                {
+                    "title": "Wide Project Scope",
+                    "icon": "fas fa-cubes",
+                    "description": "Suitable for residential villas, commercial fit-outs, hospitality projects, healthcare facilities, and developments."
+                },
+                {
+                    "title": "Complete Product Range",
+                    "icon": "fas fa-box-open",
+                    "description": "Complete solid surface solutions available, covering sheets, fillers, and adhesives from a single specialist."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "OUR RANGE",
+            "heading": "Solid Surface Product Range",
+            "description": "Our solid surface sheets and fillers range in Dubai is available across a variety of formats, finishes, and specifications to meet project requirements:",
+            "image": "product-pages/sl-2.png",
+            "items": [
+                {
+                    "label": "Materials",
+                    "icon": "fas fa-layer-group",
+                    "value": "Acrylic solid surface, polyester solid surface, and hybrid acrylic-polyester blends"
+                },
+                {
+                    "label": "Sheet Sizes",
+                    "icon": "fas fa-arrows-alt",
+                    "value": "Standard 760mm x 3660mm and 920mm x 3660mm sheet formats with custom sizing available"
+                },
+                {
+                    "label": "Thickness",
+                    "icon": "fas fa-ruler-combined",
+                    "value": "6mm, 9mm, and 12mm sheet thicknesses for countertops, cladding, and architectural applications"
+                },
+                {
+                    "label": "Finishes & Colours",
+                    "icon": "fas fa-border-style",
+                    "value": "Matte, satin, gloss, and textured finishes. Stone-look, wood-look, solid colours, veined patterns, and translucent designs"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised solid surface manufacturers known for quality, consistency, and innovation"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Solid Surface",
+            "description": "Our solid surface sheets and fillers in Dubai are specified for a wide range of residential, commercial, and hospitality projects across the UAE:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Kitchen countertops and work surfaces in solid surface sheets for villas & apartments\nBathroom vanity tops and wall cladding in solid surface for residential fit-outs\nIntegrated solid surface sinks and basins for seamless bathroom installations\nFeature wall cladding and decorative panels in solid surface for entrance lobbies\nCustom shaped and curved solid surface applications for bespoke interior projects"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Reception desks and front-of-house countertops for corporate offices\nRetail store counters, display surfaces, and feature wall cladding in solid surface\nRestaurant and cafe bar tops, kitchen counters, and food preparation surfaces\nOffice pantry and breakroom countertops in solid surface for interior projects\nLarge-scale commercial and mixed-use development solid surface supply across the UAE"
+                },
+                {
+                    "title": "Hospitality",
+                    "icon": "fas fa-hotel",
+                    "points": "Hotel bathroom vanity tops and wall cladding in solid surface for projects\nSpa and wellness facility treatment surfaces, reception desks, and feature walls\nHotel lobby reception counters and feature cladding in solid surface\nResort and boutique hotel bathroom and kitchen solid surface fit-outs\nHealthcare facility countertops, nurse stations, and hygienic wall cladding for clinical environments"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "LUXURY SELECTION",
+            "heading": "Luxury Solid Surface Sheets",
+            "image": "product-pages/sl-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Al Maha supplies a carefully curated range of luxury solid surface sheets in Dubai for high-end residential villas, boutique hotels, luxury apartments, and premium hospitality and commercial developments across the UAE. Our luxury solid surface collection includes premium stone-look panels, translucent backlit sheets, large-format architectural solid surface, and designer colour collections sourced from internationally acclaimed solid surface manufacturers.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".5s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Choose Luxury Solid Surface Sheets for Your Project</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Premium solid surface sheets offer a seamless, high-finish alternative to natural stone that combines superior design flexibility, hygienic performance, and long-term durability. As a direct solid surface supplier, Al Maha gives contractors, interior designers, and developers access to premium solid surface collections at competitive prices with no middleman markup.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Luxury Solid Surface Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".8s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Master bathroom vanity tops & cladding</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Hotel suite and boutique hotel bathroom fit-outs</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Luxury kitchen countertops & integrated sinks</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Spa reception desks & treatment surfaces</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Developer show apartments model fit-outs</li>\n                                </ul>\n                            </div>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Solid Surface Sheets in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted building materials suppliers, with over 15 years of experience supplying premium solid surface sheets, fillers, tiles, and surface solutions to contractors, developers, interior designers, and fit-out companies across the UAE.\n\nAs a direct surface materials specialist, we source our solid surface collections from leading international manufacturers, giving our clients access to premium quality at competitive solid surface prices in Dubai. From product selection and project consultation to UAE-wide delivery, Al Maha provides end-to-end support for every solid surface project.",
+            "image": "product-pages/sl-4.png",
+            "items": [
+                {
+                    "title": "Importer Pricing",
+                    "description": "Direct building materials supplier in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Premium Brands Sourced",
+                    "description": "Premium solid surface sheets sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted building materials company in Dubai with 15+ years of supplying residential, commercial, and hospitality projects."
+                },
+                {
+                    "title": "Complete Range",
+                    "description": "Complete solid surface range covering sheets, fillers, stone-look panels, translucent sheets, and custom fabrication."
+                },
+                {
+                    "title": "Diverse Formats",
+                    "description": "Wide range of colours, finishes, thicknesses, and formats for every project type and budget."
+                },
+                {
+                    "title": "Reliable UAE-wide Logistics",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert project consultation."
+                },
+                {
+                    "title": "Dedicated B2B Support",
+                    "description": "Dedicated support for contractors, interior designers, fit-out companies, and developers in Dubai."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about acrylic sheets, polyester fillers, seamless joints, and orders in Dubai.",
+            "items": [
+                {
+                    "question": "What solid surface sheets and fillers does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of solid surface sheets and fillers in Dubai, including standard solid surface panels, stone-look sheets, translucent backlit panels, colour-matched fillers, and jointing adhesives for residential, commercial, and hospitality projects across the UAE."
+                },
+                {
+                    "question": "Is Al Maha a direct solid surface sheets supplier in Dubai?",
+                    "answer": "Yes. Al Maha is a direct building materials supplier in Dubai, sourcing solid surface sheets and fillers directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive solid surface prices in Dubai with no middleman markup."
+                },
+                {
+                    "question": "What is the difference between solid surface sheets and natural stone?",
+                    "answer": "Solid surface sheets are engineered, non-porous panels manufactured from mineral and resin blends, offering seamless joining, full repairability, and design flexibility that natural stone cannot match. Natural stone such as marble and granite offers unique natural patterning and premium aesthetic appeal. Al Maha supplies both solid surface sheets and natural stone in Dubai to suit every project requirement and budget."
+                },
+                {
+                    "question": "What colours and finishes are available for solid surface sheets in Dubai?",
+                    "answer": "Al Maha supplies solid surface sheets in Dubai in a wide range of colours, patterns, and finishes including stone-look, wood-look, solid colours, veined patterns, and translucent designs. Surface finishes include matte, satin, gloss, and textured options to suit every interior design specification."
+                },
+                {
+                    "question": "What are solid surface fillers used for?",
+                    "answer": "Solid surface fillers are colour-matched jointing compounds used to create seamless, invisible joins between solid surface sheets during installation. They are also used for surface repairs, filling chips and scratches, and achieving a continuous, high-finish appearance across countertops, wall cladding, and other solid surface applications."
+                },
+                {
+                    "question": "Does Al Maha supply solid surface sheets for hospitality projects in Dubai?",
+                    "answer": "Yes. Al Maha is a trusted building materials supplier for hospitality projects in Dubai and across the UAE, supplying solid surface sheets, vanity tops, reception desk surfaces, and complete solid surface solutions for luxury hotels, spas, resorts, serviced apartments, and large-scale hospitality developments."
+                },
+                {
+                    "question": "How much do solid surface sheets cost in Dubai?",
+                    "answer": "Solid surface sheet prices in Dubai vary depending on the material type, thickness, colour, finish, and collection. Al Maha offers competitive pricing across both standard and premium solid surface ranges as a direct building materials supplier. Contact us for a quote tailored to your specific project requirements."
+                },
+                {
+                    "question": "Can I view solid surface sheets at Al Maha's Dubai showroom?",
+                    "answer": "Yes. You can view our full range of solid surface sheets and fillers at Al Maha's showroom in Al Qusais Industrial Area 3, Dubai. Our team is available to help you select the right solid surface solution for your project budget, design specification, and application. We also supply solid surface materials to project sites across all seven Emirates."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    },
+    "interior-tiles-glue": {
+        "name": "Interior Tiles Glue",
+        "slug": "interior-tiles-glue",
+        "subtitle": "TILE FIXING",
+        "heading": "Tile Adhesive Dubai",
+        "subheading": "Premium Interior Tile Glue Supplier and Importer",
+        "intro_image": "product-pages/in-1.png",
+        "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".5s\">\n                            Al Maha is a trusted tile adhesive supplier in Dubai, offering premium tile adhesive and interior tile glue for residential, commercial, and large-scale projects across the UAE. With over 15 years of experience, we provide high-quality tile adhesives, competitive pricing, and reliable UAE-wide delivery from our Al Qusais showroom.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".6s\" style=\"font-size: 1.25rem; font-weight: 700; color: #333;\">What Is Tile Adhesive?</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".7s\">\n                            Tile adhesive, also referred to as tile glue or tile fixing compound, is a specially formulated bonding material used to fix ceramic, porcelain, marble, granite, and natural stone tiles to floor and wall substrates in interior environments. As one of the most trusted tile adhesive suppliers in Dubai, Al Maha supplies a carefully selected range of interior tile glue in Dubai, from premium high-performance adhesives for large-format and heavy tiles to competitively priced standard adhesives for residential and commercial tile fixing projects of every scale.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".8s\">\n                            Available in a wide range of formulations, grades, and specifications, our tile adhesive suits tile fixing contractors, developers, and fit-out companies working on projects of all scales across the UAE. From luxury villa bathroom and kitchen tile fixing to large-scale commercial flooring installations and hospitality fit-outs, Al Maha has the right tile adhesive solution for every interior tiling project across Dubai and the UAE.\n                        </p>\n                        <p class=\"desc wow fadeInUp text-justify text-muted font-italic\" data-wow-delay=\".9s\" style=\"border-left: 3px solid var(--theme); padding-left: 15px;\">\n                            Dubai's construction and fit-out industry demands tile adhesives that perform reliably in high-temperature interior environments, across a wide range of tile formats and substrate types. Our interior tile glue range is selected to meet the technical and performance standards required for tile fixing across the UAE's residential, commercial, and hospitality sectors.\n                        </p>",
+        "meta_title": "Premium Tile Adhesive Supplier Dubai | Al Maha Materials",
+        "meta_description": "Source high-performance tile glue and adhesives at competitive direct-importer prices in Dubai. 15+ years of experience. Contact Al Maha for a quote today.",
+        "schema": "{\n  \"@@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://www.mahabldg.com/interior-tiles-glue#webpage\",\n      \"url\": \"https://www.mahabldg.com/interior-tiles-glue\",\n      \"name\": \"Premium Tile Adhesive Supplier Dubai | Al Maha Materials\",\n      \"description\": \"Source high-performance tile glue and adhesives at competitive direct-importer prices in Dubai. 15+ years of experience.\",\n      \"isPartOf\": {\n        \"@id\": \"https://www.mahabldg.com/#website\"\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://www.mahabldg.com/interior-tiles-glue#faq\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What tile adhesive does Al Maha supply in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Al Maha supplies a comprehensive range of tile adhesives and interior tile glue in Dubai, including standard set, rapid set, flexible, large-format, white, and waterproof tile adhesives for residential, commercial, and hospitality tiling projects across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is Al Maha a direct tile adhesive supplier in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha is a direct building materials supplier in Dubai, sourcing tile adhesive and interior tile glue directly from internationally recognised manufacturers, offering premium quality at competitive prices with no middleman markup.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What is the difference between standard and flexible tile adhesive?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Standard tile adhesive is a cement-based bonding compound for stable, rigid substrates. Flexible tile adhesive is a polymer-modified formulation for substrates subject to movement, vibration, or thermal expansion, including underfloor heating and large-format tiles.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What tile adhesive is best for large-format porcelain tiles in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Large-format porcelain tiles require a high-performance, non-slump adhesive with extended open time for accurate positioning and full back coverage. Al Maha supplies specialist large-format tile adhesive formulated for oversized slabs and heavy natural stone.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What tile adhesive is best for bathrooms and wet areas in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Bathrooms and wet areas require waterproof or moisture-resistant tile adhesive for long-term bond strength in high-humidity environments. Al Maha supplies waterproof tile adhesive suitable for wet area floor and wall tile fixing.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Does Al Maha supply tile adhesive for hospitality and hotel projects in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Al Maha supplies rapid-set, large-format, and waterproof tile adhesives for luxury hotels, resorts, spas, and large-scale hospitality fit-outs across the UAE.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How much does tile adhesive cost in Dubai?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Tile adhesive prices vary depending on formulation, grade, brand, and quantity required. Al Maha offers competitive pricing across standard and premium ranges as a direct supplier. Contact us for a tailored quote.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I view tile adhesive products at Al Maha's Dubai showroom?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. You can visit Al Maha's showroom in Al Qusais Industrial Area 3, Dubai, to discuss tile fixing requirements with the team, who can advise on the right adhesive formulation. Tile adhesive is also supplied across all seven Emirates.\"\n          }\n        }\n      ]\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://www.mahabldg.com/interior-tiles-glue#breadcrumb\",\n      \"itemListElement\": [\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 1,\n          \"name\": \"Home\",\n          \"item\": \"https://www.mahabldg.com/\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 2,\n          \"name\": \"Products\",\n          \"item\": \"https://www.mahabldg.com/categories\"\n        },\n        {\n          \"@type\": \"ListItem\",\n          \"position\": 3,\n          \"name\": \"Interior Tiles Glue\",\n          \"item\": \"https://www.mahabldg.com/interior-tiles-glue\"\n        }\n      ]\n    }\n  ]\n}",
+        "status": true,
+        "benefits_data": {
+            "badge": "BENEFITS",
+            "heading": "Benefits of Our Tile Adhesive",
+            "description": "High-strength formulations designed for flawless tiles and slabs installations.",
+            "items": [
+                {
+                    "title": "High Bond Strength",
+                    "icon": "fas fa-handshake",
+                    "description": "High-performance bonding strength engineered for reliable tile fixing across interior floor and wall applications."
+                },
+                {
+                    "title": "Multiple Formulations",
+                    "icon": "fas fa-cubes",
+                    "description": "Wide range of formulations available including standard set, rapid set, and flexible adhesives."
+                },
+                {
+                    "title": "Multi-material Fixing",
+                    "icon": "fas fa-layer-group",
+                    "description": "Suitable for fixing ceramic, porcelain, marble, granite, glass mosaic, and large-format tiles."
+                },
+                {
+                    "title": "Excellent Coverage",
+                    "icon": "fas fa-chart-area",
+                    "description": "Excellent coverage and workability, reducing installation time and material wastage on large-scale projects."
+                },
+                {
+                    "title": "Moisture Resistant",
+                    "icon": "fas fa-water",
+                    "description": "Heat and moisture-resistant formulations available for bathroom, kitchen, and wet area tile fixing."
+                },
+                {
+                    "title": "Competitive Price",
+                    "icon": "fas fa-tags",
+                    "description": "Sourced directly from internationally recognised manufacturers, ensuring consistent quality and competitive prices."
+                },
+                {
+                    "title": "Multi-sector Use",
+                    "icon": "fas fa-building",
+                    "description": "Suitable for residential villas, apartments, offices, retail spaces, hotels, and developments."
+                },
+                {
+                    "title": "Complete System",
+                    "icon": "fas fa-briefcase",
+                    "description": "Complete tile fixing systems covering adhesive, tile grout, and ancillary materials from a single source."
+                }
+            ]
+        },
+        "specs_data": {
+            "badge": "OUR RANGE",
+            "heading": "Tile Adhesive Range",
+            "description": "Our tile adhesive and interior tile glue range in Dubai is available across a variety of formulations, grades, and specifications to meet requirements:",
+            "image": "product-pages/in-2.png",
+            "items": [
+                {
+                    "label": "Adhesive Types",
+                    "icon": "fas fa-layer-group",
+                    "value": "Cement-based, epoxy, and polymer-modified tile adhesives"
+                },
+                {
+                    "label": "Setting Times",
+                    "icon": "fas fa-hourglass-half",
+                    "value": "Standard set, rapid set, and extended open-time formulations"
+                },
+                {
+                    "label": "Flexibility & Colours",
+                    "icon": "fas fa-compress-arrows-alt",
+                    "value": "Rigid, semi-flexible, and fully flexible grades. Grey and white formulations."
+                },
+                {
+                    "label": "Standards",
+                    "icon": "fas fa-clipboard-check",
+                    "value": "Products sourced to meet UAE construction regulations and EN 12004 / ISO standards"
+                },
+                {
+                    "label": "Sourcing",
+                    "icon": "fas fa-globe",
+                    "value": "Sourced from globally recognised tile adhesive manufacturers known for quality and technical consistency"
+                }
+            ]
+        },
+        "apps_data": {
+            "badge": "APPLICATIONS",
+            "heading": "Applications of Tile Adhesive",
+            "description": "Our tile adhesive and interior tile glue in Dubai are specified for a wide range of residential, commercial, and hospitality projects:",
+            "items": [
+                {
+                    "title": "Residential",
+                    "icon": "fas fa-home",
+                    "points": "Interior floor tile fixing using premium tile adhesive for villas\nBathroom and wet area wall tile fixing with waterproof tile glue\nKitchen floor and wall tile fixing using Rapid Set and flexible adhesive\nLarge-format porcelain tile fixing with heavy-duty tile adhesive\nMarble and natural stone floor tile fixing using premium tile adhesive"
+                },
+                {
+                    "title": "Commercial",
+                    "icon": "fas fa-briefcase",
+                    "points": "Office and commercial building interior floor tile fixing across large-scale projects\nRetail store and shopping mall floor and wall tile fixing with high-performance tile glue\nRestaurant and cafe kitchen and floor tile fixing using rapid set & waterproof adhesive\nGym and leisure facility floor tile fixing with heavy-duty tile adhesive for high traffic\nLarge-scale residential and commercial development tile adhesive supply"
+                },
+                {
+                    "title": "Hospitality",
+                    "icon": "fas fa-hotel",
+                    "points": "Hotel bathroom and wet area tile fixing with waterproof tile adhesive\nSpa and wellness facility floor and wall tile fixing using flexible and large-format tile glue\nHotel lobby and corridor floor tile fixing with premium large-format tile adhesive\nResort and boutique hotel bathroom and public area tile fixing across developments\nHealthcare facility floor and wall tile fixing with hygienic, heavy-duty tile adhesive"
+                }
+            ]
+        },
+        "spotlight_data": {
+            "badge": "PREMIUM SELECTION",
+            "heading": "Premium Tile Adhesive",
+            "image": "product-pages/in-3.png",
+            "content": "<p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".4s\">\n                            Al Maha supplies a carefully curated range of premium tile adhesive and interior tile glue in Dubai for high-end residential villas, luxury commercial fit-outs, boutique hotels, and large-scale hospitality and construction projects across the UAE. Our premium tile adhesive collection includes large-format tile adhesives, rapid set formulations, flexible polymer-modified adhesives, and specialist white tile glue sourced from internationally acclaimed tile fixing manufacturers.\n                        </p>\n                        \n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".5s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Why Choose Premium Tile Adhesive for Your Project</h4>\n                        <p class=\"desc wow fadeInUp text-justify\" data-wow-delay=\".6s\">\n                            Premium tile adhesive ensures reliable, long-term bond strength across every tile type, format, and substrate combination, reducing the risk of tile failure, lippage, and debonding in high-traffic and wet area environments. As a direct building materials supplier in Dubai, Al Maha gives tile fixing contractors, developers, and fit-out companies access to premium tile adhesive at competitive prices with no middleman markup.\n                        </p>\n\n                        <h4 class=\"mt-4 mb-2 wow fadeInUp\" data-wow-delay=\".7s\" style=\"font-size: 1.15rem; font-weight: 700; color: #333;\">Premium Adhesive Applications</h4>\n                        <div class=\"row wow fadeInUp\" data-wow-delay=\".8s\">\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Large-format porcelain & marble tile fixing</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Hotel bathroom & wet area tiling</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Premium B2B commercial flooring</li>\n                                </ul>\n                            </div>\n                            <div class=\"col-md-6\">\n                                <ul class=\"list-unstyled mb-0\">\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Underfloor heating system tile layouts</li>\n                                    <li class=\"mb-2\"><i class=\"fas fa-chevron-right text-theme-color me-2\" style=\"font-size: 0.75rem;\"></i> Developer show apartments model units</li>\n                                </ul>\n                            </div>\n                        </div>"
+        },
+        "why_data": {
+            "badge": "WHY CHOOSE US",
+            "heading": "Why Choose Al Maha for Tile Adhesive in Dubai?",
+            "description": "Al Maha is one of Dubai's most trusted building materials and tile adhesive suppliers, with over 15 years of experience supplying premium tile adhesive, tile glue, tiles, and surface solutions to contractors, developers, interior designers, and fit-out companies across the UAE.\n\nAs a direct building materials supplier, we source our tile adhesive range from leading international manufacturers, giving our clients access to premium quality at competitive tile adhesive prices in Dubai. From product selection and technical consultation to UAE-wide delivery, Al Maha provides end-to-end support for every interior tiling project.",
+            "image": "product-pages/in-4.png",
+            "items": [
+                {
+                    "title": "Direct Importer Prices",
+                    "description": "Direct tile adhesive supplier in Dubai with competitive prices and no middleman markup."
+                },
+                {
+                    "title": "Globally Certified Brands",
+                    "description": "Premium interior tile glue sourced from globally recognised international manufacturers."
+                },
+                {
+                    "title": "15+ Years Trust",
+                    "description": "Trusted building materials supplier supplying residential, commercial, and hospitality projects across the UAE."
+                },
+                {
+                    "title": "Complete Range",
+                    "description": "Covering standard set, rapid set, flexible, large-format, white, and waterproof adhesives."
+                },
+                {
+                    "title": "Comprehensive Grades",
+                    "description": "Wide range of formulations, grades, and specifications for every tile type, substrate, and project."
+                },
+                {
+                    "title": "Expert Technical Consultation",
+                    "description": "Reliable supply and UAE-wide delivery backed by expert technical advice."
+                },
+                {
+                    "title": "Dedicated Trade Support",
+                    "description": "Dedicated support for tile fixing contractors, developers, and fit-out companies."
+                }
+            ]
+        },
+        "faq_data": {
+            "badge": "FAQ",
+            "heading": "Frequently Asked Questions",
+            "description": "Get answers to the most common questions about tile glue types, standard/flexible adhesives, and orders in Dubai.",
+            "items": [
+                {
+                    "question": "What tile adhesive does Al Maha supply in Dubai?",
+                    "answer": "Al Maha supplies a comprehensive range of tile adhesives and interior tile glue in Dubai, including standard set, rapid set, flexible, large-format, white, and waterproof tile adhesives for residential, commercial, and hospitality tiling projects across the UAE."
+                },
+                {
+                    "question": "Is Al Maha a direct tile adhesive supplier in Dubai?",
+                    "answer": "Yes. Al Maha is a direct building materials supplier in Dubai, sourcing tile adhesive and interior tile glue directly from internationally recognised manufacturers. This allows us to offer premium quality at competitive tile adhesive prices in Dubai with no middleman markup."
+                },
+                {
+                    "question": "What is the difference between standard and flexible tile adhesive?",
+                    "answer": "Standard tile adhesive is a cement-based bonding compound suitable for fixing tiles to stable, rigid substrates in standard interior applications. Flexible tile adhesive is a polymer-modified formulation designed for substrates subject to movement, vibration, or thermal expansion, including underfloor heating systems, large-format tile installations, and exterior applications. Al Maha supplies both standard and flexible tile adhesive in Dubai to suit every project requirement."
+                },
+                {
+                    "question": "What tile adhesive is best for large-format porcelain tiles in Dubai?",
+                    "answer": "Large-format porcelain tiles require a high-performance, non-slump tile adhesive with extended open time to allow for accurate positioning and full back coverage. Al Maha supplies specialist large-format tile adhesive in Dubai, formulated specifically for fixing oversized porcelain slabs, marble tiles, and heavy natural stone across interior floor and wall applications."
+                },
+                {
+                    "question": "What tile adhesive is best for bathrooms and wet areas in Dubai?",
+                    "answer": "Bathrooms, showers, and wet areas require waterproof or moisture-resistant tile adhesive to ensure long-term bond strength in high-humidity environments. Al Maha supplies waterproof tile adhesive in Dubai suitable for wet area floor and wall tile fixing across residential, commercial, and hospitality projects across the UAE."
+                },
+                {
+                    "question": "Does Al Maha supply tile adhesive for hospitality and hotel projects in Dubai?",
+                    "answer": "Yes. Al Maha is a trusted tile adhesive supplier for hospitality projects in Dubai and across the UAE, supplying rapid-set, large-format, and waterproof tile adhesives for luxury hotels, resorts, spas, and large-scale hospitality fit-outs across the UAE."
+                },
+                {
+                    "question": "How much does tile adhesive cost in Dubai?",
+                    "answer": "Tile adhesive prices in Dubai vary depending on the formulation, grade, brand, and quantity required. Al Maha offers competitive pricing across both standard and premium tile adhesive ranges as a direct building materials supplier. Contact us for a quote tailored to your specific project and tiling requirements."
+                },
+                {
+                    "question": "Can I view tile adhesive products at Al Maha's Dubai showroom?",
+                    "answer": "Yes. You can visit Al Maha's showroom in Al Qusais Industrial Area 3, Dubai to discuss your tile fixing requirements with our team. We can advise on the right tile adhesive formulation for your specific tile type, substrate, and project conditions. We also supply tile adhesive to project sites across all seven Emirates."
+                }
+            ]
+        },
+        "cta_data": {
+            "heading": "Ready to upgrade with premium materials?",
+            "description": "Al Maha building materials has the largest collection in Dubai. Sourced direct, priced competitively.",
+            "button_text": "GET A QUOTE",
+            "button_url": "/contact-us"
+        }
+    }
+}
