@@ -5252,8 +5252,9 @@ input.main-search-input::placeholder {
   inset-inline-start: 0;
   width: -moz-max-content;
   width: max-content;
-  background: var(--white);
-  z-index: 99999;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  z-index: 999999 !important;
   visibility: hidden;
   opacity: 0;
   transform-origin: top center;
@@ -5275,6 +5276,8 @@ input.main-search-input::placeholder {
   width: 100%;
   margin: 0;
   padding: 0;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
 }
 
 .header-main .main-menu ul li .submenu li a {
@@ -5293,11 +5296,14 @@ input.main-search-input::placeholder {
   padding-top: 11px;
   width: 100%;
   border-bottom: 1px solid #eeeeee;
+  background: #ffffff !important;
+  background-color: #ffffff !important;
+  display: block;
 }
 
 .header-main .main-menu ul li .submenu li a.active,
 .header-main .main-menu ul li .submenu li a:hover {
-  background-color: var(--theme2);
+  background-color: var(--theme2) !important;
   color: var(--title) !important;
 }
 
@@ -5485,12 +5491,17 @@ input.main-search-input::placeholder {
   color: var(--title);
 }
 
+#header-sticky {
+  position: relative;
+  z-index: 99999;
+}
+
 .sticky {
   position: fixed !important;
   top: 0 !important;
   left: 0;
   width: 100%;
-  z-index: 999;
+  z-index: 999999 !important;
   transition: all 0.9s;
   background-color: var(--theme2);
   box-shadow: var(--box-shadow);
@@ -11561,6 +11572,8 @@ input.main-search-input::placeholder {
 .blog-card-items.style1 .blog-image {
   position: relative;
   overflow: hidden;
+  min-height: 220px;
+  background-color: #f7f7f7;
 }
 
 .blog-card-items.style1 .blog-image img {

@@ -91,8 +91,8 @@
                         <a href="{{ route('blog.detail',$blog->slug) }}">
                             <div class="blog-card-items style1 img-custom-anim-left wow fadeInUp" data-wow-delay=".2s">
                                 <div class="blog-image">
-                                    <img src="{{ Storage::url($blog->image) }}" alt="img">
-                                    <img src="{{ Storage::url($blog->image) }}" alt="img">
+                                    <img src="{{ Storage::url($blog->image) }}" alt="{{ $blog->title }}" onerror="this.onerror=null;this.src='{{ asset('assets/images/og-image.jpg') }}';">
+                                    <img src="{{ Storage::url($blog->image) }}" alt="{{ $blog->title }}" onerror="this.onerror=null;this.src='{{ asset('assets/images/og-image.jpg') }}';">
                                 </div>
                                 <div class="blog-meta">
                                     <div class="day">{{ $blog->created_at ? $blog->created_at->format('d') : '09' }}</div>

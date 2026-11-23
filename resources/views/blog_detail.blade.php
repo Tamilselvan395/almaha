@@ -95,7 +95,7 @@
                         <div class="blog-post-details">
                             <div class="single-blog-post">
                                 <div class="post-featured-thumb" style="height: auto; overflow: hidden; margin-bottom: 25px;">
-                                    <img src="{{ Storage::url($blog->image) }}" alt="{{ $blog->title }}" style="width: 100%; height: auto; object-fit: contain; display: block;">
+                                    <img src="{{ Storage::url($blog->image) }}" alt="{{ $blog->title }}" onerror="this.onerror=null;this.src='{{ asset('assets/images/og-image.jpg') }}';" style="width: 100%; height: auto; object-fit: contain; display: block;">
                                 </div>
                                 <div class="post-content">
                                     <ul class="post-list d-flex align-items-center wow fadeInUp" data-wow-delay=".2s">
@@ -159,7 +159,7 @@
                                         @foreach ($blogs as $recent_blog)
                                             <div class="recent-items">
                                                 <div class="recent-thumb">
-                                                    <img src="{{ Storage::url($recent_blog->image) }}" alt="{{ $recent_blog->title }}" style="object-fit: cover; width: 80px; height: 80px;">
+                                                    <img src="{{ Storage::url($recent_blog->image) }}" alt="{{ $recent_blog->title }}" onerror="this.onerror=null;this.src='{{ asset('assets/images/og-image.jpg') }}';" style="object-fit: cover; width: 80px; height: 80px;">
                                                 </div>
                                                 <div class="recent-content">
                                                     <ul>

@@ -41,7 +41,56 @@
     <link rel="stylesheet" href="{{ asset('assets/css/meanmenu.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/swiper-bundle.min.css') }}">
     <link rel="stylesheet" href="{{ asset('assets/css/nice-select.css') }}">
-    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}">
+    <link rel="stylesheet" href="{{ asset('assets/css/main.css') }}?v={{ file_exists(public_path('assets/css/main.css')) ? filemtime(public_path('assets/css/main.css')) : '1.2' }}">
+
+    <style>
+        /* Force solid white background on desktop dropdown menus */
+        .header-main .main-menu ul li .submenu,
+        ul.submenu {
+            background: #ffffff !important;
+            background-color: #ffffff !important;
+            opacity: 1 !important;
+            box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15) !important;
+            border-top: 6px solid var(--theme, #702d3a) !important;
+            z-index: 999999 !important;
+        }
+
+        .header-main .main-menu ul li .submenu li,
+        ul.submenu li {
+            background: #ffffff !important;
+            background-color: #ffffff !important;
+            display: block !important;
+            width: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+
+        .header-main .main-menu ul li .submenu li a,
+        ul.submenu li a {
+            background: #ffffff !important;
+            background-color: #ffffff !important;
+            color: var(--title, #2B1E16) !important;
+            display: block !important;
+            width: 100% !important;
+            padding: 11px 25px !important;
+            border-bottom: 1px solid #eeeeee !important;
+            text-decoration: none !important;
+            transition: background-color 0.2s ease, color 0.2s ease !important;
+        }
+
+        .header-main .main-menu ul li .submenu li:last-child a,
+        ul.submenu li:last-child a {
+            border-bottom: none !important;
+        }
+
+        .header-main .main-menu ul li .submenu li a:hover,
+        .header-main .main-menu ul li .submenu li a.active,
+        ul.submenu li a:hover,
+        ul.submenu li a.active {
+            background-color: var(--theme2, #F9F3EF) !important;
+            color: var(--theme, #702d3a) !important;
+        }
+    </style>
 
 
     {{-- null value issue resolved --}}

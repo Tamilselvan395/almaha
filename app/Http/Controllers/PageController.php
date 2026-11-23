@@ -7,6 +7,7 @@ use App\Models\Testimonial;
 use App\Models\Category;
 use App\Models\TileModel;
 use App\Models\Product;
+use App\Models\ProductPage;
 
 class PageController extends Controller
 {
@@ -59,41 +60,49 @@ class PageController extends Controller
 
     public function porcelain()
     {
-        return view('pages.porcelain');
+        $page = ProductPage::where('slug', 'porcelain')->first();
+        return view('pages.porcelain', compact('page'));
     }
 
     public function swimmingPoolTiles()
     {
-        return view('pages.swimming');
+        $page = ProductPage::where('slug', 'swimming-pool-tiles')->first();
+        return view('pages.swimming', compact('page'));
     }
 
     public function claddingTilesFixing()
     {
-        return view('pages.cladding');
+        $page = ProductPage::where('slug', 'cladding-tiles-fixing')->first();
+        return view('pages.cladding', compact('page'));
     }
 
     public function sanitaryWare()
     {
-        return view('pages.sanitary');
+        $page = ProductPage::where('slug', 'sanitary-ware')->first();
+        return view('pages.sanitary', compact('page'));
     }
 
     public function roofingMaterialsDubai()
     {
-        return view('pages.roofing');
+        $page = ProductPage::where('slug', 'roofing-materials-dubai')->first();
+        return view('pages.roofing', compact('page'));
     }
 
     public function marbleGranite()
     {
-        return view('pages.marble');
+        $page = ProductPage::where('slug', 'marble-granite')->first();
+        return view('pages.marble', compact('page'));
     }
 
     public function solidSurfaceFillerSheets()
     {
-        return view('pages.solid');
+        $page = ProductPage::where('slug', 'solid-surface-filler-sheets')->first();
+        return view('pages.solid', compact('page'));
     }
 
     public function interiorTilesGlue()
     {
-        return view('pages.interior');
+        $page = ProductPage::where('slug', 'interior-tiles-glue')->first();
+        return view('pages.interior', compact('page'));
     }
 }

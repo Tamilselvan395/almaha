@@ -857,8 +857,8 @@
 					top: 113%;
 					inset-inline-start: 0;
 					width: max-content;
-					background: $white;
-					z-index: 99999;
+					background: #ffffff !important;
+					z-index: 999999 !important;
 					visibility: hidden;
 					opacity: 0;
 					transform-origin: top center;
@@ -879,6 +879,7 @@
 						width: 100%;
 						margin: 0;
 						padding: 0;
+						background: #ffffff !important;
 
 						a {
 							position: relative;
@@ -896,10 +897,12 @@
 							padding-top: 11px;
 							width: 100%;
 							border-bottom: 1px solid #eeeeee;
+							background: #ffffff !important;
+							display: block;
 
 							&.active,
 							&:hover {
-								background-color: $theme-color-2;
+								background-color: $theme-color-2 !important;
 								color: $title-color !important;
 							}
 						}
